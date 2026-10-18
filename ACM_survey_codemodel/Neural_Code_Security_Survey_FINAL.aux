@@ -1,0 +1,662 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{yefet2020adversarial,zhang2020generating}
+\citation{schuster2021autocomplete,pearce2022asleep,ziegler2021recitation}
+\citation{liu2025yourai,xie2025redteaming}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{Abstract}{1}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\citation{ziegler2021recitation}
+\citation{qu2024robustnesssurvey}
+\citation{yang2024survey}
+\citation{securitycode2024slr}
+\citation{robustness2024llms}
+\citation{negriribalta2024securegeneration}
+\citation{basic2026codesecurity}
+\citation{qu2025backdoorsurvey}
+\citation{she2026pitfalls}
+\citation{maloyan2026promptinjection}
+\gdef \LT@i {\LT@entry 
+    {1}{59.1055pt}\LT@entry 
+    {1}{84.0678pt}\LT@entry 
+    {1}{81.22234pt}\LT@entry 
+    {1}{84.0678pt}\LT@entry 
+    {1}{84.71281pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Surveys and Positioning}{3}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{3}{Related Surveys and Positioning}{section.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Closest surveys compared by their published organizing taxonomy. No dedicated category means that runtime context may be discussed but is not a top-level organizing unit.}}{3}{table.1}\protected@file@percent }
+\newlabel{tab:surveys}{{1}{3}{Related Surveys and Positioning}{table.1}{}}
+\citation{qu2024robustnesssurvey,yang2024survey}
+\citation{securitycode2024slr}
+\citation{negriribalta2024securegeneration,basic2026codesecurity}
+\citation{qu2025backdoorsurvey}
+\citation{robustness2024llms,she2026pitfalls}
+\citation{maloyan2026promptinjection}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}What Existing Surveys Already Establish}{4}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}What This Structured Review Adds}{4}{subsection.2.2}\protected@file@percent }
+\citation{ziegler2021recitation}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Study Design}{5}{section.3}\protected@file@percent }
+\newlabel{sec:method}{{3}{5}{Study Design}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Research Questions}{5}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Search and Selection}{5}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Role adjudication for benchmark and multi-contribution works.}}{6}{table.caption.4}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:role-cases}{{2}{6}{Role adjudication for benchmark and multi-contribution works}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Unit of Analysis, Roles, and Denominators}{6}{subsection.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Corpus accounting. Counts are reported without field-population percentages because retrieval completeness cannot be reconstructed.}}{7}{table.caption.5}\protected@file@percent }
+\newlabel{tab:accounting}{{3}{7}{Corpus accounting. Counts are reported without field-population percentages because retrieval completeness cannot be reconstructed}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Coding Fields and Missingness}{7}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Quality Control and Sensitivity Analysis}{8}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Threat Model and Taxonomy}{8}{section.4}\protected@file@percent }
+\newlabel{sec:threat}{{4}{8}{Threat Model and Taxonomy}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}System Setting}{8}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Retained audit trail and its publication status.}}{9}{table.caption.6}\protected@file@percent }
+\newlabel{tab:audit-trail}{{4}{9}{Retained audit trail and its publication status}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Operational Threat Tuple}{9}{subsection.4.2}\protected@file@percent }
+\citation{yang2022natural}
+\citation{aghakhani2024trojanpuzzle}
+\citation{wu2024fdi}
+\citation{skillject2026}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Threat-tuple components and their record-level realization.}}{10}{table.caption.7}\protected@file@percent }
+\newlabel{tab:tuple-map}{{5}{10}{Threat-tuple components and their record-level realization}{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Lifecycle Surfaces}{10}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:threat:stage}{{4.3}{10}{Lifecycle Surfaces}{subsection.4.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Representative threat-tuple instantiations. Compact values point to the full record and decision note in the companion table.}}{11}{table.caption.8}\protected@file@percent }
+\newlabel{tab:tuple-examples}{{6}{11}{Representative threat-tuple instantiations. Compact values point to the full record and decision note in the companion table}{table.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The four operational surfaces. The first three identify where an adversary introduces control. The fourth contains measured output/ecosystem risks and need not involve an adversary. A RAG record or repository rule read after deployment is runtime context, not training data.}}{11}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:taxonomy}{{1}{11}{The four operational surfaces. The first three identify where an adversary introduces control. The fourth contains measured output/ecosystem risks and need not involve an adversary. A RAG record or repository rule read after deployment is runtime context, not training data}{figure.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces The running SQL-injection example under the four lifecycle categories.}}{12}{table.caption.10}\protected@file@percent }
+\newlabel{tab:running-example}{{7}{12}{The running SQL-injection example under the four lifecycle categories}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Running Example: One Weakness, Four Boundaries}{12}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Program-Preservation Evidence}{12}{subsection.4.5}\protected@file@percent }
+\newlabel{sec:threat:semantics}{{4.5}{12}{Program-Preservation Evidence}{subsection.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Outcome Evidence}{13}{subsection.4.6}\protected@file@percent }
+\citation{li2024acw}
+\citation{pelican2023}
+\citation{wang2023recode}
+\citation{wei2022cocofuzzing}
+\citation{mt4dp2025}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Evidence counts generated from the companion coding table. Panel (a) uses only records that make a program-preservation claim. Prompt attacks and risk measurements are excluded rather than assigned a low grade. Panel (b) counts evidence occurrences, so a record using both static analysis and tests contributes to both \textsf  {S} and \textsf  {X}. Bar scales are 0.15 units per count in panel (a) and 0.09 units per count in panel (b). The figure reports absolute counts, not cross-surface percentages.}}{14}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:evidence}{{2}{14}{Evidence counts generated from the companion coding table. Panel (a) uses only records that make a program-preservation claim. Prompt attacks and risk measurements are excluded rather than assigned a low grade. Panel (b) counts evidence occurrences, so a record using both static analysis and tests contributes to both \textsf {S} and \textsf {X}. Bar scales are 0.15 units per count in panel (a) and 0.09 units per count in panel (b). The figure reports absolute counts, not cross-surface percentages}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Evidence Map}{14}{subsection.4.7}\protected@file@percent }
+\newlabel{sec:threat:map}{{4.7}{14}{Evidence Map}{subsection.4.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Adjudication and sensitivity of preservation cases near the P2/P3/P4 boundary.}}{15}{table.caption.12}\protected@file@percent }
+\newlabel{tab:p-boundaries}{{8}{15}{Adjudication and sensitivity of preservation cases near the P2/P3/P4 boundary}{table.caption.12}{}}
+\citation{yefet2020adversarial}
+\citation{zhang2020generating}
+\citation{bielik2020adversarial}
+\citation{springer2020strata}
+\citation{srikant2021generating}
+\citation{vahdatpour2021search}
+\citation{ramakrishnan2022semantic}
+\citation{yang2022natural}
+\citation{zhang2022carrot}
+\citation{zhou2022accent}
+\citation{li2022ropgen}
+\citation{funcfooler2022}
+\citation{wei2022cocofuzzing}
+\citation{jha2023codeattack}
+\citation{tian2023coda}
+\citation{gao2023dak}
+\citation{na2023dip}
+\citation{wang2023recode}
+\citation{zhang2023rnns}
+\citation{chen2023structure}
+\citation{nguyen2023graphcodeattack}
+\citation{gu2023beamattack}
+\citation{zhang2023struck}
+\citation{deceptprompt2023}
+\citation{transfer2024coding}
+\citation{spatialgreedy2024}
+\citation{moaa2024}
+\citation{codebertattack2024}
+\citation{rlattack2024}
+\citation{liu2024eatvul}
+\citation{jiang2024advpro}
+\citation{degradeprompter2024}
+\citation{yang2025cotr}
+\citation{explainability2025}
+\citation{jenko2025insec}
+\citation{codecrash2025}
+\citation{sloda2025}
+\citation{explainerbcsd2025}
+\citation{natgvd2025}
+\citation{treat2025}
+\citation{rmcbench2024}
+\citation{redcode2024}
+\citation{malwarebench2025}
+\gdef \LT@ii {\LT@entry 
+    {1}{59.1055pt}\LT@entry 
+    {1}{48.50185pt}\LT@entry 
+    {1}{68.41869pt}\LT@entry 
+    {1}{111.09782pt}\LT@entry 
+    {1}{25.73955pt}\LT@entry 
+    {1}{21.47182pt}\LT@entry 
+    {1}{31.43002pt}\LT@entry 
+    {1}{15.28845pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Boundary-specific minimum reporting checklist.}}{16}{table.caption.13}\protected@file@percent }
+\newlabel{tab:reporting-checklist}{{9}{16}{Boundary-specific minimum reporting checklist}{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Minimum Reporting Checklist}{16}{subsection.4.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Inference-Input Attacks}{16}{section.5}\protected@file@percent }
+\newlabel{sec:evasion}{{5}{16}{Inference-Input Attacks}{section.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Inference-input attacks. \emph  {Acc}: \textsf  {W} white-box, \textsf  {G} gray-box, and \textsf  {B} black-box. \emph  {P}: program-preservation evidence (P0--P4 or \textsf  {--}). \emph  {O}: outcome evidence (\textsf  {R/L/C/S/X/E/F}); Section\nonbreakingspace \ref {sec:threat:semantics}.}}{16}{table.10}\protected@file@percent }
+\newlabel{tab:evasion}{{10}{16}{Inference-Input Attacks}{table.10}{}}
+\citation{yefet2020adversarial}
+\citation{zhang2020generating}
+\citation{yang2022natural,zhou2022accent,zhang2023rnns,gu2023beamattack,moaa2024}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Identifier-Centered Evasion}{18}{subsection.5.1}\protected@file@percent }
+\citation{srikant2021generating,ramakrishnan2022semantic,na2023dip,nguyen2023graphcodeattack,tian2023coda,gao2023dak,sloda2025}
+\citation{codecrash2025}
+\citation{funcfooler2022,spatialgreedy2024,natgvd2025}
+\citation{wang2023recode,yang2025cotr}
+\citation{jha2023codeattack,liu2024eatvul,explainability2025,transfer2024coding,treat2025}
+\citation{deceptprompt2023,jiang2024advpro,degradeprompter2024,jenko2025insec}
+\citation{rmcbench2024,malwarebench2025,redcode2024}
+\citation{springer2020strata,jha2023codeattack,transfer2024coding}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Structural and Task-Specific Evasion}{19}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Generation-Targeted Perturbations and Direct Jailbreaks}{19}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Access, Budget, and Transfer}{19}{subsection.5.4}\protected@file@percent }
+\citation{schuster2021autocomplete}
+\citation{aghakhani2024trojanpuzzle}
+\citation{yan2024codebreaker}
+\citation{cotroneo2024vulnerabilities}
+\citation{rubel2025generalized}
+\citation{wan2022yousee}
+\citation{sun2023badcode}
+\citation{badcs2023}
+\citation{li2024codepoisoner}
+\citation{yang2024afraidoor}
+\citation{ramakrishnan2022backdoors}
+\citation{li2023multitarget}
+\citation{backdoors2025summarizers}
+\citation{ye2025set}
+\citation{toxicsql2025}
+\citation{saber2024}
+\citation{rtlbreaker2024}
+\citation{doublebackdoored2024}
+\citation{unrepairing2024}
+\citation{trojanedcm2023}
+\citation{pelican2023}
+\citation{bads2026}
+\citation{li2023advbinsd}
+\citation{transferable2026backdoor}
+\gdef \LT@iii {\LT@entry 
+    {1}{60.52823pt}\LT@entry 
+    {1}{48.50185pt}\LT@entry 
+    {1}{64.15094pt}\LT@entry 
+    {1}{109.6751pt}\LT@entry 
+    {1}{25.73955pt}\LT@entry 
+    {1}{21.47182pt}\LT@entry 
+    {1}{31.43002pt}\LT@entry 
+    {1}{15.28845pt}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Synthesis}{20}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Training Compromise: Poisoning and Backdoors}{20}{section.6}\protected@file@percent }
+\newlabel{sec:poison}{{6}{20}{Training Compromise: Poisoning and Backdoors}{section.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Training-compromise attacks. \emph  {Acc}: \textsf  {D} training-data write and \textsf  {M} model/weight modification. \emph  {P} and \emph  {O} use the codes in Section\nonbreakingspace \ref {sec:threat:semantics}.}}{20}{table.11}\protected@file@percent }
+\newlabel{tab:poison}{{11}{20}{Training Compromise: Poisoning and Backdoors}{table.11}{}}
+\citation{ramakrishnan2022backdoors,wan2022yousee,sun2023badcode,li2024codepoisoner}
+\citation{schuster2021autocomplete,cotroneo2024vulnerabilities}
+\citation{aghakhani2024trojanpuzzle,yan2024codebreaker,rubel2025generalized}
+\citation{yang2024afraidoor}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}From Fixed Triggers to Distributed Payloads}{21}{subsection.6.1}\protected@file@percent }
+\citation{wan2022yousee,sun2023badcode,badcs2023}
+\citation{ramakrishnan2022backdoors,li2023multitarget,backdoors2025summarizers,ye2025set}
+\citation{saber2024,toxicsql2025,rtlbreaker2024,unrepairing2024}
+\citation{pelican2023,li2023advbinsd,trojanedcm2023}
+\citation{transferable2026backdoor}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Expansion Across Tasks and Representations}{22}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Trigger Validity and Outcome Evidence}{22}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Access, Budget, Persistence, and Adaptive Evaluation}{22}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Synthesis}{22}{subsection.6.5}\protected@file@percent }
+\newlabel{sec:poison:discussion}{{6.5}{22}{Synthesis}{subsection.6.5}{}}
+\citation{wu2024fdi}
+\citation{shadowcode2024}
+\citation{lin2025racg}
+\citation{wang2025draincode}
+\citation{codejailbreaker2025}
+\citation{liu2025yourai}
+\citation{xie2025redteaming}
+\citation{skillject2026}
+\gdef \LT@iv {\LT@entry 
+    {1}{63.37325pt}\LT@entry 
+    {1}{48.50185pt}\LT@entry 
+    {1}{68.41869pt}\LT@entry 
+    {1}{123.90147pt}\LT@entry 
+    {1}{28.585pt}\LT@entry 
+    {1}{31.43002pt}\LT@entry 
+    {1}{15.28845pt}}
+\citation{wu2024fdi}
+\citation{shadowcode2024,lin2025racg}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Runtime-Context Attacks}{23}{section.7}\protected@file@percent }
+\newlabel{sec:runtime}{{7}{23}{Runtime-Context Attacks}{section.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Runtime-context attacks. \emph  {Acc}: \textsf  {C} runtime-context write and \textsf  {B} black-box service access. \emph  {O}: outcome evidence.}}{23}{table.12}\protected@file@percent }
+\newlabel{tab:runtime}{{12}{23}{Runtime-Context Attacks}{table.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Retrieved Context and Feedback}{23}{subsection.7.1}\protected@file@percent }
+\citation{wang2025draincode}
+\citation{codejailbreaker2025}
+\citation{liu2025yourai,xie2025redteaming}
+\citation{skillject2026}
+\citation{maloyan2026promptinjection}
+\citation{greshake2023indirect}
+\citation{debenedetti2024agentdojo}
+\citation{hines2024spotlighting}
+\citation{debenedetti2025camel}
+\citation{wang2025mcptox}
+\citation{modelsarecodes2024}
+\citation{carlini2024webpoison}
+\citation{hubinger2024sleeper}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Repository, Skill, and Tool Injection}{24}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Adjacent Agent and Supply-Chain Literature}{24}{subsection.7.3}\protected@file@percent }
+\citation{pearce2022asleep}
+\citation{perry2023users}
+\citation{sandoval2023lost}
+\citation{fu2023security}
+\citation{khoury2023secure}
+\citation{hamer2024copy}
+\citation{mousavi2024investigation}
+\citation{largescale2025vulnerabilities}
+\citation{tambon2025bugs}
+\citation{baxbench2025}
+\citation{yang2024unveiling}
+\citation{ziegler2021recitation}
+\citation{alkaswan2024traces}
+\citation{yang2024gotcha}
+\citation{advprompt2025mia}
+\citation{zhang2023buzzer}
+\citation{niu2023codexleaks}
+\citation{huang2024secret}
+\citation{katzy2024license}
+\citation{spracklen2025package}
+\gdef \LT@v {\LT@entry 
+    {1}{71.90915pt}\LT@entry 
+    {1}{49.92458pt}\LT@entry 
+    {1}{57.03777pt}\LT@entry 
+    {1}{149.50922pt}\LT@entry 
+    {1}{32.85274pt}\LT@entry 
+    {1}{15.28845pt}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Following the Trust Path}{25}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}Synthesis}{25}{subsection.7.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Output/Ecosystem Risks}{25}{section.8}\protected@file@percent }
+\newlabel{sec:gensec}{{8}{25}{Output/Ecosystem Risks}{section.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Output/ecosystem risk studies. \emph  {O} records the outcome evidence used by each study; codes are categorical and may be combined.}}{25}{table.13}\protected@file@percent }
+\newlabel{tab:gensec}{{13}{25}{Output/Ecosystem Risks}{table.13}{}}
+\citation{pearce2022asleep,khoury2023secure}
+\citation{fu2023security,hamer2024copy,mousavi2024investigation,largescale2025vulnerabilities}
+\citation{tambon2025bugs}
+\citation{perry2023users,sandoval2023lost}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Insecure Code Generation}{26}{subsection.8.1}\protected@file@percent }
+\newlabel{sec:gensec:insecure}{{8.1}{26}{Insecure Code Generation}{subsection.8.1}{}}
+\citation{baxbench2025}
+\citation{ziegler2021recitation,yang2024unveiling}
+\citation{alkaswan2024traces,yang2024gotcha,advprompt2025mia,zhang2023buzzer}
+\citation{niu2023codexleaks,huang2024secret}
+\citation{katzy2024license}
+\citation{spracklen2025package}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Memorization, Membership, and Leakage}{27}{subsection.8.2}\protected@file@percent }
+\newlabel{sec:gensec:privacy}{{8.2}{27}{Memorization, Membership, and Leakage}{subsection.8.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Package Ecosystem}{27}{subsection.8.3}\protected@file@percent }
+\citation{zhang2020generating}
+\citation{ramakrishnan2022semantic}
+\citation{yang2022natural}
+\citation{zhang2022carrot}
+\citation{li2022ropgen}
+\citation{zhou2022accent}
+\citation{tian2023coda}
+\citation{zhang2024codefort}
+\citation{gencode2024}
+\citation{dong2023mixcode}
+\citation{jain2021contracode}
+\citation{jia2023clawsat}
+\citation{liu2023contrabert}
+\citation{ding2022disco}
+\citation{qi2024semantic}
+\citation{han2026enbecome}
+\citation{mu2025epshield}
+\citation{ramakrishnan2022backdoors}
+\citation{wan2022yousee}
+\citation{schuster2021autocomplete}
+\citation{li2024codepoisoner}
+\citation{sun2025elibadcode}
+\citation{hussain2025oseql}
+\citation{hussain2024trojan}
+\citation{qu2024idba}
+\citation{ghannoum2025codegarrison}
+\citation{sun2025killbadcode}
+\citation{depa2025}
+\citation{mu2024codepurify}
+\citation{mt4dp2025}
+\citation{he2023sven}
+\citation{he2024safecoder}
+\citation{codeguard2024}
+\citation{promsec2024}
+\citation{guiding2025fix}
+\citation{codeshield2024}
+\citation{privcode2026}
+\citation{privcodeplus2026}
+\citation{codemark2023}
+\citation{coprotector2022}
+\citation{lee2024sweet}
+\citation{guan2024codeip}
+\citation{li2024acw}
+\citation{shi2025betweenlines}
+\citation{nguyen2024gptsniffer}
+\citation{ye2025uncovering}
+\citation{guo2025codemirage}
+\citation{chu2026scrubitout}
+\citation{gu2026unlearning}
+\gdef \LT@vi {\LT@entry 
+    {1}{74.75461pt}\LT@entry 
+    {1}{51.34686pt}\LT@entry 
+    {1}{159.46742pt}\LT@entry 
+    {1}{24.31683pt}\LT@entry 
+    {1}{34.27547pt}\LT@entry 
+    {1}{15.28845pt}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Synthesis}{28}{subsection.8.4}\protected@file@percent }
+\newlabel{sec:gensec:discussion}{{8.4}{28}{Synthesis}{subsection.8.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Defenses}{28}{section.9}\protected@file@percent }
+\newlabel{sec:defense}{{9}{28}{Defenses}{section.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Defenses under the revised evidence rubric. \emph  {P}: program- preservation evidence; \emph  {O}: outcome evidence. \textsf  {--} means that a program-preservation claim is not applicable, not that a defense is weak.}}{28}{table.14}\protected@file@percent }
+\newlabel{tab:defenses}{{14}{28}{Defenses}{table.14}{}}
+\citation{zhang2020generating,ramakrishnan2022semantic,yang2022natural,zhang2022carrot,zhou2022accent,tian2023coda,zhang2024codefort}
+\citation{gencode2024,dong2023mixcode}
+\citation{jain2021contracode,jia2023clawsat,liu2023contrabert,ding2022disco}
+\citation{li2022ropgen,mu2025epshield}
+\citation{han2026enbecome}
+\citation{ramakrishnan2022backdoors,wan2022yousee,schuster2021autocomplete,hussain2024trojan}
+\citation{li2024codepoisoner,hussain2025oseql,qu2024idba,ghannoum2025codegarrison}
+\citation{sun2025killbadcode,depa2025,mu2024codepurify}
+\citation{mt4dp2025}
+\citation{sun2025elibadcode}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Robustness to Inference-Input Attacks}{30}{subsection.9.1}\protected@file@percent }
+\newlabel{sec:defense:robust}{{9.1}{30}{Robustness to Inference-Input Attacks}{subsection.9.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Poisoning and Backdoor Defenses}{30}{subsection.9.2}\protected@file@percent }
+\newlabel{sec:defense:poison}{{9.2}{30}{Poisoning and Backdoor Defenses}{subsection.9.2}{}}
+\citation{he2023sven,he2024safecoder}
+\citation{codeguard2024}
+\citation{promsec2024,guiding2025fix,codeshield2024}
+\citation{privcode2026,privcodeplus2026}
+\citation{codemark2023,coprotector2022}
+\citation{lee2024sweet,guan2024codeip,li2024acw}
+\citation{shi2025betweenlines,nguyen2024gptsniffer,ye2025uncovering}
+\citation{guo2025codemirage}
+\citation{chu2026scrubitout,gu2026unlearning}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Secure Generation and Privacy}{31}{subsection.9.3}\protected@file@percent }
+\newlabel{sec:defense:gen}{{9.3}{31}{Secure Generation and Privacy}{subsection.9.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Provenance, Unlearning, and Runtime Controls}{31}{subsection.9.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Defense Evaluation Protocols}{31}{subsection.9.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}Synthesis}{32}{subsection.9.6}\protected@file@percent }
+\newlabel{sec:defense:discussion}{{9.6}{32}{Synthesis}{subsection.9.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Cross-Cutting Comparison}{32}{section.10}\protected@file@percent }
+\newlabel{sec:synthesis}{{10}{32}{Cross-Cutting Comparison}{section.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Interface and Representation}{32}{subsection.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Mechanism Families}{32}{subsection.10.2}\protected@file@percent }
+\citation{springer2020strata,jha2023codeattack,transfer2024coding,transferable2026backdoor}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Evaluated interface under record- and unique-work denominators. The multi-interface row contains works whose records fall in different rows; its record count is zero because each record has one interface code.}}{33}{table.caption.14}\protected@file@percent }
+\newlabel{tab:interface-units}{{15}{33}{Evaluated interface under record- and unique-work denominators. The multi-interface row contains works whose records fall in different rows; its record count is zero because each record has one interface code}{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces Evaluated representation in the companion record table.}}{33}{table.caption.15}\protected@file@percent }
+\newlabel{tab:representation}{{16}{33}{Evaluated representation in the companion record table}{table.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.3}Evidence by Boundary}{33}{subsection.10.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.4}Bounded Field-Audit Status}{33}{subsection.10.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces Mechanism-level comparison across representative attack families.}}{34}{table.caption.16}\protected@file@percent }
+\newlabel{tab:mechanisms}{{17}{34}{Mechanism-level comparison across representative attack families}{table.caption.16}{}}
+\citation{siddiq2022securityeval}
+\citation{tony2023llmseval}
+\citation{bhatt2023cyberseceval}
+\citation{cyberseceval2}
+\citation{cyberseceval3}
+\citation{hajipour2024codelmsec}
+\citation{siddiq2024sallm}
+\citation{codeseceval2024}
+\citation{cweval2025}
+\citation{seccodeplt2024}
+\citation{chen2023diversevul}
+\citation{crossvul2021}
+\citation{codeshield2024}
+\citation{wang2023recode}
+\citation{robustnpr2024}
+\citation{naturalnpr2025}
+\citation{baxbench2025}
+\citation{secrepobench2025}
+\citation{lu2021codexglue}
+\citation{husain2019codesearchnet}
+\citation{svajlenko2015bigclonebench}
+\citation{mou2016poj}
+\citation{zhou2019devign}
+\citation{chakraborty2021reveal}
+\citation{russell2018draper}
+\citation{raychev2016py150}
+\citation{puri2021codenet}
+\citation{chen2021humaneval}
+\citation{austin2021mbpp}
+\citation{hendrycks2021apps}
+\citation{li2022codecontests}
+\citation{iyer2018concode}
+\citation{caliskan2015gcj}
+\citation{lai2023ds1000}
+\gdef \LT@vii {\LT@entry 
+    {1}{77.79962pt}\LT@entry 
+    {1}{54.5923pt}\LT@entry 
+    {1}{73.08643pt}\LT@entry 
+    {1}{140.39603pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces Outcome evidence and confirmed adaptive evaluation by lifecycle boundary. Defenses are shown separately because they protect different boundaries.}}{35}{table.caption.17}\protected@file@percent }
+\newlabel{tab:lifecycle-evidence}{{18}{35}{Outcome evidence and confirmed adaptive evaluation by lifecycle boundary. Defenses are shown separately because they protect different boundaries}{table.caption.17}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {19}{\ignorespaces Audit status by field. Zeros are explicit, not missing cells.}}{35}{table.caption.18}\protected@file@percent }
+\newlabel{tab:audit-status}{{19}{35}{Audit status by field. Zeros are explicit, not missing cells}{table.caption.18}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {11}Benchmarks, Datasets, and Evaluation Resources}{35}{section.11}\protected@file@percent }
+\newlabel{sec:eval}{{11}{35}{Benchmarks, Datasets, and Evaluation Resources}{section.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {20}{\ignorespaces Evaluation resources. Security and robustness resources should state their oracle coverage (static analysis, functional tests, sandbox, or end-to-end outcome) rather than using ``executable'' as a single grade.}}{35}{table.20}\protected@file@percent }
+\newlabel{tab:benchmarks}{{20}{35}{Benchmarks, Datasets, and Evaluation Resources}{table.20}{}}
+\citation{svajlenko2015bigclonebench,husain2019codesearchnet,zhou2019devign,chakraborty2021reveal,lu2021codexglue}
+\citation{chen2021humaneval,austin2021mbpp,hendrycks2021apps,li2022codecontests,mou2016poj,puri2021codenet}
+\citation{siddiq2022securityeval,tony2023llmseval,hajipour2024codelmsec,codeseceval2024}
+\citation{bhatt2023cyberseceval,cyberseceval2,cyberseceval3}
+\citation{siddiq2024sallm,cweval2025,secrepobench2025,baxbench2025}
+\citation{secrepobench2025,baxbench2025}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1}From Task Datasets to Security Benchmarks}{37}{subsection.11.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2}Oracle Coverage}{37}{subsection.11.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3}Repository and Agent Evaluation}{37}{subsection.11.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4}Release and Reporting Requirements}{37}{subsection.11.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {12}Open Problems}{38}{section.12}\protected@file@percent }
+\newlabel{sec:open}{{12}{38}{Open Problems}{section.12}{}}
+\@writefile{toc}{\contentsline {paragraph}{1) Reconstruct retrieval provenance in the next corpus release.}{38}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{2) Make preservation evidence an evaluated artifact.}{38}{section*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{3) Complete bounded audits before estimating reporting prevalence.}{38}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{4) Compare runtime controls on code-agent traces.}{38}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{5) Align transfer, adaptation, and utility.}{38}{section*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{6) Maintain both work- and record-level views.}{38}{section*.24}\protected@file@percent }
+\bibstyle{ACM-Reference-Format}
+\bibdata{Neural_Code_Security_Survey_FINAL}
+\bibcite{aghakhani2024trojanpuzzle}{{1}{2024}{{Aghakhani et~al\mbox  {.}}}{{}}}
+\bibcite{alkaswan2024traces}{{2}{2024}{{Al-Kaswan et~al\mbox  {.}}}{{}}}
+\bibcite{austin2021mbpp}{{3}{2021}{{Austin et~al\mbox  {.}}}{{}}}
+\bibcite{explainability2025}{{4}{2025}{{Awal et~al\mbox  {.}}}{{}}}
+\bibcite{basic2026codesecurity}{{5}{2026}{{Basic and Giaretta}}{{}}}
+\bibcite{cyberseceval2}{{6}{2024}{{Bhatt et~al\mbox  {.}}}{{}}}
+\bibcite{bhatt2023cyberseceval}{{7}{2023}{{Bhatt et~al\mbox  {.}}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {13}Conclusion}{39}{section.13}\protected@file@percent }
+\newlabel{sec:conclusion}{{13}{39}{Conclusion}{section.13}{}}
+\@writefile{toc}{\contentsline {section}{References}{39}{section*.27}\protected@file@percent }
+\bibcite{bielik2020adversarial}{{8}{2020}{{Bielik and Vechev}}{{}}}
+\bibcite{caliskan2015gcj}{{9}{2015}{{Caliskan-Islam et~al\mbox  {.}}}{{}}}
+\bibcite{spatialgreedy2024}{{10}{2024}{{Capozzi et~al\mbox  {.}}}{{}}}
+\bibcite{carlini2024webpoison}{{11}{2024}{{Carlini et~al\mbox  {.}}}{{}}}
+\bibcite{chakraborty2021reveal}{{12}{2022}{{Chakraborty et~al\mbox  {.}}}{{}}}
+\bibcite{transferable2026backdoor}{{13}{2026}{{Chang et~al\mbox  {.}}}{{}}}
+\bibcite{mt4dp2025}{{14}{2025a}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{rmcbench2024}{{15}{2024b}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{chen2021humaneval}{{16}{2021}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{explainerbcsd2025}{{17}{2025b}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{chen2023structure}{{18}{2023b}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{rlattack2024}{{19}{2024a}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{chen2023diversevul}{{20}{2023a}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{securitycode2024slr}{{21}{2026}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{chu2026scrubitout}{{22}{2026}{{Chu et~al\mbox  {.}}}{{}}}
+\bibcite{cotroneo2024vulnerabilities}{{23}{2024}{{Cotroneo et~al\mbox  {.}}}{{}}}
+\bibcite{debenedetti2025camel}{{24}{2025}{{Debenedetti et~al\mbox  {.}}}{{}}}
+\bibcite{debenedetti2024agentdojo}{{25}{2024}{{Debenedetti et~al\mbox  {.}}}{{}}}
+\bibcite{ding2022disco}{{26}{2022}{{Ding et~al\mbox  {.}}}{{}}}
+\bibcite{dong2023mixcode}{{27}{2023}{{Dong et~al\mbox  {.}}}{{}}}
+\bibcite{gencode2024}{{28}{2026}{{Dong et~al\mbox  {.}}}{{}}}
+\bibcite{sloda2025}{{29}{2025}{{Du et~al\mbox  {.}}}{{}}}
+\bibcite{gu2023beamattack}{{30}{2023}{{Du et~al\mbox  {.}}}{{}}}
+\bibcite{codeguard2024}{{31}{2024}{{Fu et~al\mbox  {.}}}{{}}}
+\bibcite{fu2023security}{{32}{2025}{{Fu et~al\mbox  {.}}}{{}}}
+\bibcite{gao2023dak}{{33}{2023}{{Gao et~al\mbox  {.}}}{{}}}
+\bibcite{treat2025}{{34}{2025}{{Gao et~al\mbox  {.}}}{{}}}
+\bibcite{robustnpr2024}{{35}{2024}{{Ge et~al\mbox  {.}}}{{}}}
+\bibcite{ghannoum2025codegarrison}{{36}{2025}{{Ghannoum and Ghafari}}{{}}}
+\bibcite{greshake2023indirect}{{37}{2023}{{Greshake et~al\mbox  {.}}}{{}}}
+\bibcite{gu2026unlearning}{{38}{2026}{{Gu et~al\mbox  {.}}}{{}}}
+\bibcite{guan2024codeip}{{39}{2024}{{Guan et~al\mbox  {.}}}{{}}}
+\bibcite{redcode2024}{{40}{2024}{{Guo et~al\mbox  {.}}}{{}}}
+\bibcite{guo2025codemirage}{{41}{2025}{{Guo et~al\mbox  {.}}}{{}}}
+\bibcite{hajipour2024codelmsec}{{42}{2024}{{Hajipour et~al\mbox  {.}}}{{}}}
+\bibcite{hamer2024copy}{{43}{2024}{{Hamer et~al\mbox  {.}}}{{}}}
+\bibcite{han2026enbecome}{{44}{2026}{{Han et~al\mbox  {.}}}{{}}}
+\bibcite{he2023sven}{{45}{2023}{{He and Vechev}}{{}}}
+\bibcite{he2024safecoder}{{46}{2024}{{He et~al\mbox  {.}}}{{}}}
+\bibcite{hendrycks2021apps}{{47}{2021}{{Hendrycks et~al\mbox  {.}}}{{}}}
+\bibcite{ramakrishnan2022semantic}{{48}{2022}{{Henkel et~al\mbox  {.}}}{{}}}
+\bibcite{hines2024spotlighting}{{49}{2024}{{Hines et~al\mbox  {.}}}{{}}}
+\bibcite{doublebackdoored2024}{{50}{2024}{{Hossen et~al\mbox  {.}}}{{}}}
+\bibcite{degradeprompter2024}{{51}{2024}{{Hossen and Hei}}{{}}}
+\bibcite{huang2024secret}{{52}{2024}{{Huang et~al\mbox  {.}}}{{}}}
+\bibcite{hubinger2024sleeper}{{53}{2024}{{Hubinger et~al\mbox  {.}}}{{}}}
+\bibcite{husain2019codesearchnet}{{54}{2019}{{Husain et~al\mbox  {.}}}{{}}}
+\bibcite{hussain2025oseql}{{55}{2025}{{Hussain et~al\mbox  {.}}}{{}}}
+\bibcite{trojanedcm2023}{{56}{2023}{{Hussain et~al\mbox  {.}}}{{}}}
+\bibcite{hussain2024trojan}{{57}{2024}{{Hussain et~al\mbox  {.}}}{{}}}
+\bibcite{unrepairing2024}{{58}{2023}{{Improta}}{{}}}
+\bibcite{iyer2018concode}{{59}{2018}{{Iyer et~al\mbox  {.}}}{{}}}
+\bibcite{jain2021contracode}{{60}{2021}{{Jain et~al\mbox  {.}}}{{}}}
+\bibcite{jenko2025insec}{{61}{2025}{{Jenko et~al\mbox  {.}}}{{}}}
+\bibcite{jha2023codeattack}{{62}{2023}{{Jha and Reddy}}{{}}}
+\bibcite{jia2023clawsat}{{63}{2023}{{Jia et~al\mbox  {.}}}{{}}}
+\bibcite{funcfooler2022}{{64}{2022}{{Jia et~al\mbox  {.}}}{{}}}
+\bibcite{skillject2026}{{65}{2026}{{Jia et~al\mbox  {.}}}{{}}}
+\bibcite{advprompt2025mia}{{66}{2025}{{Jiang et~al\mbox  {.}}}{{}}}
+\bibcite{saber2024}{{67}{2024}{{Jin et~al\mbox  {.}}}{{}}}
+\bibcite{katzy2024license}{{68}{2024}{{Katzy et~al\mbox  {.}}}{{}}}
+\bibcite{khoury2023secure}{{69}{2023}{{Khoury et~al\mbox  {.}}}{{}}}
+\bibcite{lai2023ds1000}{{70}{2023}{{Lai et~al\mbox  {.}}}{{}}}
+\bibcite{codecrash2025}{{71}{2025}{{Lam et~al\mbox  {.}}}{{}}}
+\bibcite{naturalnpr2025}{{72}{2025}{{Le-Cong et~al\mbox  {.}}}{{}}}
+\bibcite{lee2024sweet}{{73}{2024}{{Lee et~al\mbox  {.}}}{{}}}
+\bibcite{li2024acw}{{74}{2026}{{Li et~al\mbox  {.}}}{{}}}
+\bibcite{malwarebench2025}{{75}{2025}{{Li et~al\mbox  {.}}}{{}}}
+\bibcite{li2024codepoisoner}{{76}{2024a}{{Li et~al\mbox  {.}}}{{}}}
+\bibcite{jiang2024advpro}{{77}{2024b}{{Li et~al\mbox  {.}}}{{}}}
+\bibcite{li2022codecontests}{{78}{2022b}{{Li et~al\mbox  {.}}}{{}}}
+\bibcite{li2023multitarget}{{79}{2023}{{Li et~al\mbox  {.}}}{{}}}
+\bibcite{li2022ropgen}{{80}{2022a}{{Li et~al\mbox  {.}}}{{}}}
+\bibcite{lin2025racg}{{81}{2026}{{Lin et~al\mbox  {.}}}{{}}}
+\bibcite{toxicsql2025}{{82}{2025}{{Lin et~al\mbox  {.}}}{{}}}
+\bibcite{liu2024eatvul}{{83}{2024}{{Liu et~al\mbox  {.}}}{{}}}
+\bibcite{liu2023contrabert}{{84}{2023}{{Liu et~al\mbox  {.}}}{{}}}
+\bibcite{liu2025yourai}{{85}{2025}{{Liu et~al\mbox  {.}}}{{}}}
+\bibcite{privcode2026}{{86}{2026a}{{Liu et~al\mbox  {.}}}{{}}}
+\bibcite{privcodeplus2026}{{87}{2026b}{{Liu et~al\mbox  {.}}}{{}}}
+\bibcite{lu2021codexglue}{{88}{2021}{{Lu et~al\mbox  {.}}}{{}}}
+\bibcite{maloyan2026promptinjection}{{89}{2026}{{Maloyan and Namiot}}{{}}}
+\bibcite{rtlbreaker2024}{{90}{2025}{{Mankali et~al\mbox  {.}}}{{}}}
+\bibcite{codeshield2024}{{91}{2024}{{Meta PurpleLlama}}{{}}}
+\bibcite{mou2016poj}{{92}{2016}{{Mou et~al\mbox  {.}}}{{}}}
+\bibcite{mousavi2024investigation}{{93}{2024}{{Mousavi et~al\mbox  {.}}}{{}}}
+\bibcite{mu2024codepurify}{{94}{2024}{{Mu et~al\mbox  {.}}}{{}}}
+\bibcite{mu2025epshield}{{95}{2025}{{Mu et~al\mbox  {.}}}{{}}}
+\bibcite{na2023dip}{{96}{2023}{{Na et~al\mbox  {.}}}{{}}}
+\bibcite{promsec2024}{{97}{2024}{{Nazzal et~al\mbox  {.}}}{{}}}
+\bibcite{negriribalta2024securegeneration}{{98}{2024}{{Negri-Ribalta et~al\mbox  {.}}}{{}}}
+\bibcite{nguyen2024gptsniffer}{{99}{2024}{{Nguyen et~al\mbox  {.}}}{{}}}
+\bibcite{nguyen2023graphcodeattack}{{100}{2023}{{Nguyen et~al\mbox  {.}}}{{}}}
+\bibcite{seccodeplt2024}{{101}{2025}{{Nie et~al\mbox  {.}}}{{}}}
+\bibcite{crossvul2021}{{102}{2021}{{Nikitopoulos et~al\mbox  {.}}}{{}}}
+\bibcite{niu2023codexleaks}{{103}{2023}{{Niu et~al\mbox  {.}}}{{}}}
+\bibcite{codejailbreaker2025}{{104}{2025}{{Ouyang et~al\mbox  {.}}}{{}}}
+\bibcite{pearce2022asleep}{{105}{2022}{{Pearce et~al\mbox  {.}}}{{}}}
+\bibcite{cweval2025}{{106}{2025}{{Peng et~al\mbox  {.}}}{{}}}
+\bibcite{perry2023users}{{107}{2023}{{Perry et~al\mbox  {.}}}{{}}}
+\bibcite{puri2021codenet}{{108}{2021}{{Puri et~al\mbox  {.}}}{{}}}
+\bibcite{badcs2023}{{109}{2023}{{Qi et~al\mbox  {.}}}{{}}}
+\bibcite{qi2024semantic}{{110}{2024}{{Qi et~al\mbox  {.}}}{{}}}
+\bibcite{qu2024idba}{{111}{2025b}{{Qu et~al\mbox  {.}}}{{}}}
+\bibcite{qu2025backdoorsurvey}{{112}{2025a}{{Qu et~al\mbox  {.}}}{{}}}
+\bibcite{qu2024robustnesssurvey}{{113}{2024}{{Qu et~al\mbox  {.}}}{{}}}
+\bibcite{bads2026}{{114}{2026}{{Qu et~al\mbox  {.}}}{{}}}
+\bibcite{ramakrishnan2022backdoors}{{115}{2022}{{Ramakrishnan and Albarghouthi}}{{}}}
+\bibcite{natgvd2025}{{116}{2025}{{Rath et~al\mbox  {.}}}{{}}}
+\bibcite{raychev2016py150}{{117}{2016}{{Raychev et~al\mbox  {.}}}{{}}}
+\bibcite{rubel2025generalized}{{118}{2025}{{Rubel et~al\mbox  {.}}}{{}}}
+\bibcite{russell2018draper}{{119}{2018}{{Russell et~al\mbox  {.}}}{{}}}
+\bibcite{sandoval2023lost}{{120}{2023}{{Sandoval et~al\mbox  {.}}}{{}}}
+\bibcite{largescale2025vulnerabilities}{{121}{2025}{{Schreiber and Tippe}}{{}}}
+\bibcite{schuster2021autocomplete}{{122}{2021}{{Schuster et~al\mbox  {.}}}{{}}}
+\bibcite{she2026pitfalls}{{123}{2026}{{She et~al\mbox  {.}}}{{}}}
+\bibcite{secrepobench2025}{{124}{2025}{{Shen et~al\mbox  {.}}}{{}}}
+\bibcite{shi2025betweenlines}{{125}{2025}{{Shi et~al\mbox  {.}}}{{}}}
+\bibcite{siddiq2024sallm}{{126}{2024}{{Siddiq et~al\mbox  {.}}}{{}}}
+\bibcite{siddiq2022securityeval}{{127}{2022}{{Siddiq and Santos}}{{}}}
+\bibcite{spracklen2025package}{{128}{2025}{{Spracklen et~al\mbox  {.}}}{{}}}
+\bibcite{springer2020strata}{{129}{2020}{{Springer et~al\mbox  {.}}}{{}}}
+\bibcite{srikant2021generating}{{130}{2021}{{Srikant et~al\mbox  {.}}}{{}}}
+\bibcite{sun2025elibadcode}{{131}{2025a}{{Sun et~al\mbox  {.}}}{{}}}
+\bibcite{sun2023badcode}{{132}{2023a}{{Sun et~al\mbox  {.}}}{{}}}
+\bibcite{sun2025killbadcode}{{133}{2025b}{{Sun et~al\mbox  {.}}}{{}}}
+\bibcite{wu2024fdi}{{134}{2024}{{Sun et~al\mbox  {.}}}{{}}}
+\bibcite{codemark2023}{{135}{2023b}{{Sun et~al\mbox  {.}}}{{}}}
+\bibcite{coprotector2022}{{136}{2022}{{Sun et~al\mbox  {.}}}{{}}}
+\bibcite{svajlenko2015bigclonebench}{{137}{2015}{{Svajlenko and Roy}}{{}}}
+\bibcite{tambon2025bugs}{{138}{2025}{{Tambon et~al\mbox  {.}}}{{}}}
+\bibcite{tian2023coda}{{139}{2023}{{Tian et~al\mbox  {.}}}{{}}}
+\bibcite{tony2023llmseval}{{140}{2023}{{Tony et~al\mbox  {.}}}{{}}}
+\bibcite{depa2025}{{141}{2025}{{Tsai et~al\mbox  {.}}}{{}}}
+\bibcite{vahdatpour2021search}{{142}{2021}{{Vahdat~Pour et~al\mbox  {.}}}{{}}}
+\bibcite{baxbench2025}{{143}{2025}{{Vero et~al\mbox  {.}}}{{}}}
+\bibcite{cyberseceval3}{{144}{2024}{{Wan et~al\mbox  {.}}}{{}}}
+\bibcite{wan2022yousee}{{145}{2022}{{Wan et~al\mbox  {.}}}{{}}}
+\bibcite{backdoors2025summarizers}{{146}{2025b}{{Wang et~al\mbox  {.}}}{{}}}
+\bibcite{codeseceval2024}{{147}{2024}{{Wang et~al\mbox  {.}}}{{}}}
+\bibcite{wang2023recode}{{148}{2023}{{Wang et~al\mbox  {.}}}{{}}}
+\bibcite{wang2025draincode}{{149}{2025a}{{Wang et~al\mbox  {.}}}{{}}}
+\bibcite{wang2025mcptox}{{150}{2026}{{Wang et~al\mbox  {.}}}{{}}}
+\bibcite{wei2022cocofuzzing}{{151}{2023}{{Wei et~al\mbox  {.}}}{{}}}
+\bibcite{deceptprompt2023}{{152}{2023}{{Wu et~al\mbox  {.}}}{{}}}
+\bibcite{xie2025redteaming}{{153}{2025}{{Xie et~al\mbox  {.}}}{{}}}
+\bibcite{guiding2025fix}{{154}{2025}{{Yan et~al\mbox  {.}}}{{}}}
+\bibcite{yan2024codebreaker}{{155}{2024}{{Yan et~al\mbox  {.}}}{{}}}
+\bibcite{yang2025cotr}{{156}{2025}{{Yang et~al\mbox  {.}}}{{}}}
+\bibcite{yang2024survey}{{157}{2024a}{{Yang et~al\mbox  {.}}}{{}}}
+\bibcite{shadowcode2024}{{158}{2026}{{Yang et~al\mbox  {.}}}{{}}}
+\bibcite{yang2022natural}{{159}{2022}{{Yang et~al\mbox  {.}}}{{}}}
+\bibcite{robustness2024llms}{{160}{2024b}{{Yang et~al\mbox  {.}}}{{}}}
+\bibcite{yang2024afraidoor}{{161}{2024c}{{Yang et~al\mbox  {.}}}{{}}}
+\bibcite{yang2024gotcha}{{162}{2024d}{{Yang et~al\mbox  {.}}}{{}}}
+\bibcite{yang2024unveiling}{{163}{2024e}{{Yang et~al\mbox  {.}}}{{}}}
+\bibcite{ye2025set}{{164}{2026}{{Ye et~al\mbox  {.}}}{{}}}
+\bibcite{ye2025uncovering}{{165}{2025}{{Ye et~al\mbox  {.}}}{{}}}
+\bibcite{yefet2020adversarial}{{166}{2020}{{Yefet et~al\mbox  {.}}}{{}}}
+\bibcite{li2023advbinsd}{{167}{2023}{{Yi et~al\mbox  {.}}}{{}}}
+\bibcite{transfer2024coding}{{168}{2024d}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{zhang2022carrot}{{169}{2022}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{zhang2020generating}{{170}{2020}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{codebertattack2024}{{171}{2024b}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{zhang2023rnns}{{172}{2023a}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{zhang2023buzzer}{{173}{2024a}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{zhang2024codefort}{{174}{2024c}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{zhang2023struck}{{175}{2023c}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{pelican2023}{{176}{2023b}{{Zhang et~al\mbox  {.}}}{{}}}
+\bibcite{modelsarecodes2024}{{177}{2024}{{Zhao et~al\mbox  {.}}}{{}}}
+\bibcite{moaa2024}{{178}{2024}{{Zhou et~al\mbox  {.}}}{{}}}
+\bibcite{zhou2019devign}{{179}{2019}{{Zhou et~al\mbox  {.}}}{{}}}
+\bibcite{zhou2022accent}{{180}{2022}{{Zhou et~al\mbox  {.}}}{{}}}
+\bibcite{ziegler2021recitation}{{181}{2021}{{Ziegler}}{{}}}
+\newlabel{tocindent-1}{0pt}
+\newlabel{tocindent0}{0pt}
+\newlabel{tocindent1}{10.00003pt}
+\newlabel{tocindent2}{17.77783pt}
+\newlabel{tocindent3}{0pt}
+\newlabel{TotPages}{{52}{52}{}{page.52}{}}
+\gdef \@abspage@last{52}

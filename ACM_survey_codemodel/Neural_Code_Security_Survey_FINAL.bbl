@@ -1,0 +1,3180 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{181}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Aghakhani et~al\mbox{.}(2024)]%
+        {aghakhani2024trojanpuzzle}
+\bibfield{author}{\bibinfo{person}{Hojjat Aghakhani}, \bibinfo{person}{Wei
+  Dai}, \bibinfo{person}{Andre Manoel}, \bibinfo{person}{Xavier Fernandes},
+  \bibinfo{person}{Anant Kharkar}, \bibinfo{person}{Christopher Kruegel},
+  \bibinfo{person}{Giovanni Vigna}, \bibinfo{person}{David Evans},
+  \bibinfo{person}{Benjamin Zorn}, {and} \bibinfo{person}{Robert Sim}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{TrojanPuzzle}: Covertly Poisoning Code-Suggestion
+  Models}. In \bibinfo{booktitle}{\emph{2024 IEEE Symposium on Security and
+  Privacy (SP)}}. \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ,
+  USA}, \bibinfo{pages}{1122--1140}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/sp54263.2024.00140}
+\showDOI{\tempurl}
+
+
+\bibitem[Al-Kaswan et~al\mbox{.}(2024)]%
+        {alkaswan2024traces}
+\bibfield{author}{\bibinfo{person}{Ali Al-Kaswan}, \bibinfo{person}{Maliheh
+  Izadi}, {and} \bibinfo{person}{Arie van Deursen}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Traces of Memorisation in Large Language Models for
+  Code}. In \bibinfo{booktitle}{\emph{Proceedings of the 46th International
+  Conference on Software Engineering (ICSE)}}. \bibinfo{publisher}{Association
+  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1--12}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3597503.3639133}
+\showDOI{\tempurl}
+
+
+\bibitem[Austin et~al\mbox{.}(2021)]%
+        {austin2021mbpp}
+\bibfield{author}{\bibinfo{person}{Jacob Austin}, \bibinfo{person}{Augustus
+  Odena}, \bibinfo{person}{Maxwell Nye}, \bibinfo{person}{Maarten Bosma},
+  \bibinfo{person}{Henryk Michalewski}, \bibinfo{person}{David Dohan},
+  \bibinfo{person}{Ellen Jiang}, \bibinfo{person}{Carrie Cai},
+  \bibinfo{person}{Michael Terry}, \bibinfo{person}{Quoc Le}, {and}
+  \bibinfo{person}{Charles Sutton}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Program Synthesis with Large Language Models}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2108.07732}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2108.07732}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Awal et~al\mbox{.}(2025)]%
+        {explainability2025}
+\bibfield{author}{\bibinfo{person}{MD~Abdul Awal}, \bibinfo{person}{Mrigank
+  Rochan}, {and} \bibinfo{person}{Chanchal~K. Roy}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Investigating Adversarial Attacks in Software
+  Analytics via Machine Learning Explainability}.
+\newblock \bibinfo{journal}{\emph{Software Quality Journal}}
+  \bibinfo{volume}{33}, \bibinfo{number}{3} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{31}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s11219-025-09727-2}
+\showDOI{\tempurl}
+
+
+\bibitem[Basic and Giaretta(2026)]%
+        {basic2026codesecurity}
+\bibfield{author}{\bibinfo{person}{Enna Basic} {and} \bibinfo{person}{Alberto
+  Giaretta}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{From Vulnerabilities to Remediation: A Systematic
+  Literature Review of {LLM}s in Code Security}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2412.15004}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.2412.15004}
+\showDOI{\tempurl}
+\showeprint[arxiv]{2412.15004}~[cs.CR]
+\newblock
+\shownote{Version 4, 17 March 2026}.
+
+
+\bibitem[Bhatt et~al\mbox{.}(2024)]%
+        {cyberseceval2}
+\bibfield{author}{\bibinfo{person}{Manish Bhatt}, \bibinfo{person}{Sahana
+  Chennabasappa}, \bibinfo{person}{Yue Li}, \bibinfo{person}{Cyrus Nikolaidis},
+  \bibinfo{person}{Daniel Song}, \bibinfo{person}{Shengye Wan},
+  \bibinfo{person}{Faizan Ahmad}, \bibinfo{person}{Cornelius Aschermann},
+  \bibinfo{person}{Yaohui Chen}, \bibinfo{person}{Dhaval Kapil},
+  \bibinfo{person}{David Molnar}, \bibinfo{person}{Spencer Whitman}, {and}
+  \bibinfo{person}{Joshua Saxe}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{CyberSecEval 2}: A Wide-Ranging Cybersecurity
+  Evaluation Suite for Large Language Models}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2404.13161}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2404.13161}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Bhatt et~al\mbox{.}(2023)]%
+        {bhatt2023cyberseceval}
+\bibfield{author}{\bibinfo{person}{Manish Bhatt}, \bibinfo{person}{Sahana
+  Chennabasappa}, \bibinfo{person}{Cyrus Nikolaidis}, \bibinfo{person}{Shengye
+  Wan}, \bibinfo{person}{Ivan Evtimov}, \bibinfo{person}{Dominik Gabi},
+  \bibinfo{person}{Daniel Song}, \bibinfo{person}{Faizan Ahmad},
+  \bibinfo{person}{Cornelius Aschermann}, \bibinfo{person}{Lorenzo Fontana},
+  \bibinfo{person}{Sasha Frolov}, \bibinfo{person}{Ravi~Prakash Giri},
+  \bibinfo{person}{Dhaval Kapil}, \bibinfo{person}{Yiannis Kozyrakis},
+  \bibinfo{person}{David LeBlanc}, \bibinfo{person}{James Milazzo},
+  \bibinfo{person}{Aleksandar Straumann}, \bibinfo{person}{Gabriel Synnaeve},
+  \bibinfo{person}{Varun Vontimitta}, \bibinfo{person}{Spencer Whitman}, {and}
+  \bibinfo{person}{Joshua Saxe}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Purple Llama {CyberSecEval}: A Secure Coding
+  Benchmark for Language Models}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2312.04724}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2312.04724}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Bielik and Vechev(2020)]%
+        {bielik2020adversarial}
+\bibfield{author}{\bibinfo{person}{Pavol Bielik} {and} \bibinfo{person}{Martin
+  Vechev}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Adversarial Robustness for Code}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 37th International Conference on
+  Machine Learning}} \emph{(\bibinfo{series}{Proceedings of Machine Learning
+  Research}, Vol.~\bibinfo{volume}{119})}. \bibinfo{publisher}{PMLR},
+  \bibinfo{address}{Brookline, MA, USA}, \bibinfo{pages}{896--907}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v119/bielik20a.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Caliskan-Islam et~al\mbox{.}(2015)]%
+        {caliskan2015gcj}
+\bibfield{author}{\bibinfo{person}{Aylin Caliskan-Islam},
+  \bibinfo{person}{Richard Harang}, \bibinfo{person}{Andrew Liu},
+  \bibinfo{person}{Arvind Narayanan}, \bibinfo{person}{Clare Voss},
+  \bibinfo{person}{Fabian Yamaguchi}, {and} \bibinfo{person}{Rachel
+  Greenstadt}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{De-anonymizing Programmers via Code Stylometry}. In
+  \bibinfo{booktitle}{\emph{24th USENIX Security Symposium (USENIX Security
+  15)}}. \bibinfo{publisher}{USENIX Association}, \bibinfo{address}{Berkeley,
+  CA, USA}, \bibinfo{pages}{255--270}.
+\newblock
+\showISBNx{978-1-939133-11-3}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/caliskan-islam}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Capozzi et~al\mbox{.}(2024)]%
+        {spatialgreedy2024}
+\bibfield{author}{\bibinfo{person}{Gianluca Capozzi},
+  \bibinfo{person}{Daniele~Cono D'Elia}, \bibinfo{person}{Giuseppe~Antonio
+  Di~Luna}, {and} \bibinfo{person}{Leonardo Querzoni}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Adversarial Attacks Against Binary Similarity
+  Systems}.
+\newblock \bibinfo{journal}{\emph{IEEE Access}}  \bibinfo{volume}{12}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{161247--161269}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/access.2024.3488204}
+\showDOI{\tempurl}
+
+
+\bibitem[Carlini et~al\mbox{.}(2024)]%
+        {carlini2024webpoison}
+\bibfield{author}{\bibinfo{person}{Nicholas Carlini}, \bibinfo{person}{Matthew
+  Jagielski}, \bibinfo{person}{Christopher~A. Choquette-Choo},
+  \bibinfo{person}{Daniel Paleka}, \bibinfo{person}{Will Pearce},
+  \bibinfo{person}{Hyrum Anderson}, \bibinfo{person}{Andreas Terzis},
+  \bibinfo{person}{Kurt Thomas}, {and} \bibinfo{person}{Florian Tram{\`e}r}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Poisoning Web-Scale Training Datasets Is
+  Practical}. In \bibinfo{booktitle}{\emph{2024 IEEE Symposium on Security and
+  Privacy (SP)}}. \bibinfo{publisher}{IEEE}, \bibinfo{pages}{407--425}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/SP54263.2024.00179}
+\showDOI{\tempurl}
+
+
+\bibitem[Chakraborty et~al\mbox{.}(2022)]%
+        {chakraborty2021reveal}
+\bibfield{author}{\bibinfo{person}{Saikat Chakraborty}, \bibinfo{person}{Rahul
+  Krishna}, \bibinfo{person}{Yangruibo Ding}, {and} \bibinfo{person}{Baishakhi
+  Ray}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Deep Learning Based Vulnerability Detection: Are We
+  There Yet?}
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{48}, \bibinfo{number}{9} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{3280--3296}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/tse.2021.3087402}
+\showDOI{\tempurl}
+
+
+\bibitem[Chang et~al\mbox{.}(2026)]%
+        {transferable2026backdoor}
+\bibfield{author}{\bibinfo{person}{Shuyu Chang}, \bibinfo{person}{Haiping
+  Huang}, \bibinfo{person}{Yanjun Zhang}, \bibinfo{person}{Yujin Huang},
+  \bibinfo{person}{Fu Xiao}, {and} \bibinfo{person}{Leo~Yu Zhang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Transferable Backdoor Attacks for Code Models via
+  Sharpness-Aware Adversarial Perturbation}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the AAAI Conference on
+  Artificial Intelligence}} \bibinfo{volume}{40}, \bibinfo{number}{1}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{57--65}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1609/aaai.v40i1.36964}
+\showDOI{\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2025a)]%
+        {mt4dp2025}
+\bibfield{author}{\bibinfo{person}{Gong Chen}, \bibinfo{person}{Wenjie Liu},
+  \bibinfo{person}{Xiaoyuan Xie}, \bibinfo{person}{Xunzhu Tang},
+  \bibinfo{person}{Tegawend{\'e}~F. Bissyand{\'e}}, {and}
+  \bibinfo{person}{Songqiang Chen}.} \bibinfo{year}{2025}\natexlab{a}.
+\newblock \bibinfo{title}{{MT4DP}: Data Poisoning Attack Detection for
+  {DL}-based Code Search Models via Metamorphic Testing}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2507.11092}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2507.11092}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Chen et~al\mbox{.}(2024b)]%
+        {rmcbench2024}
+\bibfield{author}{\bibinfo{person}{Jiachi Chen}, \bibinfo{person}{Qingyuan
+  Zhong}, \bibinfo{person}{Yanlin Wang}, \bibinfo{person}{Kaiwen Ning},
+  \bibinfo{person}{Yongkun Liu}, \bibinfo{person}{Zenan Xu},
+  \bibinfo{person}{Zhe Zhao}, \bibinfo{person}{Ting Chen}, {and}
+  \bibinfo{person}{Zibin Zheng}.} \bibinfo{year}{2024}\natexlab{b}.
+\newblock \showarticletitle{{RMCBench}: Benchmarking Large Language Models'
+  Resistance to Malicious Code}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 39th IEEE/ACM International Conference on Automated Software Engineering
+  (ASE)}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{995--1006}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3691620.3695480}
+\showDOI{\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2021)]%
+        {chen2021humaneval}
+\bibfield{author}{\bibinfo{person}{Mark Chen}, \bibinfo{person}{Jerry Tworek},
+  \bibinfo{person}{Heewoo Jun}, \bibinfo{person}{Qiming Yuan},
+  \bibinfo{person}{Henrique Ponde de~Oliveira Pinto}, \bibinfo{person}{Jared
+  Kaplan}, \bibinfo{person}{Harri Edwards}, \bibinfo{person}{Yuri Burda},
+  \bibinfo{person}{Nicholas Joseph}, \bibinfo{person}{Greg Brockman},
+  \bibinfo{person}{Alex Ray}, \bibinfo{person}{Raul Puri},
+  \bibinfo{person}{Gretchen Krueger}, \bibinfo{person}{Michael Petrov},
+  \bibinfo{person}{Heidy Khlaaf}, \bibinfo{person}{Girish Sastry},
+  \bibinfo{person}{Pamela Mishkin}, \bibinfo{person}{Brooke Chan},
+  \bibinfo{person}{Scott Gray}, \bibinfo{person}{Nick Ryder},
+  \bibinfo{person}{Mikhail Pavlov}, \bibinfo{person}{Alethea Power},
+  \bibinfo{person}{Lukasz Kaiser}, \bibinfo{person}{Mohammad Bavarian},
+  \bibinfo{person}{Clemens Winter}, \bibinfo{person}{Philippe Tillet},
+  \bibinfo{person}{Felipe~Petroski Such}, \bibinfo{person}{Dave Cummings},
+  \bibinfo{person}{Matthias Plappert}, \bibinfo{person}{Fotios Chantzis},
+  \bibinfo{person}{Elizabeth Barnes}, \bibinfo{person}{Ariel Herbert-Voss},
+  \bibinfo{person}{William~Hebgen Guss}, \bibinfo{person}{Alex Nichol},
+  \bibinfo{person}{Alex Paino}, \bibinfo{person}{Nikolas Tezak},
+  \bibinfo{person}{Jie Tang}, \bibinfo{person}{Igor Babuschkin},
+  \bibinfo{person}{Suchir Balaji}, \bibinfo{person}{Shantanu Jain},
+  \bibinfo{person}{William Saunders}, \bibinfo{person}{Christopher Hesse},
+  \bibinfo{person}{Andrew~N. Carr}, \bibinfo{person}{Jan Leike},
+  \bibinfo{person}{Josh Achiam}, \bibinfo{person}{Vedant Misra},
+  \bibinfo{person}{Evan Morikawa}, \bibinfo{person}{Alec Radford},
+  \bibinfo{person}{Matthew Knight}, \bibinfo{person}{Miles Brundage},
+  \bibinfo{person}{Mira Murati}, \bibinfo{person}{Katie Mayer},
+  \bibinfo{person}{Peter Welinder}, \bibinfo{person}{Bob McGrew},
+  \bibinfo{person}{Dario Amodei}, \bibinfo{person}{Sam McCandlish},
+  \bibinfo{person}{Ilya Sutskever}, {and} \bibinfo{person}{Wojciech Zaremba}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Evaluating Large Language Models Trained on Code}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2107.03374}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2107.03374}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Chen et~al\mbox{.}(2025b)]%
+        {explainerbcsd2025}
+\bibfield{author}{\bibinfo{person}{Mingjie Chen}, \bibinfo{person}{Tiancheng
+  Zhu}, \bibinfo{person}{Mingxue Zhang}, \bibinfo{person}{Yiling He},
+  \bibinfo{person}{Minghao Lin}, \bibinfo{person}{Penghui Li}, {and}
+  \bibinfo{person}{Kui Ren}.} \bibinfo{year}{2025}\natexlab{b}.
+\newblock \bibinfo{title}{Explainer-guided Targeted Adversarial Attacks Against
+  Binary Code Similarity Detection Models}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2506.05430}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2506.05430}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Chen et~al\mbox{.}(2023b)]%
+        {chen2023structure}
+\bibfield{author}{\bibinfo{person}{Nuo Chen}, \bibinfo{person}{Qiushi Sun},
+  \bibinfo{person}{Jianing Wang}, \bibinfo{person}{Ming Gao},
+  \bibinfo{person}{Xiaoli Li}, {and} \bibinfo{person}{Xiang Li}.}
+  \bibinfo{year}{2023}\natexlab{b}.
+\newblock \showarticletitle{Evaluating and Enhancing the Robustness of Code
+  Pre-trained Models through Structure-Aware Adversarial Samples Generation}.
+  In \bibinfo{booktitle}{\emph{Findings of the Association for Computational
+  Linguistics: EMNLP 2023}}. \bibinfo{publisher}{Association for Computational
+  Linguistics}, \bibinfo{address}{Stroudsburg, PA, USA},
+  \bibinfo{pages}{14857--14873}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2023.findings-emnlp.991}
+\showDOI{\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2024a)]%
+        {rlattack2024}
+\bibfield{author}{\bibinfo{person}{Siran Chen}, \bibinfo{person}{Jingzheng Wu},
+  \bibinfo{person}{Xiang Ling}, \bibinfo{person}{Tianyue Luo},
+  \bibinfo{person}{Jiayu Liu}, {and} \bibinfo{person}{Yanjun Wu}.}
+  \bibinfo{year}{2024}\natexlab{a}.
+\newblock \showarticletitle{Reinforcement-Learning-based Adversarial Attacks
+  Against Vulnerability Detection Models}.
+\newblock \bibinfo{journal}{\emph{International Journal of Software and
+  Informatics}} \bibinfo{volume}{14}, \bibinfo{number}{3}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{249--275}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.21655/ijsi.1673-7288.00332}
+\showDOI{\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2023a)]%
+        {chen2023diversevul}
+\bibfield{author}{\bibinfo{person}{Yizheng Chen}, \bibinfo{person}{Zhoujie
+  Ding}, \bibinfo{person}{Lamya Alowain}, \bibinfo{person}{Xinyun Chen}, {and}
+  \bibinfo{person}{David Wagner}.} \bibinfo{year}{2023}\natexlab{a}.
+\newblock \showarticletitle{{DiverseVul}: A New Vulnerable Source Code Dataset
+  for Deep Learning Based Vulnerability Detection}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 26th International Symposium on
+  Research in Attacks, Intrusions and Defenses (RAID)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{654--668}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3607199.3607242}
+\showDOI{\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2026)]%
+        {securitycode2024slr}
+\bibfield{author}{\bibinfo{person}{Yuchen Chen}, \bibinfo{person}{Weisong Sun},
+  \bibinfo{person}{Chunrong Fang}, \bibinfo{person}{Zhenpeng Chen},
+  \bibinfo{person}{Yifei Ge}, \bibinfo{person}{Tingxu Han},
+  \bibinfo{person}{Quanjun Zhang}, \bibinfo{person}{Yang Liu},
+  \bibinfo{person}{Zhenyu Chen}, {and} \bibinfo{person}{Baowen Xu}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Security of Language Models for Code: A Systematic
+  Literature Review}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology}} \bibinfo{volume}{35}, \bibinfo{number}{7}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{1--65}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3735554}
+\showDOI{\tempurl}
+
+
+\bibitem[Chu et~al\mbox{.}(2026)]%
+        {chu2026scrubitout}
+\bibfield{author}{\bibinfo{person}{Zhaoyang Chu}, \bibinfo{person}{Yao Wan},
+  \bibinfo{person}{Zhikun Zhang}, \bibinfo{person}{Di Wang},
+  \bibinfo{person}{Zhou Yang}, \bibinfo{person}{Hongyu Zhang},
+  \bibinfo{person}{Pan Zhou}, \bibinfo{person}{Xuanhua Shi},
+  \bibinfo{person}{Hai Jin}, {and} \bibinfo{person}{David Lo}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Scrub It Out! Erasing Sensitive Memorization in
+  Code Language Models via Machine Unlearning}. In
+  \bibinfo{booktitle}{\emph{48th IEEE/ACM International Conference on Software
+  Engineering (ICSE)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}.
+\newblock
+\showeprint[arxiv]{2509.13755}~[cs.SE]
+\urldef\tempurl%
+\url{https://conf.researchr.org/details/icse-2026/icse-2026-research-track/56/Scrub-It-Out-Erasing-Sensitive-Memorization-in-Code-Language-Models-via-Machine-Unle}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Cotroneo et~al\mbox{.}(2024)]%
+        {cotroneo2024vulnerabilities}
+\bibfield{author}{\bibinfo{person}{Domenico Cotroneo},
+  \bibinfo{person}{Cristina Improta}, \bibinfo{person}{Pietro Liguori}, {and}
+  \bibinfo{person}{Roberto Natella}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Vulnerabilities in AI Code Generators: Exploring
+  Targeted Data Poisoning Attacks}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 32nd IEEE/ACM International Conference on Program Comprehension (ICPC)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{280--292}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3643916.3644416}
+\showDOI{\tempurl}
+
+
+\bibitem[Debenedetti et~al\mbox{.}(2025)]%
+        {debenedetti2025camel}
+\bibfield{author}{\bibinfo{person}{Edoardo Debenedetti}, \bibinfo{person}{Ilia
+  Shumailov}, \bibinfo{person}{Tianqi Fan}, \bibinfo{person}{Jamie Hayes},
+  \bibinfo{person}{Nicholas Carlini}, \bibinfo{person}{Daniel Fabian},
+  \bibinfo{person}{Christoph Kern}, \bibinfo{person}{Chongyang Shi},
+  \bibinfo{person}{Andreas Terzis}, {and} \bibinfo{person}{Florian
+  Tram{\`e}r}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Defeating Prompt Injections by Design}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2503.18813}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2503.18813}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Debenedetti et~al\mbox{.}(2024)]%
+        {debenedetti2024agentdojo}
+\bibfield{author}{\bibinfo{person}{Edoardo Debenedetti}, \bibinfo{person}{Jie
+  Zhang}, \bibinfo{person}{Mislav Balunovic}, \bibinfo{person}{Luca
+  Beurer-Kellner}, \bibinfo{person}{Marc Fischer}, {and}
+  \bibinfo{person}{Florian Tram{\`e}r}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{AgentDojo}: A Dynamic Environment to Evaluate
+  Prompt Injection Attacks and Defenses for {LLM} Agents}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing Systems
+  (NeurIPS), Datasets and Benchmarks Track}}, Vol.~\bibinfo{volume}{37}.
+  \bibinfo{publisher}{Curran Associates, Inc.}
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.52202/079017-2636}
+\showDOI{\tempurl}
+
+
+\bibitem[Ding et~al\mbox{.}(2022)]%
+        {ding2022disco}
+\bibfield{author}{\bibinfo{person}{Yangruibo Ding}, \bibinfo{person}{Luca
+  Buratti}, \bibinfo{person}{Saurabh Pujar}, \bibinfo{person}{Alessandro
+  Morari}, \bibinfo{person}{Baishakhi Ray}, {and} \bibinfo{person}{Saikat
+  Chakraborty}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Towards Learning (Dis)-Similarity of Source Code
+  from Program Contrasts ({DISCO})}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 60th Annual Meeting of the Association for Computational Linguistics
+  (Volume 1: Long Papers)}}. \bibinfo{publisher}{Association for Computational
+  Linguistics}, \bibinfo{address}{Stroudsburg, PA, USA},
+  \bibinfo{pages}{6300--6312}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2022.acl-long.436}
+\showDOI{\tempurl}
+
+
+\bibitem[Dong et~al\mbox{.}(2023)]%
+        {dong2023mixcode}
+\bibfield{author}{\bibinfo{person}{Zeming Dong}, \bibinfo{person}{Qiang Hu},
+  \bibinfo{person}{Yuejun Guo}, \bibinfo{person}{Maxime Cordy},
+  \bibinfo{person}{Mike Papadakis}, \bibinfo{person}{Zhenya Zhang},
+  \bibinfo{person}{Yves~Le Traon}, {and} \bibinfo{person}{Jianjun Zhao}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{MixCode}: Enhancing Code Classification by
+  Mixup-Based Data Augmentation}. In \bibinfo{booktitle}{\emph{2023 IEEE
+  International Conference on Software Analysis, Evolution and Reengineering
+  (SANER)}}. \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{379--390}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/saner56733.2023.00043}
+\showDOI{\tempurl}
+
+
+\bibitem[Dong et~al\mbox{.}(2026)]%
+        {gencode2024}
+\bibfield{author}{\bibinfo{person}{Zeming Dong}, \bibinfo{person}{Qiang Hu},
+  \bibinfo{person}{Xiaofei Xie}, \bibinfo{person}{Maxime Cordy},
+  \bibinfo{person}{Mike Papadakis}, \bibinfo{person}{Yves Le~Traon}, {and}
+  \bibinfo{person}{Jianjun Zhao}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{GenCode}: A Generic Data Augmentation Framework
+  for Boosting Deep Learning-Based Code Understanding}.
+\newblock \bibinfo{journal}{\emph{Empirical Software Engineering}}
+  \bibinfo{volume}{31}, \bibinfo{number}{3} (\bibinfo{year}{2026}),
+  \bibinfo{pages}{72}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s10664-026-10809-3}
+\showDOI{\tempurl}
+
+
+\bibitem[Du et~al\mbox{.}(2025)]%
+        {sloda2025}
+\bibfield{author}{\bibinfo{person}{Xiaohu Du}, \bibinfo{person}{Ming Wen},
+  \bibinfo{person}{Haoyu Wang}, \bibinfo{person}{Zichao Wei}, {and}
+  \bibinfo{person}{Hai Jin}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Statement-Level Adversarial Attack on Vulnerability
+  Detection Models via Out-of-Distribution Features}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Software
+  Engineering (FSE)}} \bibinfo{volume}{2}, \bibinfo{number}{FSE}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{3009--3032}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3729403}
+\showDOI{\tempurl}
+
+
+\bibitem[Du et~al\mbox{.}(2023)]%
+        {gu2023beamattack}
+\bibfield{author}{\bibinfo{person}{Xiaohu Du}, \bibinfo{person}{Ming Wen},
+  \bibinfo{person}{Zichao Wei}, \bibinfo{person}{Shangwen Wang}, {and}
+  \bibinfo{person}{Hai Jin}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{An Extensive Study on Adversarial Attack against
+  Pre-trained Models of Code}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  31st ACM Joint European Software Engineering Conference and Symposium on the
+  Foundations of Software Engineering (ESEC/FSE)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{489--501}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3611643.3616356}
+\showDOI{\tempurl}
+
+
+\bibitem[Fu et~al\mbox{.}(2024)]%
+        {codeguard2024}
+\bibfield{author}{\bibinfo{person}{Yanjun Fu}, \bibinfo{person}{Ethan Baker},
+  \bibinfo{person}{Yu Ding}, {and} \bibinfo{person}{Yizheng Chen}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Constrained Decoding for Secure Code Generation}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2405.00218}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2405.00218}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Fu et~al\mbox{.}(2025)]%
+        {fu2023security}
+\bibfield{author}{\bibinfo{person}{Yujia Fu}, \bibinfo{person}{Peng Liang},
+  \bibinfo{person}{Amjed Tahir}, \bibinfo{person}{Zengyang Li},
+  \bibinfo{person}{Mojtaba Shahin}, \bibinfo{person}{Jiaxin Yu}, {and}
+  \bibinfo{person}{Jinfu Chen}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Security Weaknesses of {Copilot}-Generated Code in
+  {GitHub} Projects: An Empirical Study}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology}} \bibinfo{volume}{34}, \bibinfo{number}{8}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{218:1--218:34}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3716848}
+\showDOI{\tempurl}
+
+
+\bibitem[Gao et~al\mbox{.}(2023)]%
+        {gao2023dak}
+\bibfield{author}{\bibinfo{person}{Fengjuan Gao}, \bibinfo{person}{Yu Wang},
+  {and} \bibinfo{person}{Ke Wang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Discrete Adversarial Attack to Models of Code}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Programming
+  Languages (PLDI)}} \bibinfo{volume}{7}, \bibinfo{number}{PLDI}
+  (\bibinfo{year}{2023}), \bibinfo{pages}{172--195}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3591227}
+\showDOI{\tempurl}
+
+
+\bibitem[Gao et~al\mbox{.}(2025)]%
+        {treat2025}
+\bibfield{author}{\bibinfo{person}{Shuzheng Gao}, \bibinfo{person}{Eric~John
+  Li}, \bibinfo{person}{Man~Ho Lam}, \bibinfo{person}{Jingyu Xiao},
+  \bibinfo{person}{Yuxuan Wan}, \bibinfo{person}{Chaozheng Wang},
+  \bibinfo{person}{Man~Tik Ng}, {and} \bibinfo{person}{Michael~R. Lyu}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{TREAT}: A Code {LLMs} Trustworthiness / Reliability
+  Evaluation and Testing Framework}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2510.17163}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2510.17163}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Ge et~al\mbox{.}(2024)]%
+        {robustnpr2024}
+\bibfield{author}{\bibinfo{person}{Hongliang Ge}, \bibinfo{person}{Wenkang
+  Zhong}, \bibinfo{person}{Chuanyi Li}, \bibinfo{person}{Jidong Ge},
+  \bibinfo{person}{Hao Hu}, {and} \bibinfo{person}{Bin Luo}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{RobustNPR}: Evaluating the Robustness of Neural
+  Program Repair Models}.
+\newblock \bibinfo{journal}{\emph{Journal of Software: Evolution and Process}}
+  \bibinfo{volume}{36}, \bibinfo{number}{4} (\bibinfo{year}{2024}),
+  \bibinfo{pages}{e2586}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1002/smr.2586}
+\showDOI{\tempurl}
+
+
+\bibitem[Ghannoum and Ghafari(2025)]%
+        {ghannoum2025codegarrison}
+\bibfield{author}{\bibinfo{person}{Ehab Ghannoum} {and}
+  \bibinfo{person}{Mohammad Ghafari}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Poisoned Source Code Detection in Code Models}.
+\newblock \bibinfo{journal}{\emph{Journal of Systems and Software}}
+  \bibinfo{volume}{226} (\bibinfo{year}{2025}), \bibinfo{pages}{112384}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.jss.2025.112384}
+\showDOI{\tempurl}
+
+
+\bibitem[Greshake et~al\mbox{.}(2023)]%
+        {greshake2023indirect}
+\bibfield{author}{\bibinfo{person}{Kai Greshake}, \bibinfo{person}{Sahar
+  Abdelnabi}, \bibinfo{person}{Shailesh Mishra}, \bibinfo{person}{Christoph
+  Endres}, \bibinfo{person}{Thorsten Holz}, {and} \bibinfo{person}{Mario
+  Fritz}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Not What You've Signed Up For: Compromising
+  Real-World {LLM}-Integrated Applications with Indirect Prompt Injection}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 16th ACM Workshop on Artificial
+  Intelligence and Security (AISec)}}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{pages}{79--90}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3605764.3623985}
+\showDOI{\tempurl}
+
+
+\bibitem[Gu et~al\mbox{.}(2026)]%
+        {gu2026unlearning}
+\bibfield{author}{\bibinfo{person}{Shanzhi Gu}, \bibinfo{person}{Zhaoyang Qu},
+  \bibinfo{person}{Ruotong Geng}, \bibinfo{person}{Mingyang Geng},
+  \bibinfo{person}{Shangwen Wang}, \bibinfo{person}{Chuanfu Xu},
+  \bibinfo{person}{Haotian Wang}, \bibinfo{person}{Zhipeng Lin}, {and}
+  \bibinfo{person}{Dezun Dong}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Mitigating Sensitive Information Leakage in
+  {LLMs4Code} through Machine Unlearning}.
+\newblock \bibinfo{journal}{\emph{Neural Networks}}  \bibinfo{volume}{198}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{108606}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.neunet.2026.108606}
+\showDOI{\tempurl}
+
+
+\bibitem[Guan et~al\mbox{.}(2024)]%
+        {guan2024codeip}
+\bibfield{author}{\bibinfo{person}{Batu Guan}, \bibinfo{person}{Yao Wan},
+  \bibinfo{person}{Zhangqian Bi}, \bibinfo{person}{Zheng Wang},
+  \bibinfo{person}{Hongyu Zhang}, \bibinfo{person}{Pan Zhou}, {and}
+  \bibinfo{person}{Lichao Sun}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{CodeIP}: A Grammar-Guided Multi-Bit Watermark for
+  Large Language Models of Code}. In \bibinfo{booktitle}{\emph{Findings of the
+  Association for Computational Linguistics: EMNLP 2024}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{9243--9258}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2024.findings-emnlp.541}
+\showDOI{\tempurl}
+
+
+\bibitem[Guo et~al\mbox{.}(2024)]%
+        {redcode2024}
+\bibfield{author}{\bibinfo{person}{Chengquan Guo}, \bibinfo{person}{Xun Liu},
+  \bibinfo{person}{Chulin Xie}, \bibinfo{person}{Andy Zhou},
+  \bibinfo{person}{Yi Zeng}, \bibinfo{person}{Zinan Lin}, \bibinfo{person}{Dawn
+  Song}, {and} \bibinfo{person}{Bo Li}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{RedCode}: Risky Code Execution and Generation
+  Benchmark for Code Agents}. In \bibinfo{booktitle}{\emph{Advances in Neural
+  Information Processing Systems (NeurIPS) Datasets and Benchmarks Track}}.
+  \bibinfo{publisher}{Curran Associates, Inc.}, \bibinfo{address}{Red Hook, NY,
+  USA}, \bibinfo{pages}{106190--106236}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.52202/079017-3369}
+\showDOI{\tempurl}
+
+
+\bibitem[Guo et~al\mbox{.}(2025)]%
+        {guo2025codemirage}
+\bibfield{author}{\bibinfo{person}{Hanxi Guo}, \bibinfo{person}{Siyuan Cheng},
+  \bibinfo{person}{Kaiyuan Zhang}, \bibinfo{person}{Guangyu Shen}, {and}
+  \bibinfo{person}{Xiangyu Zhang}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{CodeMirage}: A Multi-Lingual Benchmark for Detecting
+  {AI}-Generated and Paraphrased Source Code from Production-Level {LLMs}}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2506.11059}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2506.11059}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hajipour et~al\mbox{.}(2024)]%
+        {hajipour2024codelmsec}
+\bibfield{author}{\bibinfo{person}{Hossein Hajipour}, \bibinfo{person}{Keno
+  Hassler}, \bibinfo{person}{Thorsten Holz}, \bibinfo{person}{Lea Schönherr},
+  {and} \bibinfo{person}{Mario Fritz}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{CodeLMSec} Benchmark: Systematically Evaluating
+  and Finding Security Vulnerabilities in Black-Box Code Language Models}. In
+  \bibinfo{booktitle}{\emph{2024 IEEE Conference on Secure and Trustworthy
+  Machine Learning (SaTML)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{684--709}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/satml59370.2024.00040}
+\showDOI{\tempurl}
+
+
+\bibitem[Hamer et~al\mbox{.}(2024)]%
+        {hamer2024copy}
+\bibfield{author}{\bibinfo{person}{Sivana Hamer}, \bibinfo{person}{Marcelo
+  d'Amorim}, {and} \bibinfo{person}{Laurie Williams}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Just Another Copy and Paste? Comparing the Security
+  Vulnerabilities of {ChatGPT} Generated Code and {StackOverflow} Answers}. In
+  \bibinfo{booktitle}{\emph{2024 IEEE Security and Privacy Workshops (SPW)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{87--94}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/SPW63631.2024.00014}
+\showDOI{\tempurl}
+
+
+\bibitem[Han et~al\mbox{.}(2026)]%
+        {han2026enbecome}
+\bibfield{author}{\bibinfo{person}{Tingxu Han}, \bibinfo{person}{Wei Song},
+  \bibinfo{person}{Weisong Sun}, \bibinfo{person}{Hao Wu},
+  \bibinfo{person}{Chunrong Fang}, \bibinfo{person}{Yuan Xiao},
+  \bibinfo{person}{Xiaofang Zhang}, \bibinfo{person}{Zhenyu Chen}, {and}
+  \bibinfo{person}{Yang Liu}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Enhancing and Reporting Robustness Boundary of Neural
+  Code Models for Intelligent Code Understanding}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2603.24119}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2603.24119}
+\showURL{%
+\tempurl}
+
+
+\bibitem[He and Vechev(2023)]%
+        {he2023sven}
+\bibfield{author}{\bibinfo{person}{Jingxuan He} {and} \bibinfo{person}{Martin
+  Vechev}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Large Language Models for Code: Security Hardening
+  and Adversarial Testing ({SVEN})}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 2023 ACM SIGSAC Conference on Computer and Communications Security
+  (CCS)}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1865--1879}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3576915.3623175}
+\showDOI{\tempurl}
+
+
+\bibitem[He et~al\mbox{.}(2024)]%
+        {he2024safecoder}
+\bibfield{author}{\bibinfo{person}{Jingxuan He}, \bibinfo{person}{Mark Vero},
+  \bibinfo{person}{Gabriela Krasnopolska}, {and} \bibinfo{person}{Martin
+  Vechev}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Instruction Tuning for Secure Code Generation}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 41st International Conference on
+  Machine Learning (ICML)}} \emph{(\bibinfo{series}{Proceedings of Machine
+  Learning Research}, Vol.~\bibinfo{volume}{235})}. \bibinfo{publisher}{PMLR},
+  \bibinfo{address}{Brookline, MA, USA}, \bibinfo{pages}{18043--18062}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v235/he24k.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hendrycks et~al\mbox{.}(2021)]%
+        {hendrycks2021apps}
+\bibfield{author}{\bibinfo{person}{Dan Hendrycks}, \bibinfo{person}{Steven
+  Basart}, \bibinfo{person}{Saurav Kadavath}, \bibinfo{person}{Mantas Mazeika},
+  \bibinfo{person}{Akul Arora}, \bibinfo{person}{Ethan Guo},
+  \bibinfo{person}{Collin Burns}, \bibinfo{person}{Samir Puranik},
+  \bibinfo{person}{Horace He}, \bibinfo{person}{Dawn Song}, {and}
+  \bibinfo{person}{Jacob Steinhardt}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Measuring Coding Challenge Competence with {APPS}}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the Neural Information Processing
+  Systems Track on Datasets and Benchmarks}}. \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{address}{Red Hook, NY, USA}.
+\newblock
+\urldef\tempurl%
+\url{https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/c24cd76e1ce41366a4bbe8a49b02a028-Abstract-round2.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Henkel et~al\mbox{.}(2022)]%
+        {ramakrishnan2022semantic}
+\bibfield{author}{\bibinfo{person}{Jordan Henkel}, \bibinfo{person}{Goutham
+  Ramakrishnan}, \bibinfo{person}{Zi Wang}, \bibinfo{person}{Aws Albarghouthi},
+  \bibinfo{person}{Somesh Jha}, {and} \bibinfo{person}{Thomas Reps}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Semantic Robustness of Models of Source Code}. In
+  \bibinfo{booktitle}{\emph{2022 IEEE International Conference on Software
+  Analysis, Evolution and Reengineering (SANER)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{526--537}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/saner53432.2022.00070}
+\showDOI{\tempurl}
+
+
+\bibitem[Hines et~al\mbox{.}(2024)]%
+        {hines2024spotlighting}
+\bibfield{author}{\bibinfo{person}{Keegan Hines}, \bibinfo{person}{Gary Lopez},
+  \bibinfo{person}{Matthew Hall}, \bibinfo{person}{Federico Zarfati},
+  \bibinfo{person}{Yonatan Zunger}, {and} \bibinfo{person}{Emre Kiciman}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Defending Against Indirect Prompt Injection Attacks
+  With Spotlighting}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2403.14720}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2403.14720}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hossen et~al\mbox{.}(2024)]%
+        {doublebackdoored2024}
+\bibfield{author}{\bibinfo{person}{Md~Imran Hossen},
+  \bibinfo{person}{Sai~Venkatesh Chilukoti}, \bibinfo{person}{Liqun Shan},
+  \bibinfo{person}{Sheng Chen}, \bibinfo{person}{Yinzhi Cao}, {and}
+  \bibinfo{person}{Xiali Hei}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Double Backdoored: Converting Code Large Language
+  Model Backdoors to Traditional Malware via Adversarial Instruction Tuning
+  Attacks}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2404.18567}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2404.18567}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Hossen and Hei(2024)]%
+        {degradeprompter2024}
+\bibfield{author}{\bibinfo{person}{Md~Imran Hossen} {and}
+  \bibinfo{person}{Xiali Hei}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{On the Adversarial Robustness of Instruction-Tuned
+  Large Language Models for Code}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2411.19508}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2411.19508}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Huang et~al\mbox{.}(2024)]%
+        {huang2024secret}
+\bibfield{author}{\bibinfo{person}{Yizhan Huang}, \bibinfo{person}{Yichen Li},
+  \bibinfo{person}{Weibin Wu}, \bibinfo{person}{Jianping Zhang}, {and}
+  \bibinfo{person}{Michael~R. Lyu}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Your Code Secret Belongs to Me: Neural Code
+  Completion Tools Can Memorize Hard-Coded Credentials}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Software
+  Engineering (FSE)}} \bibinfo{volume}{1}, \bibinfo{number}{FSE}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{2515--2537}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3660818}
+\showDOI{\tempurl}
+
+
+\bibitem[Hubinger et~al\mbox{.}(2024)]%
+        {hubinger2024sleeper}
+\bibfield{author}{\bibinfo{person}{Evan Hubinger}, \bibinfo{person}{Carson
+  Denison}, \bibinfo{person}{Jesse Mu}, \bibinfo{person}{Mike Lambert},
+  \bibinfo{person}{Meg Tong}, \bibinfo{person}{Monte MacDiarmid},
+  \bibinfo{person}{Tamera Lanham}, \bibinfo{person}{Daniel~M. Ziegler},
+  \bibinfo{person}{Tim Maxwell}, \bibinfo{person}{Newton Cheng},
+  {et~al\mbox{.}}} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Sleeper Agents: Training Deceptive {LLMs} that
+  Persist Through Safety Training}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2401.05566}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2401.05566}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Husain et~al\mbox{.}(2019)]%
+        {husain2019codesearchnet}
+\bibfield{author}{\bibinfo{person}{Hamel Husain}, \bibinfo{person}{Ho-Hsiang
+  Wu}, \bibinfo{person}{Tiferet Gazit}, \bibinfo{person}{Miltiadis Allamanis},
+  {and} \bibinfo{person}{Marc Brockschmidt}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{{CodeSearchNet} Challenge: Evaluating the State of
+  Semantic Code Search}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:1909.09436}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/1909.09436}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Hussain et~al\mbox{.}(2025)]%
+        {hussain2025oseql}
+\bibfield{author}{\bibinfo{person}{Aftab Hussain},
+  \bibinfo{person}{Md~Rafiqul~Islam Rabin}, \bibinfo{person}{Toufique Ahmed},
+  \bibinfo{person}{Mohammad~Amin Alipour}, \bibinfo{person}{Bowen Xu}, {and}
+  \bibinfo{person}{Stephen Huang}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Finding Trojan Triggers in Code {LLMs}: An
+  Occlusion-Based Human-in-the-Loop Approach}. In
+  \bibinfo{booktitle}{\emph{IEEE/ACM International Conference on AI Engineering
+  (CAIN)}}. \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{281--282}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/cain66642.2025.00050}
+\showDOI{\tempurl}
+
+
+\bibitem[Hussain et~al\mbox{.}(2023)]%
+        {trojanedcm2023}
+\bibfield{author}{\bibinfo{person}{Aftab Hussain},
+  \bibinfo{person}{Md~Rafiqul~Islam Rabin}, {and}
+  \bibinfo{person}{Mohammad~Amin Alipour}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{TrojanedCM}: A Repository of Trojaned Large Language
+  Models of Code}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2311.14850}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2311.14850}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Hussain et~al\mbox{.}(2024)]%
+        {hussain2024trojan}
+\bibfield{author}{\bibinfo{person}{Aftab Hussain},
+  \bibinfo{person}{Md~Rafiqul~Islam Rabin}, {and}
+  \bibinfo{person}{Mohammad~Amin Alipour}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{On Trojan Signatures in Large Language Models of
+  Code}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2402.16896}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2402.16896}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint, ICLR 2024 Workshop}.
+
+
+\bibitem[Improta(2023)]%
+        {unrepairing2024}
+\bibfield{author}{\bibinfo{person}{Cristina Improta}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Poisoning Programs by Un-Repairing Code: Security
+  Concerns of {AI}-Generated Code}. In \bibinfo{booktitle}{\emph{2023 IEEE
+  International Symposium on Software Reliability Engineering Workshops
+  (ISSREW)}}. \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ,
+  USA}, \bibinfo{pages}{128--131}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ISSREW60843.2023.00060}
+\showDOI{\tempurl}
+
+
+\bibitem[Iyer et~al\mbox{.}(2018)]%
+        {iyer2018concode}
+\bibfield{author}{\bibinfo{person}{Srinivasan Iyer}, \bibinfo{person}{Ioannis
+  Konstas}, \bibinfo{person}{Alvin Cheung}, {and} \bibinfo{person}{Luke
+  Zettlemoyer}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Mapping Language to Code in Programmatic Context}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 2018 Conference on Empirical
+  Methods in Natural Language Processing (EMNLP)}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{1643--1652}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/d18-1192}
+\showDOI{\tempurl}
+
+
+\bibitem[Jain et~al\mbox{.}(2021)]%
+        {jain2021contracode}
+\bibfield{author}{\bibinfo{person}{Paras Jain}, \bibinfo{person}{Ajay Jain},
+  \bibinfo{person}{Tianjun Zhang}, \bibinfo{person}{Pieter Abbeel},
+  \bibinfo{person}{Joseph Gonzalez}, {and} \bibinfo{person}{Ion Stoica}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Contrastive Code Representation Learning}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 Conference on Empirical
+  Methods in Natural Language Processing (EMNLP)}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{5954--5971}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2021.emnlp-main.482}
+\showDOI{\tempurl}
+
+
+\bibitem[Jenko et~al\mbox{.}(2025)]%
+        {jenko2025insec}
+\bibfield{author}{\bibinfo{person}{Slobodan Jenko}, \bibinfo{person}{Niels
+  M{\"u}ndler}, \bibinfo{person}{Jingxuan He}, \bibinfo{person}{Mark Vero},
+  {and} \bibinfo{person}{Martin Vechev}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Black-Box Adversarial Attacks on {LLM}-Based Code
+  Completion}. In \bibinfo{booktitle}{\emph{Proceedings of the 42nd
+  International Conference on Machine Learning}}
+  \emph{(\bibinfo{series}{Proceedings of Machine Learning Research},
+  Vol.~\bibinfo{volume}{267})}. \bibinfo{publisher}{PMLR},
+  \bibinfo{address}{Brookline, MA, USA}, \bibinfo{pages}{27050--27069}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v267/jenko25a.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Jha and Reddy(2023)]%
+        {jha2023codeattack}
+\bibfield{author}{\bibinfo{person}{Akshita Jha} {and}
+  \bibinfo{person}{Chandan~K. Reddy}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{CodeAttack}: Code-Based Adversarial Attacks for
+  Pre-trained Programming Language Models}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the AAAI Conference on
+  Artificial Intelligence}} \bibinfo{volume}{37}, \bibinfo{number}{12}
+  (\bibinfo{year}{2023}), \bibinfo{pages}{14892--14900}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1609/aaai.v37i12.26739}
+\showDOI{\tempurl}
+
+
+\bibitem[Jia et~al\mbox{.}(2023)]%
+        {jia2023clawsat}
+\bibfield{author}{\bibinfo{person}{Jinghan Jia}, \bibinfo{person}{Shashank
+  Srikant}, \bibinfo{person}{Tamara Mitrovska}, \bibinfo{person}{Chuang Gan},
+  \bibinfo{person}{Shiyu Chang}, \bibinfo{person}{Sijia Liu}, {and}
+  \bibinfo{person}{Una-May O’Reilly}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{CLAWSAT}: Towards Both Robust and Accurate Code
+  Models}. In \bibinfo{booktitle}{\emph{2023 IEEE International Conference on
+  Software Analysis, Evolution and Reengineering (SANER)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{212--223}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/saner56733.2023.00029}
+\showDOI{\tempurl}
+
+
+\bibitem[Jia et~al\mbox{.}(2022)]%
+        {funcfooler2022}
+\bibfield{author}{\bibinfo{person}{Lichen Jia}, \bibinfo{person}{Bowen Tang},
+  \bibinfo{person}{Chenggang Wu}, \bibinfo{person}{Zhe Wang},
+  \bibinfo{person}{Zihan Jiang}, \bibinfo{person}{Yuanming Lai},
+  \bibinfo{person}{Yan Kang}, \bibinfo{person}{Ning Liu}, {and}
+  \bibinfo{person}{Jingfeng Zhang}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{{FuncFooler}: A Practical Black-Box Attack Against
+  Learning-Based Binary Code Similarity Detection Methods}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2208.14191}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2208.14191}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Jia et~al\mbox{.}(2026)]%
+        {skillject2026}
+\bibfield{author}{\bibinfo{person}{Xiaojun Jia}, \bibinfo{person}{Jie Liao},
+  \bibinfo{person}{Simeng Qin}, \bibinfo{person}{Jindong Gu},
+  \bibinfo{person}{Wenqi Ren}, \bibinfo{person}{Xiaochun Cao},
+  \bibinfo{person}{Yang Liu}, {and} \bibinfo{person}{Philip H.~S. Torr}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{SkillJect}: Effectively Automating Skill-Based
+  Prompt Injection for Skill-Enabled Agents}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2602.14211}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.2602.14211}
+\showDOI{\tempurl}
+\showeprint[arxiv]{2602.14211}~[cs.CR]
+\newblock
+\shownote{Version 3, 16 June 2026}.
+
+
+\bibitem[Jiang et~al\mbox{.}(2025)]%
+        {advprompt2025mia}
+\bibfield{author}{\bibinfo{person}{Yuan Jiang}, \bibinfo{person}{Zehao Li},
+  \bibinfo{person}{Shan Huang}, \bibinfo{person}{Christoph Treude},
+  \bibinfo{person}{Xiaohong Su}, {and} \bibinfo{person}{Tiantian Wang}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Effective Code Membership Inference for Code
+  Completion Models via Adversarial Prompts}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 40th IEEE/ACM International
+  Conference on Automated Software Engineering (ASE)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{2312--2324}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ASE63991.2025.00191}
+\showDOI{\tempurl}
+
+
+\bibitem[Jin et~al\mbox{.}(2024)]%
+        {saber2024}
+\bibfield{author}{\bibinfo{person}{Naizhu Jin}, \bibinfo{person}{Zhong Li},
+  \bibinfo{person}{Yinggang Guo}, \bibinfo{person}{Chao Su},
+  \bibinfo{person}{Tian Zhang}, {and} \bibinfo{person}{Qingkai Zeng}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{SABER}: Model-agnostic Backdoor Attack on
+  Chain-of-Thought in Neural Code Generation}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2412.05829}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2412.05829}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Katzy et~al\mbox{.}(2024)]%
+        {katzy2024license}
+\bibfield{author}{\bibinfo{person}{Jonathan Katzy},
+  \bibinfo{person}{R{\u{a}}zvan Popescu}, \bibinfo{person}{Arie van Deursen},
+  {and} \bibinfo{person}{Maliheh Izadi}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{An Exploratory Investigation into Code License
+  Infringements in Large Language Model Training Datasets}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 1st IEEE/ACM International
+  Conference on AI Foundation Models and Software Engineering (FORGE)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{74--85}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3650105.3652298}
+\showDOI{\tempurl}
+
+
+\bibitem[Khoury et~al\mbox{.}(2023)]%
+        {khoury2023secure}
+\bibfield{author}{\bibinfo{person}{Rapha{\"e}l Khoury},
+  \bibinfo{person}{Anderson~R. Avila}, \bibinfo{person}{Jacob Brunelle}, {and}
+  \bibinfo{person}{Baba~Mamadou Camara}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{How Secure is Code Generated by {ChatGPT}?}. In
+  \bibinfo{booktitle}{\emph{2023 IEEE International Conference on Systems, Man,
+  and Cybernetics (SMC)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{2445--2451}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/smc53992.2023.10394237}
+\showDOI{\tempurl}
+
+
+\bibitem[Lai et~al\mbox{.}(2023)]%
+        {lai2023ds1000}
+\bibfield{author}{\bibinfo{person}{Yuhang Lai}, \bibinfo{person}{Chengxi Li},
+  \bibinfo{person}{Yiming Wang}, \bibinfo{person}{Tianyi Zhang},
+  \bibinfo{person}{Ruiqi Zhong}, \bibinfo{person}{Luke Zettlemoyer},
+  \bibinfo{person}{Wen-Tau Yih}, \bibinfo{person}{Daniel Fried},
+  \bibinfo{person}{Sida Wang}, {and} \bibinfo{person}{Tao Yu}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{DS-1000}: A Natural and Reliable Benchmark for
+  Data Science Code Generation}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 40th International Conference on Machine Learning}}
+  \emph{(\bibinfo{series}{Proceedings of Machine Learning Research},
+  Vol.~\bibinfo{volume}{202})}. \bibinfo{publisher}{PMLR},
+  \bibinfo{address}{Brookline, MA, USA}, \bibinfo{pages}{18319--18345}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v202/lai23b.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Lam et~al\mbox{.}(2025)]%
+        {codecrash2025}
+\bibfield{author}{\bibinfo{person}{Man~Ho Lam}, \bibinfo{person}{Chaozheng
+  Wang}, \bibinfo{person}{Jen-tse Huang}, {and} \bibinfo{person}{Michael~R.
+  Lyu}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{CodeCrash}: Exposing {LLM} Fragility to Misleading
+  Natural Language in Code Reasoning}. In \bibinfo{booktitle}{\emph{Advances in
+  Neural Information Processing Systems (NeurIPS)}}. \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{address}{Red Hook, NY, USA},
+  \bibinfo{pages}{133886--133932}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.52202/085713-4029}
+\showDOI{\tempurl}
+
+
+\bibitem[Le-Cong et~al\mbox{.}(2025)]%
+        {naturalnpr2025}
+\bibfield{author}{\bibinfo{person}{Thanh Le-Cong}, \bibinfo{person}{Dat
+  Nguyen}, \bibinfo{person}{Bach Le}, {and} \bibinfo{person}{Toby Murray}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Towards Reliable Evaluation of Neural Program
+  Repair with Natural Robustness Testing}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology (TOSEM)}} \bibinfo{volume}{34}, \bibinfo{number}{7}, Article
+  \bibinfo{articleno}{213} (\bibinfo{year}{2025}),
+  \bibinfo{numpages}{44}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3716167}
+\showDOI{\tempurl}
+
+
+\bibitem[Lee et~al\mbox{.}(2024)]%
+        {lee2024sweet}
+\bibfield{author}{\bibinfo{person}{Taehyun Lee}, \bibinfo{person}{Seokhee
+  Hong}, \bibinfo{person}{Jaewoo Ahn}, \bibinfo{person}{Ilgee Hong},
+  \bibinfo{person}{Hwaran Lee}, \bibinfo{person}{Sangdoo Yun},
+  \bibinfo{person}{Jamin Shin}, {and} \bibinfo{person}{Gunhee Kim}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Who Wrote this Code? Watermarking for Code
+  Generation}. In \bibinfo{booktitle}{\emph{Proceedings of the 62nd Annual
+  Meeting of the Association for Computational Linguistics (ACL)}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{4890--4911}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2024.acl-long.268}
+\showDOI{\tempurl}
+
+
+\bibitem[Li et~al\mbox{.}(2026)]%
+        {li2024acw}
+\bibfield{author}{\bibinfo{person}{Boquan Li}, \bibinfo{person}{Zirui Fu},
+  \bibinfo{person}{Mengdi Zhang}, \bibinfo{person}{Peixin Zhang},
+  \bibinfo{person}{Jun Sun}, {and} \bibinfo{person}{Xingmei Wang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Efficient and Universal Watermarking for
+  {LLM}-Generated Code Detection}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{1--16}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2026.3710556}
+\showDOI{\tempurl}
+\newblock
+\shownote{Early access}.
+
+
+\bibitem[Li et~al\mbox{.}(2025)]%
+        {malwarebench2025}
+\bibfield{author}{\bibinfo{person}{Haoyang Li}, \bibinfo{person}{Huan Gao},
+  \bibinfo{person}{Zhiyuan Zhao}, \bibinfo{person}{Zhiyu Lin},
+  \bibinfo{person}{Junyu Gao}, {and} \bibinfo{person}{Xuelong Li}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{LLMs} Caught in the Crossfire: Malware Requests
+  and Jailbreak Challenges}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  63rd Annual Meeting of the Association for Computational Linguistics (ACL)}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{27833--27848}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2025.acl-long.1350}
+\showDOI{\tempurl}
+
+
+\bibitem[Li et~al\mbox{.}(2024a)]%
+        {li2024codepoisoner}
+\bibfield{author}{\bibinfo{person}{Jia Li}, \bibinfo{person}{Zhuo Li},
+  \bibinfo{person}{Huangzhao Zhang}, \bibinfo{person}{Ge Li},
+  \bibinfo{person}{Zhi Jin}, \bibinfo{person}{Xing Hu}, {and}
+  \bibinfo{person}{Xin Xia}.} \bibinfo{year}{2024}\natexlab{a}.
+\newblock \showarticletitle{Poison Attack and Poison Detection on Deep Source
+  Code Processing Models}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology (TOSEM)}} \bibinfo{volume}{33}, \bibinfo{number}{3}, Article
+  \bibinfo{articleno}{62} (\bibinfo{year}{2024}), \bibinfo{numpages}{31}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3630008}
+\showDOI{\tempurl}
+
+
+\bibitem[Li et~al\mbox{.}(2024b)]%
+        {jiang2024advpro}
+\bibfield{author}{\bibinfo{person}{Xueyang Li}, \bibinfo{person}{Guozhu Meng},
+  \bibinfo{person}{Shangqing Liu}, \bibinfo{person}{Lu Xiang},
+  \bibinfo{person}{Kun Sun}, \bibinfo{person}{Kai Chen}, \bibinfo{person}{Xiapu
+  Luo}, {and} \bibinfo{person}{Yang Liu}.} \bibinfo{year}{2024}\natexlab{b}.
+\newblock \showarticletitle{Attribution-guided Adversarial Code Prompt
+  Generation for Code Completion Models}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 39th IEEE/ACM International
+  Conference on Automated Software Engineering (ASE)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1460--1471}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3691620.3695517}
+\showDOI{\tempurl}
+
+
+\bibitem[Li et~al\mbox{.}(2022b)]%
+        {li2022codecontests}
+\bibfield{author}{\bibinfo{person}{Yujia Li}, \bibinfo{person}{David Choi},
+  \bibinfo{person}{Junyoung Chung}, \bibinfo{person}{Nate Kushman},
+  \bibinfo{person}{Julian Schrittwieser}, \bibinfo{person}{Rémi Leblond},
+  \bibinfo{person}{Tom Eccles}, \bibinfo{person}{James Keeling},
+  \bibinfo{person}{Felix Gimeno}, \bibinfo{person}{Agustin~Dal Lago},
+  \bibinfo{person}{Thomas Hubert}, \bibinfo{person}{Peter Choy},
+  \bibinfo{person}{Cyprien de Masson~d’Autume}, \bibinfo{person}{Igor
+  Babuschkin}, \bibinfo{person}{Xinyun Chen}, \bibinfo{person}{Po-Sen Huang},
+  \bibinfo{person}{Johannes Welbl}, \bibinfo{person}{Sven Gowal},
+  \bibinfo{person}{Alexey Cherepanov}, \bibinfo{person}{James Molloy},
+  \bibinfo{person}{Daniel~J. Mankowitz}, \bibinfo{person}{Esme~Sutherland
+  Robson}, \bibinfo{person}{Pushmeet Kohli}, \bibinfo{person}{Nando de
+  Freitas}, \bibinfo{person}{Koray Kavukcuoglu}, {and} \bibinfo{person}{Oriol
+  Vinyals}.} \bibinfo{year}{2022}\natexlab{b}.
+\newblock \showarticletitle{Competition-Level Code Generation with
+  {AlphaCode}}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{378},
+  \bibinfo{number}{6624} (\bibinfo{year}{2022}), \bibinfo{pages}{1092--1097}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1126/science.abq1158}
+\showDOI{\tempurl}
+
+
+\bibitem[Li et~al\mbox{.}(2023)]%
+        {li2023multitarget}
+\bibfield{author}{\bibinfo{person}{Yanzhou Li}, \bibinfo{person}{Shangqing
+  Liu}, \bibinfo{person}{Kangjie Chen}, \bibinfo{person}{Xiaofei Xie},
+  \bibinfo{person}{Tianwei Zhang}, {and} \bibinfo{person}{Yang Liu}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Multi-target Backdoor Attacks for Code Pre-trained
+  Models}. In \bibinfo{booktitle}{\emph{Proceedings of the 61st Annual Meeting
+  of the Association for Computational Linguistics (ACL)}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{7236--7254}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2023.acl-long.399}
+\showDOI{\tempurl}
+
+
+\bibitem[Li et~al\mbox{.}(2022a)]%
+        {li2022ropgen}
+\bibfield{author}{\bibinfo{person}{Zhen Li}, \bibinfo{person}{Qian~(Guenevere)
+  Chen}, \bibinfo{person}{Chen Chen}, \bibinfo{person}{Yayi Zou}, {and}
+  \bibinfo{person}{Shouhuai Xu}.} \bibinfo{year}{2022}\natexlab{a}.
+\newblock \showarticletitle{{RoPGen}: Towards Robust Code Authorship
+  Attribution via Automatic Coding Style Transformation}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 44th International Conference on
+  Software Engineering (ICSE)}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1906--1918}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3510003.3510181}
+\showDOI{\tempurl}
+
+
+\bibitem[Lin et~al\mbox{.}(2026)]%
+        {lin2025racg}
+\bibfield{author}{\bibinfo{person}{Bo Lin}, \bibinfo{person}{Shangwen Wang},
+  \bibinfo{person}{Liqian Chen}, {and} \bibinfo{person}{Xiaoguang Mao}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Exploring the Security Threats of Knowledge Base
+  Poisoning in Retrieval-Augmented Code Generation}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{52}, \bibinfo{number}{8} (\bibinfo{year}{2026}),
+  \bibinfo{pages}{2250--2267}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/tse.2026.3689066}
+\showDOI{\tempurl}
+
+
+\bibitem[Lin et~al\mbox{.}(2025)]%
+        {toxicsql2025}
+\bibfield{author}{\bibinfo{person}{Meiyu Lin}, \bibinfo{person}{Haichuan
+  Zhang}, \bibinfo{person}{Jiale Lao}, \bibinfo{person}{Renyuan Li},
+  \bibinfo{person}{Yuanchun Zhou}, \bibinfo{person}{Carl Yang},
+  \bibinfo{person}{Yang Cao}, {and} \bibinfo{person}{Mingjie Tang}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Are Your {LLM}-based Text-to-{SQL} Models Secure?
+  Exploring {SQL} Injection via Backdoor Attacks}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Management of Data
+  (PACMMOD)}} \bibinfo{volume}{3}, \bibinfo{number}{6} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{1--27}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3769762}
+\showDOI{\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2024)]%
+        {liu2024eatvul}
+\bibfield{author}{\bibinfo{person}{Shigang Liu}, \bibinfo{person}{Di Cao},
+  \bibinfo{person}{Junae Kim}, \bibinfo{person}{Tamas Abraham},
+  \bibinfo{person}{Paul Montague}, \bibinfo{person}{Seyit Camtepe},
+  \bibinfo{person}{Jun Zhang}, {and} \bibinfo{person}{Yang Xiang}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{EaTVul}: ChatGPT-based Evasion Attack Against
+  Software Vulnerability Detection}. In \bibinfo{booktitle}{\emph{33rd USENIX
+  Security Symposium (USENIX Security 24)}}. \bibinfo{publisher}{USENIX
+  Association}, \bibinfo{address}{Berkeley, CA, USA},
+  \bibinfo{pages}{7357--7374}.
+\newblock
+\showISBNx{978-1-939133-44-1}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity24/presentation/liu-shigang}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2023)]%
+        {liu2023contrabert}
+\bibfield{author}{\bibinfo{person}{Shangqing Liu}, \bibinfo{person}{Bozhi Wu},
+  \bibinfo{person}{Xiaofei Xie}, \bibinfo{person}{Guozhu Meng}, {and}
+  \bibinfo{person}{Yang Liu}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{ContraBERT}: Enhancing Code Pre-trained Models via
+  Contrastive Learning}. In \bibinfo{booktitle}{\emph{Proceedings of the 45th
+  International Conference on Software Engineering (ICSE)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{2476--2487}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/icse48619.2023.00207}
+\showDOI{\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2025)]%
+        {liu2025yourai}
+\bibfield{author}{\bibinfo{person}{Yue Liu}, \bibinfo{person}{Yanjie Zhao},
+  \bibinfo{person}{Yunbo Lyu}, \bibinfo{person}{Ting Zhang},
+  \bibinfo{person}{Haoyu Wang}, {and} \bibinfo{person}{David Lo}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{``Your {AI}, My Shell'': Demystifying Prompt
+  Injection Attacks on Agentic {AI} Coding Editors}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2509.22040}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2509.22040}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2026a)]%
+        {privcode2026}
+\bibfield{author}{\bibinfo{person}{Zheng Liu}, \bibinfo{person}{Chen Gong},
+  \bibinfo{person}{Terry~Yue Zhuo}, \bibinfo{person}{Kecen Li},
+  \bibinfo{person}{Weichen Yu}, \bibinfo{person}{Matt Fredrikson}, {and}
+  \bibinfo{person}{Tianhao Wang}.} \bibinfo{year}{2026}\natexlab{a}.
+\newblock \showarticletitle{{PrivCode}: When Code Generation Meets Differential
+  Privacy}. In \bibinfo{booktitle}{\emph{Proceedings of the 2026 Network and
+  Distributed System Security Symposium}}. \bibinfo{publisher}{Internet
+  Society}, \bibinfo{address}{Reston, VA, USA}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.14722/ndss.2026.240936}
+\showDOI{\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2026b)]%
+        {privcodeplus2026}
+\bibfield{author}{\bibinfo{person}{Zheng Liu}, \bibinfo{person}{Chen Gong},
+  \bibinfo{person}{Terry~Yue Zhuo}, \bibinfo{person}{Zhou Yang},
+  \bibinfo{person}{Kecen Li}, \bibinfo{person}{Wenlong Meng},
+  \bibinfo{person}{Xinwen Hou}, \bibinfo{person}{Yu Liu}, {and}
+  \bibinfo{person}{Xiaochen Li}.} \bibinfo{year}{2026}\natexlab{b}.
+\newblock \showarticletitle{{PrivCode++}: Latent-Conditioned Differentially
+  Private Code Generation for Comprehensive Guarantees}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 43rd International Conference on
+  Machine Learning}}. \bibinfo{publisher}{PMLR}, \bibinfo{address}{Brookline,
+  MA, USA}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.2606.09145}
+\showDOI{\tempurl}
+\showeprint[arxiv]{2606.09145}~[cs.CR]
+\newblock
+\shownote{Accepted; arXiv:2606.09145}.
+
+
+\bibitem[Lu et~al\mbox{.}(2021)]%
+        {lu2021codexglue}
+\bibfield{author}{\bibinfo{person}{Shuai Lu}, \bibinfo{person}{Daya Guo},
+  \bibinfo{person}{Shuo Ren}, \bibinfo{person}{Junjie Huang},
+  \bibinfo{person}{Alexey Svyatkovskiy}, \bibinfo{person}{Ambrosio Blanco},
+  \bibinfo{person}{Colin Clement}, \bibinfo{person}{Dawn Drain},
+  \bibinfo{person}{Daxin Jiang}, \bibinfo{person}{Duyu Tang},
+  \bibinfo{person}{Ge Li}, \bibinfo{person}{Lidong Zhou},
+  \bibinfo{person}{Linjun Shou}, \bibinfo{person}{Long Zhou},
+  \bibinfo{person}{Michele Tufano}, \bibinfo{person}{Ming Gong},
+  \bibinfo{person}{Ming Zhou}, \bibinfo{person}{Nan Duan},
+  \bibinfo{person}{Neel Sundaresan}, \bibinfo{person}{Shao~Kun Deng},
+  \bibinfo{person}{Shengyu Fu}, {and} \bibinfo{person}{Shujie Liu}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{CodeXGLUE}: A Machine Learning Benchmark Dataset
+  for Code Understanding and Generation}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Neural Information Processing
+  Systems Track on Datasets and Benchmarks}}. \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{address}{Red Hook, NY, USA}.
+\newblock
+\urldef\tempurl%
+\url{https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c16a5320fa475530d9583c34fd356ef5-Abstract-round1.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Maloyan and Namiot(2026)]%
+        {maloyan2026promptinjection}
+\bibfield{author}{\bibinfo{person}{Narek Maloyan} {and} \bibinfo{person}{Dmitry
+  Namiot}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Prompt Injection Attacks on Agentic Coding
+  Assistants: A Systematic Analysis of Vulnerabilities in Skills, Tools, and
+  Protocol Ecosystems}.
+\newblock \bibinfo{journal}{\emph{International Journal of Open Information
+  Technologies}} \bibinfo{volume}{14}, \bibinfo{number}{2}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{1--10}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.2601.17548}
+\showDOI{\tempurl}
+\showeprint[arxiv]{2601.17548}~[cs.CR]
+
+
+\bibitem[Mankali et~al\mbox{.}(2025)]%
+        {rtlbreaker2024}
+\bibfield{author}{\bibinfo{person}{Lakshmi~Likhitha Mankali},
+  \bibinfo{person}{Jitendra Bhandari}, \bibinfo{person}{Manaar Alam},
+  \bibinfo{person}{Ramesh Karri}, \bibinfo{person}{Michail Maniatakos},
+  \bibinfo{person}{Ozgur Sinanoglu}, {and} \bibinfo{person}{Johann Knechtel}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{RTL-Breaker}: Assessing the Security of {LLMs}
+  Against Backdoor Attacks on {HDL} Code Generation}. In
+  \bibinfo{booktitle}{\emph{Design, Automation \& Test in Europe Conference
+  (DATE)}}. \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{1--7}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.23919/DATE64628.2025.10993260}
+\showDOI{\tempurl}
+
+
+\bibitem[{Meta PurpleLlama}(2024)]%
+        {codeshield2024}
+\bibfield{author}{\bibinfo{person}{{Meta PurpleLlama}}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{CodeShield}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://github.com/meta-llama/PurpleLlama/tree/main/CodeShield}}.
+\newblock
+\newblock
+\shownote{Software tool for inference-time filtering of insecure LLM-generated
+  code, part of Meta's PurpleLlama project}.
+
+
+\bibitem[Mou et~al\mbox{.}(2016)]%
+        {mou2016poj}
+\bibfield{author}{\bibinfo{person}{Lili Mou}, \bibinfo{person}{Ge Li},
+  \bibinfo{person}{Lu Zhang}, \bibinfo{person}{Tao Wang}, {and}
+  \bibinfo{person}{Zhi Jin}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Convolutional Neural Networks over Tree Structures
+  for Programming Language Processing}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the AAAI Conference on
+  Artificial Intelligence}} \bibinfo{volume}{30}, \bibinfo{number}{1}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{1287--1293}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1609/aaai.v30i1.10139}
+\showDOI{\tempurl}
+
+
+\bibitem[Mousavi et~al\mbox{.}(2024)]%
+        {mousavi2024investigation}
+\bibfield{author}{\bibinfo{person}{Zahra Mousavi}, \bibinfo{person}{Chadni
+  Islam}, \bibinfo{person}{Kristen Moore}, \bibinfo{person}{Alsharif Abuadbba},
+  {and} \bibinfo{person}{M.~Ali Babar}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{An Investigation into Misuse of {Java} Security
+  APIs by Large Language Models}. In \bibinfo{booktitle}{\emph{ACM Asia
+  Conference on Computer and Communications Security (ASIACCS)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1299--1315}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3634737.3661134}
+\showDOI{\tempurl}
+
+
+\bibitem[Mu et~al\mbox{.}(2024)]%
+        {mu2024codepurify}
+\bibfield{author}{\bibinfo{person}{Fangwen Mu}, \bibinfo{person}{Junjie Wang},
+  \bibinfo{person}{Zhuohao Yu}, \bibinfo{person}{Lin Shi},
+  \bibinfo{person}{Song Wang}, \bibinfo{person}{Mingyang Li}, {and}
+  \bibinfo{person}{Qing Wang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{CodePurify}: Defend Backdoor Attacks on Neural Code
+  Models via Entropy-based Purification}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2410.20136}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2410.20136}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Mu et~al\mbox{.}(2025)]%
+        {mu2025epshield}
+\bibfield{author}{\bibinfo{person}{Wenhan Mu}, \bibinfo{person}{Ling Xu},
+  \bibinfo{person}{Shuren Pei}, \bibinfo{person}{Le Mi}, {and}
+  \bibinfo{person}{Huichi Zhou}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Evaluate-and-Purify: Fortifying Code Language
+  Models Against Adversarial Attacks Using {LLM}-as-a-Judge}. In
+  \bibinfo{booktitle}{\emph{Advanced Intelligent Computing Technology and
+  Applications}}. \bibinfo{publisher}{Springer}, \bibinfo{address}{Cham,
+  Switzerland}, \bibinfo{pages}{369--379}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-981-96-9994-0_31}
+\showDOI{\tempurl}
+
+
+\bibitem[Na et~al\mbox{.}(2023)]%
+        {na2023dip}
+\bibfield{author}{\bibinfo{person}{CheolWon Na}, \bibinfo{person}{YunSeok
+  Choi}, {and} \bibinfo{person}{Jee-Hyong Lee}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{DIP}: Dead code Insertion based Black-box Attack
+  for Programming Language Model}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 61st Annual Meeting of the Association for Computational Linguistics
+  (ACL)}}. \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{7777--7791}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2023.acl-long.430}
+\showDOI{\tempurl}
+
+
+\bibitem[Nazzal et~al\mbox{.}(2024)]%
+        {promsec2024}
+\bibfield{author}{\bibinfo{person}{Mahmoud Nazzal}, \bibinfo{person}{Issa
+  Khalil}, \bibinfo{person}{Abdallah Khreishah}, {and} \bibinfo{person}{NhatHai
+  Phan}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{PromSec}: Prompt Optimization for Secure
+  Generation of Functional Source Code with Large Language Models}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2024 ACM SIGSAC Conference on
+  Computer and Communications Security (CCS)}}. \bibinfo{publisher}{Association
+  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{2266--2280}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3658644.3690298}
+\showDOI{\tempurl}
+
+
+\bibitem[Negri-Ribalta et~al\mbox{.}(2024)]%
+        {negriribalta2024securegeneration}
+\bibfield{author}{\bibinfo{person}{Claudia Negri-Ribalta},
+  \bibinfo{person}{R{\'e}mi Geraud-Stewart}, \bibinfo{person}{Anastasia
+  Sergeeva}, {and} \bibinfo{person}{Gabriele Lenzini}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{A Systematic Literature Review on the Impact of
+  {AI} Models on the Security of Code Generation}.
+\newblock \bibinfo{journal}{\emph{Frontiers in Big Data}}  \bibinfo{volume}{7}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{1386720}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.3389/fdata.2024.1386720}
+\showDOI{\tempurl}
+
+
+\bibitem[Nguyen et~al\mbox{.}(2024)]%
+        {nguyen2024gptsniffer}
+\bibfield{author}{\bibinfo{person}{Phuong~T. Nguyen}, \bibinfo{person}{Juri
+  Di~Rocco}, \bibinfo{person}{Claudio Di~Sipio}, \bibinfo{person}{Riccardo
+  Rubei}, \bibinfo{person}{Davide Di~Ruscio}, {and}
+  \bibinfo{person}{Massimiliano Di~Penta}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{GPTSniffer}: A {CodeBERT}-based Classifier to
+  Detect Source Code Written by {ChatGPT}}.
+\newblock \bibinfo{journal}{\emph{Journal of Systems and Software}}
+  \bibinfo{volume}{214} (\bibinfo{year}{2024}), \bibinfo{pages}{112059}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.jss.2024.112059}
+\showDOI{\tempurl}
+
+
+\bibitem[Nguyen et~al\mbox{.}(2023)]%
+        {nguyen2023graphcodeattack}
+\bibfield{author}{\bibinfo{person}{Thanh-Dat Nguyen}, \bibinfo{person}{Zhou
+  Yang}, \bibinfo{person}{Xuan Bach~D. Le}, \bibinfo{person}{Patanamon
+  Thongtanunam}, {and} \bibinfo{person}{David Lo}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Adversarial Attacks on Code Models with
+  Discriminative Graph Patterns}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2308.11161}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2308.11161}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Nie et~al\mbox{.}(2025)]%
+        {seccodeplt2024}
+\bibfield{author}{\bibinfo{person}{Yuzhou Nie}, \bibinfo{person}{Zhun Wang},
+  \bibinfo{person}{Yu Yang}, \bibinfo{person}{Ruizhe Jiang},
+  \bibinfo{person}{Yuheng Tang}, \bibinfo{person}{Xander Davies},
+  \bibinfo{person}{Yarin Gal}, \bibinfo{person}{Bo Li}, \bibinfo{person}{Wenbo
+  Guo}, {and} \bibinfo{person}{Dawn Song}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{SeCodePLT}: A Unified Benchmark for Evaluating the
+  Security Risks and Capabilities of Code {GenAI}}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing Systems
+  (NeurIPS), Datasets and Benchmarks Track}}. \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{address}{Red Hook, NY, USA},
+  \bibinfo{pages}{14835--14877}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.52202/085713-0447}
+\showDOI{\tempurl}
+
+
+\bibitem[Nikitopoulos et~al\mbox{.}(2021)]%
+        {crossvul2021}
+\bibfield{author}{\bibinfo{person}{Georgios Nikitopoulos},
+  \bibinfo{person}{Konstantina Dritsa}, \bibinfo{person}{Panos Louridas}, {and}
+  \bibinfo{person}{Dimitris Mitropoulos}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{CrossVul}: A Cross-Language Vulnerability Dataset
+  with Commit Data}. In \bibinfo{booktitle}{\emph{Proceedings of the 29th ACM
+  Joint European Software Engineering Conference and Symposium on the
+  Foundations of Software Engineering (ESEC/FSE)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1565--1569}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3468264.3473122}
+\showDOI{\tempurl}
+
+
+\bibitem[Niu et~al\mbox{.}(2023)]%
+        {niu2023codexleaks}
+\bibfield{author}{\bibinfo{person}{Liang Niu}, \bibinfo{person}{Shujaat Mirza},
+  \bibinfo{person}{Zayd Maradni}, {and} \bibinfo{person}{Christina
+  P{\"o}pper}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{CodexLeaks}: Privacy Leaks from Code Generation
+  Language Models in {GitHub} {Copilot}}. In \bibinfo{booktitle}{\emph{32nd
+  USENIX Security Symposium (USENIX Security 23)}}. \bibinfo{publisher}{USENIX
+  Association}, \bibinfo{address}{Berkeley, CA, USA},
+  \bibinfo{pages}{2133--2150}.
+\newblock
+\showISBNx{978-1-939133-37-3}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity23/presentation/niu}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ouyang et~al\mbox{.}(2025)]%
+        {codejailbreaker2025}
+\bibfield{author}{\bibinfo{person}{Sheng Ouyang}, \bibinfo{person}{Yihao Qin},
+  \bibinfo{person}{Bo Lin}, \bibinfo{person}{Liqian Chen},
+  \bibinfo{person}{Xiaoguang Mao}, {and} \bibinfo{person}{Shangwen Wang}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Smoke and Mirrors: Jailbreaking {LLM}-based Code
+  Generation via Implicit Malicious Prompts}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2503.17953}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2503.17953}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Pearce et~al\mbox{.}(2022)]%
+        {pearce2022asleep}
+\bibfield{author}{\bibinfo{person}{Hammond Pearce}, \bibinfo{person}{Baleegh
+  Ahmad}, \bibinfo{person}{Benjamin Tan}, \bibinfo{person}{Brendan
+  Dolan-Gavitt}, {and} \bibinfo{person}{Ramesh Karri}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Asleep at the Keyboard? Assessing the Security of
+  {GitHub} {Copilot}'s Code Contributions}. In \bibinfo{booktitle}{\emph{2022
+  IEEE Symposium on Security and Privacy (SP)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{754--768}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/sp46214.2022.9833571}
+\showDOI{\tempurl}
+
+
+\bibitem[Peng et~al\mbox{.}(2025)]%
+        {cweval2025}
+\bibfield{author}{\bibinfo{person}{Jinjun Peng}, \bibinfo{person}{Leyi Cui},
+  \bibinfo{person}{Kele Huang}, \bibinfo{person}{Junfeng Yang}, {and}
+  \bibinfo{person}{Baishakhi Ray}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{CWEval}: Outcome-driven Evaluation on
+  Functionality and Security of LLM Code Generation}. In
+  \bibinfo{booktitle}{\emph{International Workshop on Large Language Models for
+  Code (LLM4Code) at ICSE}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{33--40}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/llm4code66737.2025.00009}
+\showDOI{\tempurl}
+
+
+\bibitem[Perry et~al\mbox{.}(2023)]%
+        {perry2023users}
+\bibfield{author}{\bibinfo{person}{Neil Perry}, \bibinfo{person}{Megha
+  Srivastava}, \bibinfo{person}{Deepak Kumar}, {and} \bibinfo{person}{Dan
+  Boneh}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Do Users Write More Insecure Code with AI
+  Assistants?}. In \bibinfo{booktitle}{\emph{Proceedings of the 2023 ACM SIGSAC
+  Conference on Computer and Communications Security (CCS)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{2785--2799}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3576915.3623157}
+\showDOI{\tempurl}
+
+
+\bibitem[Puri et~al\mbox{.}(2021)]%
+        {puri2021codenet}
+\bibfield{author}{\bibinfo{person}{Ruchir Puri}, \bibinfo{person}{David~S.
+  Kung}, \bibinfo{person}{Geert Janssen}, \bibinfo{person}{Wei Zhang},
+  \bibinfo{person}{Giacomo Domeniconi}, \bibinfo{person}{Vladimir Zolotov},
+  \bibinfo{person}{Julian Dolby}, \bibinfo{person}{Jie Chen},
+  \bibinfo{person}{Mihir Choudhury}, \bibinfo{person}{Lindsey Decker},
+  \bibinfo{person}{Veronika Thost}, \bibinfo{person}{Luca Buratti},
+  \bibinfo{person}{Saurabh Pujar}, \bibinfo{person}{Shyam Ramji},
+  \bibinfo{person}{Ulrich Finkler}, \bibinfo{person}{Susan Malaika}, {and}
+  \bibinfo{person}{Frederick Reiss}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{CodeNet}: A Large-Scale AI for Code Dataset for
+  Learning a Diversity of Coding Tasks}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Neural Information Processing
+  Systems Track on Datasets and Benchmarks}}. \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{address}{Red Hook, NY, USA}.
+\newblock
+\urldef\tempurl%
+\url{https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/a5bfc9e07964f8dddeb95fc584cd965d-Abstract-round2.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Qi et~al\mbox{.}(2023)]%
+        {badcs2023}
+\bibfield{author}{\bibinfo{person}{Shiyi Qi}, \bibinfo{person}{Yuanhang Yang},
+  \bibinfo{person}{Shuzheng Gao}, \bibinfo{person}{Cuiyun Gao}, {and}
+  \bibinfo{person}{Zenglin Xu}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{BadCS}: A Backdoor Attack Framework for Code
+  Search}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2305.05503}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2305.05503}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Qi et~al\mbox{.}(2024)]%
+        {qi2024semantic}
+\bibfield{author}{\bibinfo{person}{Weiliang Qi}, \bibinfo{person}{Jiahao Cao},
+  \bibinfo{person}{Darsh Poddar}, \bibinfo{person}{Sophia Li}, {and}
+  \bibinfo{person}{Xinda Wang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Enhancing Pre-trained Language Models for
+  Vulnerability Detection via Semantic-Preserving Data Augmentation}. In
+  \bibinfo{booktitle}{\emph{International Conference on Security and Privacy in
+  Communication Networks (SecureComm)}}. \bibinfo{publisher}{Springer},
+  \bibinfo{address}{Cham, Switzerland}, \bibinfo{pages}{184--203}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-031-94458-1_9}
+\showDOI{\tempurl}
+
+
+\bibitem[Qu et~al\mbox{.}(2025b)]%
+        {qu2024idba}
+\bibfield{author}{\bibinfo{person}{Yubin Qu}, \bibinfo{person}{Song Huang},
+  \bibinfo{person}{Xiang Chen}, \bibinfo{person}{Tongtong Bai}, {and}
+  \bibinfo{person}{Yongming Yao}.} \bibinfo{year}{2025}\natexlab{b}.
+\newblock \showarticletitle{An Input-Denoising-Based Defense Against Stealthy
+  Backdoor Attacks in Large Language Models for Code}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  \bibinfo{volume}{180} (\bibinfo{year}{2025}), \bibinfo{pages}{107661}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.infsof.2024.107661}
+\showDOI{\tempurl}
+
+
+\bibitem[Qu et~al\mbox{.}(2025a)]%
+        {qu2025backdoorsurvey}
+\bibfield{author}{\bibinfo{person}{Yubin Qu}, \bibinfo{person}{Song Huang},
+  {and} \bibinfo{person}{Peng Nie}.} \bibinfo{year}{2025}\natexlab{a}.
+\newblock \showarticletitle{A Review of Backdoor Attacks and Defenses in Code
+  Large Language Models: Implications for Security Measures}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  \bibinfo{volume}{182} (\bibinfo{year}{2025}), \bibinfo{pages}{107707}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.infsof.2025.107707}
+\showDOI{\tempurl}
+
+
+\bibitem[Qu et~al\mbox{.}(2024)]%
+        {qu2024robustnesssurvey}
+\bibfield{author}{\bibinfo{person}{Yubin Qu}, \bibinfo{person}{Song Huang},
+  {and} \bibinfo{person}{Yongming Yao}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{A Survey on Robustness Attacks for Deep Code
+  Models}.
+\newblock \bibinfo{journal}{\emph{Automated Software Engineering}}
+  \bibinfo{volume}{31}, \bibinfo{number}{2}, Article \bibinfo{articleno}{65}
+  (\bibinfo{year}{2024}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s10515-024-00464-7}
+\showDOI{\tempurl}
+
+
+\bibitem[Qu et~al\mbox{.}(2026)]%
+        {bads2026}
+\bibfield{author}{\bibinfo{person}{Yubin Qu}, \bibinfo{person}{Binyong Li},
+  \bibinfo{person}{Song Huang}, \bibinfo{person}{Peng Nie},
+  \bibinfo{person}{Long Li}, {and} \bibinfo{person}{Yongming Yao}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{BADS}: A Backdoor Attack Against Code Intent
+  Summarization Engines}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  \bibinfo{volume}{192} (\bibinfo{year}{2026}), \bibinfo{pages}{108018}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.infsof.2026.108018}
+\showDOI{\tempurl}
+
+
+\bibitem[Ramakrishnan and Albarghouthi(2022)]%
+        {ramakrishnan2022backdoors}
+\bibfield{author}{\bibinfo{person}{Goutham Ramakrishnan} {and}
+  \bibinfo{person}{Aws Albarghouthi}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Backdoors in Neural Models of Source Code}. In
+  \bibinfo{booktitle}{\emph{2022 26th International Conference on Pattern
+  Recognition (ICPR)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{2892--2899}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/icpr56361.2022.9956690}
+\showDOI{\tempurl}
+
+
+\bibitem[Rath et~al\mbox{.}(2025)]%
+        {natgvd2025}
+\bibfield{author}{\bibinfo{person}{Avilash Rath}, \bibinfo{person}{Weiliang
+  Qi}, \bibinfo{person}{Youpeng Li}, {and} \bibinfo{person}{Xinda Wang}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{NatGVD}: Natural Adversarial Example Attack
+  towards Graph-based Vulnerability Detection}. In
+  \bibinfo{booktitle}{\emph{2025 IEEE 7th International Conference on Trust,
+  Privacy and Security in Intelligent Systems, and Applications (TPS-ISA)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{89--100}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/tps-isa67132.2025.00019}
+\showDOI{\tempurl}
+
+
+\bibitem[Raychev et~al\mbox{.}(2016)]%
+        {raychev2016py150}
+\bibfield{author}{\bibinfo{person}{Veselin Raychev}, \bibinfo{person}{Pavol
+  Bielik}, {and} \bibinfo{person}{Martin Vechev}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Probabilistic Model for Code with Decision Trees}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 2016 ACM SIGPLAN
+  International Conference on Object-Oriented Programming, Systems, Languages,
+  and Applications (OOPSLA)}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{731--747}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3022671.2984041}
+\showDOI{\tempurl}
+
+
+\bibitem[Rubel et~al\mbox{.}(2025)]%
+        {rubel2025generalized}
+\bibfield{author}{\bibinfo{person}{Karl Rubel}, \bibinfo{person}{Maximilian
+  Noppel}, {and} \bibinfo{person}{Christian Wressnegger}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Generalized Adversarial Code-Suggestions:
+  Exploiting Contexts of LLM-based Code-Completion}. In
+  \bibinfo{booktitle}{\emph{ACM Asia Conference on Computer and Communications
+  Security (ASIACCS)}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{358--374}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3708821.3733870}
+\showDOI{\tempurl}
+
+
+\bibitem[Russell et~al\mbox{.}(2018)]%
+        {russell2018draper}
+\bibfield{author}{\bibinfo{person}{Rebecca~L. Russell},
+  \bibinfo{person}{Louis~Y. Kim}, \bibinfo{person}{Lei~H. Hamilton},
+  \bibinfo{person}{Tomo Lazovich}, \bibinfo{person}{Jacob~A. Harer},
+  \bibinfo{person}{Onur Ozdemir}, \bibinfo{person}{Paul~M. Ellingwood}, {and}
+  \bibinfo{person}{Marc~W. McConley}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Automated Vulnerability Detection in Source Code
+  Using Deep Representation Learning ({Draper VDISC})}. In
+  \bibinfo{booktitle}{\emph{2018 17th IEEE International Conference on Machine
+  Learning and Applications (ICMLA)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{757--762}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICMLA.2018.00120}
+\showDOI{\tempurl}
+
+
+\bibitem[Sandoval et~al\mbox{.}(2023)]%
+        {sandoval2023lost}
+\bibfield{author}{\bibinfo{person}{Gustavo Sandoval}, \bibinfo{person}{Hammond
+  Pearce}, \bibinfo{person}{Teo Nys}, \bibinfo{person}{Ramesh Karri},
+  \bibinfo{person}{Siddharth Garg}, {and} \bibinfo{person}{Brendan
+  Dolan-Gavitt}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Lost at {C}: A User Study on the Security
+  Implications of Large Language Model Code Assistants}. In
+  \bibinfo{booktitle}{\emph{32nd USENIX Security Symposium (USENIX Security
+  23)}}. \bibinfo{publisher}{USENIX Association}, \bibinfo{address}{Berkeley,
+  CA, USA}, \bibinfo{pages}{2205--2222}.
+\newblock
+\showISBNx{978-1-939133-37-3}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity23/presentation/sandoval}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Schreiber and Tippe(2025)]%
+        {largescale2025vulnerabilities}
+\bibfield{author}{\bibinfo{person}{Maximilian Schreiber} {and}
+  \bibinfo{person}{Pascal Tippe}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Security Vulnerabilities in AI-Generated Code: A
+  Large-Scale Analysis of Public {GitHub} Repositories}. In
+  \bibinfo{booktitle}{\emph{International Conference on Information and
+  Communications Security (ICICS)}}. \bibinfo{publisher}{Springer},
+  \bibinfo{address}{Cham, Switzerland}, \bibinfo{pages}{153--172}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-981-95-3537-8_9}
+\showDOI{\tempurl}
+
+
+\bibitem[Schuster et~al\mbox{.}(2021)]%
+        {schuster2021autocomplete}
+\bibfield{author}{\bibinfo{person}{Roei Schuster}, \bibinfo{person}{Congzheng
+  Song}, \bibinfo{person}{Eran Tromer}, {and} \bibinfo{person}{Vitaly
+  Shmatikov}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{You Autocomplete Me: Poisoning Vulnerabilities in
+  Neural Code Completion}. In \bibinfo{booktitle}{\emph{30th USENIX Security
+  Symposium (USENIX Security 21)}}. \bibinfo{publisher}{USENIX Association},
+  \bibinfo{address}{Berkeley, CA, USA}, \bibinfo{pages}{1559--1575}.
+\newblock
+\showISBNx{978-1-939133-24-3}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity21/presentation/schuster}
+\showURL{%
+\tempurl}
+
+
+\bibitem[She et~al\mbox{.}(2026)]%
+        {she2026pitfalls}
+\bibfield{author}{\bibinfo{person}{Xinyu She}, \bibinfo{person}{Yue Liu},
+  \bibinfo{person}{Yanjie Zhao}, \bibinfo{person}{Yiling He},
+  \bibinfo{person}{Li Li}, \bibinfo{person}{Chakkrit Tantithamthavorn},
+  \bibinfo{person}{Zhan Qin}, {and} \bibinfo{person}{Haoyu Wang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Pitfalls in Language Models for Code Intelligence:
+  A Taxonomy and Survey}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology}} \bibinfo{volume}{35}, \bibinfo{number}{3}, Article
+  \bibinfo{articleno}{86} (\bibinfo{year}{2026}), \bibinfo{numpages}{42}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3748647}
+\showDOI{\tempurl}
+
+
+\bibitem[Shen et~al\mbox{.}(2025)]%
+        {secrepobench2025}
+\bibfield{author}{\bibinfo{person}{Chihao Shen}, \bibinfo{person}{Connor
+  Dilgren}, \bibinfo{person}{Purva Chiniya}, \bibinfo{person}{Luke Griffith},
+  \bibinfo{person}{Yu Ding}, {and} \bibinfo{person}{Yizheng Chen}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{SecRepoBench}: Benchmarking Code Agents for Secure
+  Code Completion in Real-World Repositories}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2504.21205}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.2504.21205}
+\showDOI{\tempurl}
+\showeprint[arxiv]{2504.21205}~[cs.CR]
+\newblock
+\shownote{Version 3, 14 February 2026}.
+
+
+\bibitem[Shi et~al\mbox{.}(2025)]%
+        {shi2025betweenlines}
+\bibfield{author}{\bibinfo{person}{Yuling Shi}, \bibinfo{person}{Hongyu Zhang},
+  \bibinfo{person}{Chengcheng Wan}, {and} \bibinfo{person}{Xiaodong Gu}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Between Lines of Code: Unraveling the Distinct
+  Patterns of Machine and Human Programmers}. In \bibinfo{booktitle}{\emph{47th
+  IEEE/ACM International Conference on Software Engineering (ICSE)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{1628--1639}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/icse55347.2025.00005}
+\showDOI{\tempurl}
+
+
+\bibitem[Siddiq et~al\mbox{.}(2024)]%
+        {siddiq2024sallm}
+\bibfield{author}{\bibinfo{person}{Mohammed~Latif Siddiq},
+  \bibinfo{person}{Joanna~Cecilia da Silva~Santos}, \bibinfo{person}{Sajith
+  Devareddy}, {and} \bibinfo{person}{Anna Muller}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{SALLM}: Security Assessment of Generated Code}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 39th IEEE/ACM International
+  Conference on Automated Software Engineering Workshops (ASEW)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{54--65}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3691621.3694934}
+\showDOI{\tempurl}
+
+
+\bibitem[Siddiq and Santos(2022)]%
+        {siddiq2022securityeval}
+\bibfield{author}{\bibinfo{person}{Mohammed~Latif Siddiq} {and}
+  \bibinfo{person}{Joanna C.~S. Santos}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{{SecurityEval} Dataset: Mining Vulnerability
+  Examples to Evaluate Machine Learning-Based Code Generation Techniques}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 1st International Workshop on
+  Mining Software Repositories Applications for Privacy and Security
+  (MSR4P\&S)}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{29--33}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3549035.3561184}
+\showDOI{\tempurl}
+
+
+\bibitem[Spracklen et~al\mbox{.}(2025)]%
+        {spracklen2025package}
+\bibfield{author}{\bibinfo{person}{Joseph Spracklen}, \bibinfo{person}{Raveen
+  Wijewickrama}, \bibinfo{person}{A.~H. M.~Nazmus Sakib},
+  \bibinfo{person}{Anindya Maiti}, {and} \bibinfo{person}{Bimal Viswanath}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{We Have a Package for You! A Comprehensive Analysis
+  of Package Hallucinations by Code Generating {LLMs}}. In
+  \bibinfo{booktitle}{\emph{34th USENIX Security Symposium (USENIX Security
+  25)}}. \bibinfo{publisher}{USENIX Association}, \bibinfo{address}{Berkeley,
+  CA, USA}, \bibinfo{pages}{3687--3706}.
+\newblock
+\showISBNx{978-1-939133-52-6}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Springer et~al\mbox{.}(2020)]%
+        {springer2020strata}
+\bibfield{author}{\bibinfo{person}{Jacob~M. Springer},
+  \bibinfo{person}{Bryn~Marie Reinstadler}, {and} \bibinfo{person}{Una-May
+  O'Reilly}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{{STRATA}: Simple, Gradient-Free Attacks for Models of
+  Code}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2009.13562}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2009.13562}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Srikant et~al\mbox{.}(2021)]%
+        {srikant2021generating}
+\bibfield{author}{\bibinfo{person}{Shashank Srikant}, \bibinfo{person}{Sijia
+  Liu}, \bibinfo{person}{Tamara Mitrovska}, \bibinfo{person}{Shiyu Chang},
+  \bibinfo{person}{Quanfu Fan}, \bibinfo{person}{Gaoyuan Zhang}, {and}
+  \bibinfo{person}{Una-May O'Reilly}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Generating Adversarial Computer Programs using
+  Optimized Obfuscations}. In \bibinfo{booktitle}{\emph{International
+  Conference on Learning Representations (ICLR)}}.
+  \bibinfo{publisher}{OpenReview.net}, \bibinfo{address}{Amherst, MA, USA}.
+\newblock
+\showeprint[arxiv]{2103.11882}~[cs.LG]
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=PH5PH9ZO_4}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sun et~al\mbox{.}(2025a)]%
+        {sun2025elibadcode}
+\bibfield{author}{\bibinfo{person}{Weisong Sun}, \bibinfo{person}{Yuchen Chen},
+  \bibinfo{person}{Chunrong Fang}, \bibinfo{person}{Yebo Feng},
+  \bibinfo{person}{Yuan Xiao}, \bibinfo{person}{An Guo},
+  \bibinfo{person}{Quanjun Zhang}, \bibinfo{person}{Zhenyu Chen},
+  \bibinfo{person}{Baowen Xu}, {and} \bibinfo{person}{Yang Liu}.}
+  \bibinfo{year}{2025}\natexlab{a}.
+\newblock \showarticletitle{Eliminating Backdoors in Neural Code Models for
+  Secure Code Understanding}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Software
+  Engineering (FSE)}} \bibinfo{volume}{2}, \bibinfo{number}{FSE}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{1386--1408}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3715782}
+\showDOI{\tempurl}
+
+
+\bibitem[Sun et~al\mbox{.}(2023a)]%
+        {sun2023badcode}
+\bibfield{author}{\bibinfo{person}{Weisong Sun}, \bibinfo{person}{Yuchen Chen},
+  \bibinfo{person}{Guanhong Tao}, \bibinfo{person}{Chunrong Fang},
+  \bibinfo{person}{Xiangyu Zhang}, \bibinfo{person}{Quanjun Zhang}, {and}
+  \bibinfo{person}{Bin Luo}.} \bibinfo{year}{2023}\natexlab{a}.
+\newblock \showarticletitle{Backdooring Neural Code Search}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 61st Annual Meeting of the
+  Association for Computational Linguistics (ACL)}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{9692--9708}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2023.acl-long.540}
+\showDOI{\tempurl}
+
+
+\bibitem[Sun et~al\mbox{.}(2025b)]%
+        {sun2025killbadcode}
+\bibfield{author}{\bibinfo{person}{Weisong Sun}, \bibinfo{person}{Yuchen Chen},
+  \bibinfo{person}{Mengzhe Yuan}, \bibinfo{person}{Chunrong Fang},
+  \bibinfo{person}{Zhenpeng Chen}, \bibinfo{person}{Chong Wang},
+  \bibinfo{person}{Yang Liu}, \bibinfo{person}{Baowen Xu}, {and}
+  \bibinfo{person}{Zhenyu Chen}.} \bibinfo{year}{2025}\natexlab{b}.
+\newblock \showarticletitle{Show Me Your Code! Kill Code Poisoning: A
+  Lightweight Method Based on Code Naturalness}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 47th International Conference on
+  Software Engineering (ICSE)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{2663--2675}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/icse55347.2025.00247}
+\showDOI{\tempurl}
+
+
+\bibitem[Sun et~al\mbox{.}(2024)]%
+        {wu2024fdi}
+\bibfield{author}{\bibinfo{person}{Zhensu Sun}, \bibinfo{person}{Xiaoning Du},
+  \bibinfo{person}{Xiapu Luo}, \bibinfo{person}{Fu Song},
+  \bibinfo{person}{David Lo}, {and} \bibinfo{person}{Li Li}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{FDI}: Attack Neural Code Generation Systems
+  through User Feedback Channel}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis
+  (ISSTA)}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{528--540}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3650212.3680300}
+\showDOI{\tempurl}
+
+
+\bibitem[Sun et~al\mbox{.}(2023b)]%
+        {codemark2023}
+\bibfield{author}{\bibinfo{person}{Zhensu Sun}, \bibinfo{person}{Xiaoning Du},
+  \bibinfo{person}{Fu Song}, {and} \bibinfo{person}{Li Li}.}
+  \bibinfo{year}{2023}\natexlab{b}.
+\newblock \showarticletitle{{CodeMark}: Imperceptible Watermarking for Code
+  Datasets Against Neural Code Completion Models}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 31st ACM Joint European Software
+  Engineering Conference and Symposium on the Foundations of Software
+  Engineering (ESEC/FSE)}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1561--1572}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3611643.3616297}
+\showDOI{\tempurl}
+
+
+\bibitem[Sun et~al\mbox{.}(2022)]%
+        {coprotector2022}
+\bibfield{author}{\bibinfo{person}{Zhensu Sun}, \bibinfo{person}{Xiaoning Du},
+  \bibinfo{person}{Fu Song}, \bibinfo{person}{Mingze Ni}, {and}
+  \bibinfo{person}{Li Li}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{{CoProtector}: Protect Open-Source Code Against
+  Unauthorized Training Usage with Data Poisoning}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the ACM Web Conference (WWW)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{652--660}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3485447.3512225}
+\showDOI{\tempurl}
+
+
+\bibitem[Svajlenko and Roy(2015)]%
+        {svajlenko2015bigclonebench}
+\bibfield{author}{\bibinfo{person}{Jeffrey Svajlenko} {and}
+  \bibinfo{person}{Chanchal~K. Roy}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Evaluating Clone Detection Tools with
+  {BigCloneBench}}. In \bibinfo{booktitle}{\emph{2015 IEEE International
+  Conference on Software Maintenance and Evolution (ICSME)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{131--140}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/icsm.2015.7332459}
+\showDOI{\tempurl}
+
+
+\bibitem[Tambon et~al\mbox{.}(2025)]%
+        {tambon2025bugs}
+\bibfield{author}{\bibinfo{person}{Florian Tambon}, \bibinfo{person}{Arghavan
+  Moradi-Dakhel}, \bibinfo{person}{Amin Nikanjam}, \bibinfo{person}{Foutse
+  Khomh}, \bibinfo{person}{Michel~C. Desmarais}, {and}
+  \bibinfo{person}{Giuliano Antoniol}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Bugs in Large Language Models Generated Code: An
+  Empirical Study}.
+\newblock \bibinfo{journal}{\emph{Empirical Software Engineering}}
+  \bibinfo{volume}{30}, \bibinfo{number}{3} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{65}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s10664-025-10614-4}
+\showDOI{\tempurl}
+
+
+\bibitem[Tian et~al\mbox{.}(2023)]%
+        {tian2023coda}
+\bibfield{author}{\bibinfo{person}{Zhao Tian}, \bibinfo{person}{Junjie Chen},
+  {and} \bibinfo{person}{Zhi Jin}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Code Difference Guided Adversarial Example
+  Generation for Deep Code Models}. In \bibinfo{booktitle}{\emph{2023 38th
+  IEEE/ACM International Conference on Automated Software Engineering (ASE)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{850--862}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ase56229.2023.00149}
+\showDOI{\tempurl}
+
+
+\bibitem[Tony et~al\mbox{.}(2023)]%
+        {tony2023llmseval}
+\bibfield{author}{\bibinfo{person}{Catherine Tony}, \bibinfo{person}{Markus
+  Mutas}, \bibinfo{person}{Nicolás E.~Díaz Ferreyra}, {and}
+  \bibinfo{person}{Riccardo Scandariato}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{LLMSecEval}: A Dataset of Natural Language Prompts
+  for Security Evaluations}. In \bibinfo{booktitle}{\emph{2023 IEEE/ACM 20th
+  International Conference on Mining Software Repositories (MSR)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{588--592}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/msr59073.2023.00084}
+\showDOI{\tempurl}
+
+
+\bibitem[Tsai et~al\mbox{.}(2025)]%
+        {depa2025}
+\bibfield{author}{\bibinfo{person}{Chi-Chien Tsai}, \bibinfo{person}{Chia-Mu
+  Yu}, \bibinfo{person}{Ying-Dar Lin}, \bibinfo{person}{Yu-Sung Wu}, {and}
+  \bibinfo{person}{Wei-Bin Lee}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Beyond Natural Language Perplexity: Detecting Dead
+  Code Poisoning in Code Generation Datasets}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2502.20246}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2502.20246}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Vahdat~Pour et~al\mbox{.}(2021)]%
+        {vahdatpour2021search}
+\bibfield{author}{\bibinfo{person}{Maryam Vahdat~Pour}, \bibinfo{person}{Zhuo
+  Li}, \bibinfo{person}{Lei Ma}, {and} \bibinfo{person}{Hadi Hemmati}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{A Search-Based Testing Framework for Deep Neural
+  Networks of Source Code Embedding}. In \bibinfo{booktitle}{\emph{2021 IEEE
+  14th International Conference on Software Testing, Verification and
+  Validation (ICST)}}. \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway,
+  NJ, USA}, \bibinfo{pages}{36--46}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/icst49551.2021.00016}
+\showDOI{\tempurl}
+
+
+\bibitem[Vero et~al\mbox{.}(2025)]%
+        {baxbench2025}
+\bibfield{author}{\bibinfo{person}{Mark Vero}, \bibinfo{person}{Niels
+  M{\"u}ndler}, \bibinfo{person}{Victor Chibotaru}, \bibinfo{person}{Veselin
+  Raychev}, \bibinfo{person}{Maximilian Baader}, \bibinfo{person}{Nikola
+  Jovanovi{\'c}}, \bibinfo{person}{Jingxuan He}, {and} \bibinfo{person}{Martin
+  Vechev}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{BaxBench}: Can {LLM}s Generate Correct and Secure
+  Backends?}. In \bibinfo{booktitle}{\emph{Proceedings of the 42nd
+  International Conference on Machine Learning}}
+  \emph{(\bibinfo{series}{Proceedings of Machine Learning Research},
+  Vol.~\bibinfo{volume}{267})}. \bibinfo{publisher}{PMLR},
+  \bibinfo{address}{Brookline, MA, USA}, \bibinfo{pages}{61344--61390}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v267/vero25a.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wan et~al\mbox{.}(2024)]%
+        {cyberseceval3}
+\bibfield{author}{\bibinfo{person}{Shengye Wan}, \bibinfo{person}{Cyrus
+  Nikolaidis}, \bibinfo{person}{Daniel Song}, \bibinfo{person}{David Molnar},
+  \bibinfo{person}{James Crnkovich}, \bibinfo{person}{Jayson Grace},
+  \bibinfo{person}{Manish Bhatt}, \bibinfo{person}{Sahana Chennabasappa},
+  \bibinfo{person}{Spencer Whitman}, \bibinfo{person}{Stephanie Ding},
+  \bibinfo{person}{Vlad Ionescu}, \bibinfo{person}{Yue Li}, {and}
+  \bibinfo{person}{Joshua Saxe}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{CyberSecEval 3}: Advancing the Evaluation of
+  Cybersecurity Risks and Capabilities in Large Language Models}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2408.01605}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2408.01605}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Wan et~al\mbox{.}(2022)]%
+        {wan2022yousee}
+\bibfield{author}{\bibinfo{person}{Yao Wan}, \bibinfo{person}{Shijie Zhang},
+  \bibinfo{person}{Hongyu Zhang}, \bibinfo{person}{Yulei Sui},
+  \bibinfo{person}{Guandong Xu}, \bibinfo{person}{Dezhong Yao},
+  \bibinfo{person}{Hai Jin}, {and} \bibinfo{person}{Lichao Sun}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{You See What I Want You to See: Poisoning
+  Vulnerabilities in Neural Code Search}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 30th ACM Joint European Software
+  Engineering Conference and Symposium on the Foundations of Software
+  Engineering (ESEC/FSE)}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1233--1245}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3540250.3549153}
+\showDOI{\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2025b)]%
+        {backdoors2025summarizers}
+\bibfield{author}{\bibinfo{person}{Chenyu Wang}, \bibinfo{person}{Zhou Yang},
+  \bibinfo{person}{Yaniv Harel}, {and} \bibinfo{person}{David Lo}.}
+  \bibinfo{year}{2025}\natexlab{b}.
+\newblock \showarticletitle{Backdoors in Code Summarizers: How Bad Is It?}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 40th IEEE/ACM International
+  Conference on Automated Software Engineering (ASE)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Piscataway, NJ, USA},
+  \bibinfo{pages}{1182--1194}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ase63991.2025.00102}
+\showDOI{\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2024)]%
+        {codeseceval2024}
+\bibfield{author}{\bibinfo{person}{Jiexin Wang}, \bibinfo{person}{Xitong Luo},
+  \bibinfo{person}{Liuwen Cao}, \bibinfo{person}{Hongkui He},
+  \bibinfo{person}{Hailin Huang}, \bibinfo{person}{Jiayuan Xie},
+  \bibinfo{person}{Adam Jatowt}, {and} \bibinfo{person}{Yi Cai}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Is Your {AI}-Generated Code Really Safe? {E}valuating
+  Large Language Models on Secure Code Generation with {CodeSecEval}}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2407.02395}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2407.02395}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Wang et~al\mbox{.}(2023)]%
+        {wang2023recode}
+\bibfield{author}{\bibinfo{person}{Shiqi Wang}, \bibinfo{person}{Zheng Li},
+  \bibinfo{person}{Haifeng Qian}, \bibinfo{person}{Chenghao Yang},
+  \bibinfo{person}{Zijian Wang}, \bibinfo{person}{Mingyue Shang},
+  \bibinfo{person}{Varun Kumar}, \bibinfo{person}{Samson Tan},
+  \bibinfo{person}{Baishakhi Ray}, \bibinfo{person}{Parminder Bhatia},
+  \bibinfo{person}{Ramesh Nallapati}, \bibinfo{person}{Murali~Krishna
+  Ramanathan}, \bibinfo{person}{Dan Roth}, {and} \bibinfo{person}{Bing Xiang}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{ReCode}: Robustness Evaluation of Code Generation
+  Models}. In \bibinfo{booktitle}{\emph{Proceedings of the 61st Annual Meeting
+  of the Association for Computational Linguistics (ACL)}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{13818--13843}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2023.acl-long.773}
+\showDOI{\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2025a)]%
+        {wang2025draincode}
+\bibfield{author}{\bibinfo{person}{Yanlin Wang}, \bibinfo{person}{Jiadong Wu},
+  \bibinfo{person}{Tianyue Jiang}, \bibinfo{person}{Mingwei Liu},
+  \bibinfo{person}{Jiachi Chen}, \bibinfo{person}{Chong Wang},
+  \bibinfo{person}{Ensheng Shi}, \bibinfo{person}{Xilin Liu},
+  \bibinfo{person}{Yuchi Ma}, {and} \bibinfo{person}{Zibin Zheng}.}
+  \bibinfo{year}{2025}\natexlab{a}.
+\newblock \showarticletitle{{DrainCode}: Stealthy Energy Consumption Attacks on
+  Retrieval-Augmented Code Generation via Context Poisoning}. In
+  \bibinfo{booktitle}{\emph{40th IEEE/ACM International Conference on Automated
+  Software Engineering (ASE)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{778--790}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ase63991.2025.00070}
+\showDOI{\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2026)]%
+        {wang2025mcptox}
+\bibfield{author}{\bibinfo{person}{Zhiqiang Wang}, \bibinfo{person}{Yichao
+  Gao}, \bibinfo{person}{Yanting Wang}, \bibinfo{person}{Suyuan Liu},
+  \bibinfo{person}{Haifeng Sun}, \bibinfo{person}{Haoran Cheng},
+  \bibinfo{person}{Guanquan Shi}, \bibinfo{person}{Haohua Du}, {and}
+  \bibinfo{person}{Xiangyang Li}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{MCPTox}: A Benchmark for Tool Poisoning on
+  Real-World {MCP} Servers}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the AAAI Conference on
+  Artificial Intelligence}} \bibinfo{volume}{40}, \bibinfo{number}{42}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{35811--35819}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1609/aaai.v40i42.40895}
+\showDOI{\tempurl}
+
+
+\bibitem[Wei et~al\mbox{.}(2023)]%
+        {wei2022cocofuzzing}
+\bibfield{author}{\bibinfo{person}{Moshi Wei}, \bibinfo{person}{Yuchao Huang},
+  \bibinfo{person}{Jinqiu Yang}, \bibinfo{person}{Junjie Wang}, {and}
+  \bibinfo{person}{Song Wang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{CoCoFuzzing}: Testing Neural Code Models with
+  Coverage-Guided Fuzzing}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Reliability}}
+  \bibinfo{volume}{72}, \bibinfo{number}{3} (\bibinfo{year}{2023}),
+  \bibinfo{pages}{1276--1289}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/tr.2022.3208239}
+\showDOI{\tempurl}
+
+
+\bibitem[Wu et~al\mbox{.}(2023)]%
+        {deceptprompt2023}
+\bibfield{author}{\bibinfo{person}{Fangzhou Wu}, \bibinfo{person}{Xiaogeng
+  Liu}, {and} \bibinfo{person}{Chaowei Xiao}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{DeceptPrompt}: Exploiting LLM-driven Code Generation
+  via Adversarial Natural Language Instructions}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2312.04730}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2312.04730}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Xie et~al\mbox{.}(2025)]%
+        {xie2025redteaming}
+\bibfield{author}{\bibinfo{person}{Yuchong Xie}, \bibinfo{person}{Mingyu Luo},
+  \bibinfo{person}{Zesen Liu}, \bibinfo{person}{Zhixiang Zhang},
+  \bibinfo{person}{Kaikai Zhang}, \bibinfo{person}{Yu Liu},
+  \bibinfo{person}{Zongjie Li}, \bibinfo{person}{Ping Chen},
+  \bibinfo{person}{Shuai Wang}, {and} \bibinfo{person}{Dongdong She}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Red-Teaming Coding Agents from a Tool-Invocation
+  Perspective: An Empirical Security Assessment}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2509.05755}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2509.05755}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Yan et~al\mbox{.}(2025)]%
+        {guiding2025fix}
+\bibfield{author}{\bibinfo{person}{Hao Yan}, \bibinfo{person}{Swapneel~Suhas
+  Vaidya}, \bibinfo{person}{Xiaokuan Zhang}, {and} \bibinfo{person}{Ziyu Yao}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Guiding AI to Fix Its Own Flaws: An Empirical Study
+  on LLM-Driven Secure Code Generation}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2506.23034}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2506.23034}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Yan et~al\mbox{.}(2024)]%
+        {yan2024codebreaker}
+\bibfield{author}{\bibinfo{person}{Shenao Yan}, \bibinfo{person}{Shen Wang},
+  \bibinfo{person}{Yue Duan}, \bibinfo{person}{Hanbin Hong},
+  \bibinfo{person}{Kiho Lee}, \bibinfo{person}{Doowon Kim}, {and}
+  \bibinfo{person}{Yuan Hong}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{An {LLM}-Assisted Easy-to-Trigger Backdoor Attack
+  on Code Completion Models: Injecting Disguised Vulnerabilities against Strong
+  Detection}. In \bibinfo{booktitle}{\emph{33rd USENIX Security Symposium
+  (USENIX Security 24)}}. \bibinfo{publisher}{USENIX Association},
+  \bibinfo{address}{Berkeley, CA, USA}, \bibinfo{pages}{1795--1812}.
+\newblock
+\showISBNx{978-1-939133-44-1}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity24/presentation/yan}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2025)]%
+        {yang2025cotr}
+\bibfield{author}{\bibinfo{person}{Guang Yang}, \bibinfo{person}{Yu Zhou},
+  \bibinfo{person}{Xiangyu Zhang}, \bibinfo{person}{Xiang Chen},
+  \bibinfo{person}{Tingting Han}, {and} \bibinfo{person}{Taolue Chen}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Assessing and Improving Syntactic Adversarial
+  Robustness of Pre-trained Models for Code Translation}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  \bibinfo{volume}{181} (\bibinfo{year}{2025}), \bibinfo{pages}{107699}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.infsof.2025.107699}
+\showDOI{\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2024a)]%
+        {yang2024survey}
+\bibfield{author}{\bibinfo{person}{Yulong Yang}, \bibinfo{person}{Haoran Fan},
+  \bibinfo{person}{Chenhao Lin}, \bibinfo{person}{Qian Li},
+  \bibinfo{person}{Zhengyu Zhao}, \bibinfo{person}{Chao Shen}, {and}
+  \bibinfo{person}{Xiaohong Guan}.} \bibinfo{year}{2024}\natexlab{a}.
+\newblock \bibinfo{title}{A Survey on Adversarial Machine Learning for Code
+  Data: Realistic Threats, Countermeasures, and Interpretations}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2411.07597}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2411.07597}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2026)]%
+        {shadowcode2024}
+\bibfield{author}{\bibinfo{person}{Yuchen Yang}, \bibinfo{person}{Yiming Li},
+  \bibinfo{person}{Hongwei Yao}, \bibinfo{person}{Bingrun Yang},
+  \bibinfo{person}{Yiling He}, \bibinfo{person}{Tianwei Zhang},
+  \bibinfo{person}{Dacheng Tao}, {and} \bibinfo{person}{Zhan Qin}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{ShadowCode}: Towards (Automatic) External Prompt
+  Injection Attack against Code {LLMs}}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Dependable and Secure
+  Computing}} (\bibinfo{year}{2026}), \bibinfo{pages}{1--13}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/tdsc.2026.3703498}
+\showDOI{\tempurl}
+\newblock
+\shownote{Early access}.
+
+
+\bibitem[Yang et~al\mbox{.}(2022)]%
+        {yang2022natural}
+\bibfield{author}{\bibinfo{person}{Zhou Yang}, \bibinfo{person}{Jieke Shi},
+  \bibinfo{person}{Junda He}, {and} \bibinfo{person}{David Lo}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Natural Attack for Pre-trained Models of Code}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 44th International Conference on
+  Software Engineering (ICSE)}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1482--1493}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3510003.3510146}
+\showDOI{\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2024b)]%
+        {robustness2024llms}
+\bibfield{author}{\bibinfo{person}{Zhou Yang}, \bibinfo{person}{Zhensu Sun},
+  \bibinfo{person}{Terry~Yue Zhuo}, \bibinfo{person}{Premkumar Devanbu}, {and}
+  \bibinfo{person}{David Lo}.} \bibinfo{year}{2024}\natexlab{b}.
+\newblock \bibinfo{title}{Robustness, Security, Privacy, Explainability,
+  Efficiency, and Usability of Large Language Models for Code}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2403.07506}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2403.07506}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv preprint}.
+
+
+\bibitem[Yang et~al\mbox{.}(2024c)]%
+        {yang2024afraidoor}
+\bibfield{author}{\bibinfo{person}{Zhou Yang}, \bibinfo{person}{Bowen Xu},
+  \bibinfo{person}{Jie~M. Zhang}, \bibinfo{person}{Hong~Jin Kang},
+  \bibinfo{person}{Jieke Shi}, \bibinfo{person}{Junda He}, {and}
+  \bibinfo{person}{David Lo}.} \bibinfo{year}{2024}\natexlab{c}.
+\newblock \showarticletitle{Stealthy Backdoor Attack for Code Models}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{50}, \bibinfo{number}{4} (\bibinfo{year}{2024}),
+  \bibinfo{pages}{721--741}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/tse.2024.3361661}
+\showDOI{\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2024d)]%
+        {yang2024gotcha}
+\bibfield{author}{\bibinfo{person}{Zhou Yang}, \bibinfo{person}{Zhipeng Zhao},
+  \bibinfo{person}{Chenyu Wang}, \bibinfo{person}{Jieke Shi},
+  \bibinfo{person}{Dongsun Kim}, \bibinfo{person}{DongGyun Han}, {and}
+  \bibinfo{person}{David Lo}.} \bibinfo{year}{2024}\natexlab{d}.
+\newblock \showarticletitle{Gotcha! This Model Uses My Code! Evaluating
+  Membership Leakage Risks in Code Models}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{50}, \bibinfo{number}{12} (\bibinfo{year}{2024}),
+  \bibinfo{pages}{3290--3306}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/tse.2024.3482719}
+\showDOI{\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2024e)]%
+        {yang2024unveiling}
+\bibfield{author}{\bibinfo{person}{Zhou Yang}, \bibinfo{person}{Zhipeng Zhao},
+  \bibinfo{person}{Chenyu Wang}, \bibinfo{person}{Jieke Shi},
+  \bibinfo{person}{Dongsun Kim}, \bibinfo{person}{Donggyun Han}, {and}
+  \bibinfo{person}{David Lo}.} \bibinfo{year}{2024}\natexlab{e}.
+\newblock \showarticletitle{Unveiling Memorization in Code Models}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 46th International Conference on
+  Software Engineering (ICSE)}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--13}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3597503.3639074}
+\showDOI{\tempurl}
+
+
+\bibitem[Ye et~al\mbox{.}(2026)]%
+        {ye2025set}
+\bibfield{author}{\bibinfo{person}{Junyao Ye}, \bibinfo{person}{Zhen Li},
+  \bibinfo{person}{Xi Tang}, \bibinfo{person}{Shouhuai Xu},
+  \bibinfo{person}{Deqing Zou}, \bibinfo{person}{Zhongsheng Yuan}, {and}
+  \bibinfo{person}{Hai Jin}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Semantically-Equivalent Transformations-Based
+  Backdoor Attacks against Neural Code Models: Characterization and
+  Mitigation}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology}} (\bibinfo{year}{2026}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3840391}
+\showDOI{\tempurl}
+
+
+\bibitem[Ye et~al\mbox{.}(2025)]%
+        {ye2025uncovering}
+\bibfield{author}{\bibinfo{person}{Tong Ye}, \bibinfo{person}{Yangkai Du},
+  \bibinfo{person}{Tengfei Ma}, \bibinfo{person}{Lingfei Wu},
+  \bibinfo{person}{Xuhong Zhang}, \bibinfo{person}{Shouling Ji}, {and}
+  \bibinfo{person}{Wenhai Wang}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Uncovering {LLM}-Generated Code: A Zero-Shot
+  Synthetic Code Detector via Code Rewriting}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the AAAI Conference on
+  Artificial Intelligence}} \bibinfo{volume}{39}, \bibinfo{number}{1}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{968--976}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1609/aaai.v39i1.32082}
+\showDOI{\tempurl}
+
+
+\bibitem[Yefet et~al\mbox{.}(2020)]%
+        {yefet2020adversarial}
+\bibfield{author}{\bibinfo{person}{Noam Yefet}, \bibinfo{person}{Uri Alon},
+  {and} \bibinfo{person}{Eran Yahav}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Adversarial Examples for Models of Code}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Programming
+  Languages}} \bibinfo{volume}{4}, \bibinfo{number}{OOPSLA}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{1--30}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3428230}
+\showDOI{\tempurl}
+
+
+\bibitem[Yi et~al\mbox{.}(2023)]%
+        {li2023advbinsd}
+\bibfield{author}{\bibinfo{person}{Xiaoyu Yi}, \bibinfo{person}{Gaolei Li},
+  \bibinfo{person}{Ao Ding}, \bibinfo{person}{Yan Zheng},
+  \bibinfo{person}{Yuqing Li}, {and} \bibinfo{person}{Jianhua Li}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{AdvBinSD}: Poisoning the Binary Code Similarity
+  Detector via Isolated Instruction Sequences}. In
+  \bibinfo{booktitle}{\emph{2023 IEEE International Conference on Parallel \&
+  Distributed Processing with Applications, Big Data \& Cloud Computing,
+  Sustainable Computing \& Communications, Social Computing \& Networking
+  (ISPA/BDCloud/SocialCom/SustainCom)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{address}{Piscataway, NJ, USA}, \bibinfo{pages}{1149--1156}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ispa-bdcloud-socialcom-sustaincom59178.2023.00183}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2024d)]%
+        {transfer2024coding}
+\bibfield{author}{\bibinfo{person}{Chi Zhang}, \bibinfo{person}{Zifan Wang},
+  \bibinfo{person}{Ruoshi Zhao}, \bibinfo{person}{Ravi Mangal},
+  \bibinfo{person}{Matt Fredrikson}, \bibinfo{person}{Limin Jia}, {and}
+  \bibinfo{person}{Corina~S. Pasareanu}.} \bibinfo{year}{2024}\natexlab{d}.
+\newblock \showarticletitle{Attacks and Defenses for Large Language Models on
+  Coding Tasks}. In \bibinfo{booktitle}{\emph{Proceedings of the 39th IEEE/ACM
+  International Conference on Automated Software Engineering (ASE, NIER
+  Track)}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{2268--2272}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3691620.3695297}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2022)]%
+        {zhang2022carrot}
+\bibfield{author}{\bibinfo{person}{Huangzhao Zhang}, \bibinfo{person}{Zhiyi
+  Fu}, \bibinfo{person}{Ge Li}, \bibinfo{person}{Lei Ma},
+  \bibinfo{person}{Zhehao Zhao}, \bibinfo{person}{Hua’an Yang},
+  \bibinfo{person}{Yizhe Sun}, \bibinfo{person}{Yang Liu}, {and}
+  \bibinfo{person}{Zhi Jin}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Towards Robustness of Deep Program Processing
+  Models---Detection, Estimation, and Enhancement}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology (TOSEM)}} \bibinfo{volume}{31}, \bibinfo{number}{3}, Article
+  \bibinfo{articleno}{50} (\bibinfo{year}{2022}), \bibinfo{numpages}{40}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3511887}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2020)]%
+        {zhang2020generating}
+\bibfield{author}{\bibinfo{person}{Huangzhao Zhang}, \bibinfo{person}{Zhuo Li},
+  \bibinfo{person}{Ge Li}, \bibinfo{person}{Lei Ma}, \bibinfo{person}{Yang
+  Liu}, {and} \bibinfo{person}{Zhi Jin}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Generating Adversarial Examples for Holding
+  Robustness of Source Code Processing Models}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the AAAI Conference on
+  Artificial Intelligence}} \bibinfo{volume}{34}, \bibinfo{number}{01}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{1169--1176}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1609/aaai.v34i01.5469}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2024b)]%
+        {codebertattack2024}
+\bibfield{author}{\bibinfo{person}{Huangzhao Zhang}, \bibinfo{person}{Shuai
+  Lu}, \bibinfo{person}{Zhuo Li}, \bibinfo{person}{Zhi Jin},
+  \bibinfo{person}{Lei Ma}, \bibinfo{person}{Yang Liu}, {and}
+  \bibinfo{person}{Ge Li}.} \bibinfo{year}{2024}\natexlab{b}.
+\newblock \showarticletitle{{CodeBERT}-Attack: Adversarial Attack Against
+  Source Code Deep Learning Models via Pre-trained Model}.
+\newblock \bibinfo{journal}{\emph{Journal of Software: Evolution and Process}}
+  \bibinfo{volume}{36}, \bibinfo{number}{3} (\bibinfo{year}{2024}),
+  \bibinfo{pages}{e2571}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1002/smr.2571}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2023a)]%
+        {zhang2023rnns}
+\bibfield{author}{\bibinfo{person}{Jie Zhang}, \bibinfo{person}{Wei Ma},
+  \bibinfo{person}{Qiang Hu}, \bibinfo{person}{Shangqing Liu},
+  \bibinfo{person}{Xiaofei Xie}, \bibinfo{person}{Yves Le~Traon}, {and}
+  \bibinfo{person}{Yang Liu}.} \bibinfo{year}{2023}\natexlab{a}.
+\newblock \showarticletitle{A Black-Box Attack on Code Models via
+  Representation Nearest Neighbor Search}. In
+  \bibinfo{booktitle}{\emph{Findings of the Association for Computational
+  Linguistics: EMNLP 2023}}. \bibinfo{publisher}{Association for Computational
+  Linguistics}, \bibinfo{address}{Stroudsburg, PA, USA},
+  \bibinfo{pages}{9706--9716}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2023.findings-emnlp.649}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2024a)]%
+        {zhang2023buzzer}
+\bibfield{author}{\bibinfo{person}{Sheng Zhang}, \bibinfo{person}{Hui Li},
+  {and} \bibinfo{person}{Rongrong Ji}.} \bibinfo{year}{2024}\natexlab{a}.
+\newblock \showarticletitle{Code Membership Inference for Detecting
+  Unauthorized Data Use in Code Pre-trained Language Models}. In
+  \bibinfo{booktitle}{\emph{Findings of the Association for Computational
+  Linguistics: EMNLP 2024}}. \bibinfo{publisher}{Association for Computational
+  Linguistics}, \bibinfo{address}{Stroudsburg, PA, USA},
+  \bibinfo{pages}{10593--10603}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2024.findings-emnlp.621}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2024c)]%
+        {zhang2024codefort}
+\bibfield{author}{\bibinfo{person}{Yuhao Zhang}, \bibinfo{person}{Shiqi Wang},
+  \bibinfo{person}{Haifeng Qian}, \bibinfo{person}{Zijian Wang},
+  \bibinfo{person}{Mingyue Shang}, \bibinfo{person}{Linbo Liu},
+  \bibinfo{person}{Sanjay~Krishna Gouda}, \bibinfo{person}{Baishakhi Ray},
+  \bibinfo{person}{Murali~Krishna Ramanathan}, \bibinfo{person}{Xiaofei Ma},
+  {and} \bibinfo{person}{Anoop Deoras}.} \bibinfo{year}{2024}\natexlab{c}.
+\newblock \showarticletitle{{CodeFort}: Robust Training for Code Generation
+  Models}. In \bibinfo{booktitle}{\emph{Findings of the Association for
+  Computational Linguistics: EMNLP 2024}}. \bibinfo{publisher}{Association for
+  Computational Linguistics}, \bibinfo{address}{Stroudsburg, PA, USA},
+  \bibinfo{pages}{5262--5277}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2024.findings-emnlp.303}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2023c)]%
+        {zhang2023struck}
+\bibfield{author}{\bibinfo{person}{Yuxin Zhang}, \bibinfo{person}{Ruoting Wu},
+  \bibinfo{person}{Jie Liao}, {and} \bibinfo{person}{Liang Chen}.}
+  \bibinfo{year}{2023}\natexlab{c}.
+\newblock \showarticletitle{Structural Adversarial Attack for Code
+  Representation Models}. In \bibinfo{booktitle}{\emph{Collaborative Computing:
+  Networking, Applications and Worksharing (CollaborateCom)}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{address}{Cham, Switzerland},
+  \bibinfo{pages}{392--413}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-031-54528-3_22}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2023b)]%
+        {pelican2023}
+\bibfield{author}{\bibinfo{person}{Zhuo Zhang}, \bibinfo{person}{Guanhong Tao},
+  \bibinfo{person}{Guangyu Shen}, \bibinfo{person}{Shengwei An},
+  \bibinfo{person}{Qiuling Xu}, \bibinfo{person}{Yingqi Liu},
+  \bibinfo{person}{Yapeng Ye}, \bibinfo{person}{Yaoxuan Wu}, {and}
+  \bibinfo{person}{Xiangyu Zhang}.} \bibinfo{year}{2023}\natexlab{b}.
+\newblock \showarticletitle{{PELICAN}: Exploiting Backdoors of Naturally
+  Trained Deep Learning Models in Binary Code Analysis}. In
+  \bibinfo{booktitle}{\emph{32nd USENIX Security Symposium (USENIX Security
+  23)}}. \bibinfo{publisher}{USENIX Association}, \bibinfo{address}{Berkeley,
+  CA, USA}, \bibinfo{pages}{2365--2382}.
+\newblock
+\showISBNx{978-1-939133-37-3}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-zhuo-pelican}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhao et~al\mbox{.}(2024)]%
+        {modelsarecodes2024}
+\bibfield{author}{\bibinfo{person}{Jian Zhao}, \bibinfo{person}{Shenao Wang},
+  \bibinfo{person}{Yanjie Zhao}, \bibinfo{person}{Xinyi Hou},
+  \bibinfo{person}{Kailong Wang}, \bibinfo{person}{Peiming Gao},
+  \bibinfo{person}{Yuanchao Zhang}, \bibinfo{person}{Chen Wei}, {and}
+  \bibinfo{person}{Haoyu Wang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Models Are Codes: Towards Measuring Malicious Code
+  Poisoning Attacks on Pre-trained Model Hubs}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 39th IEEE/ACM International
+  Conference on Automated Software Engineering (ASE)}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{2087--2098}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3691620.3695271}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhou et~al\mbox{.}(2024)]%
+        {moaa2024}
+\bibfield{author}{\bibinfo{person}{Shasha Zhou}, \bibinfo{person}{Mingyu
+  Huang}, \bibinfo{person}{Yanan Sun}, {and} \bibinfo{person}{Ke Li}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Evolutionary Multi-Objective Optimization for
+  Contextual Adversarial Example Generation}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Software
+  Engineering (FSE)}} \bibinfo{volume}{1}, \bibinfo{number}{FSE}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{2285--2308}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3660808}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhou et~al\mbox{.}(2019)]%
+        {zhou2019devign}
+\bibfield{author}{\bibinfo{person}{Yaqin Zhou}, \bibinfo{person}{Shangqing
+  Liu}, \bibinfo{person}{Jingkai Siow}, \bibinfo{person}{Xiaoning Du}, {and}
+  \bibinfo{person}{Yang Liu}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{Devign}: Effective Vulnerability Identification by
+  Learning Comprehensive Program Semantics via Graph Neural Networks}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{32}. \bibinfo{publisher}{Curran Associates,
+  Inc.}, \bibinfo{address}{Red Hook, NY, USA}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.neurips.cc/paper_files/paper/2019/hash/49265d2447bc3bbfe9e76306ce40a31f-Abstract.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhou et~al\mbox{.}(2022)]%
+        {zhou2022accent}
+\bibfield{author}{\bibinfo{person}{Yu Zhou}, \bibinfo{person}{Xiaoqing Zhang},
+  \bibinfo{person}{Juanjuan Shen}, \bibinfo{person}{Tingting Han},
+  \bibinfo{person}{Taolue Chen}, {and} \bibinfo{person}{Harald Gall}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Adversarial Robustness of Deep Code Comment
+  Generation}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology (TOSEM)}} \bibinfo{volume}{31}, \bibinfo{number}{4}, Article
+  \bibinfo{articleno}{60} (\bibinfo{year}{2022}), \bibinfo{numpages}{30}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3501256}
+\showDOI{\tempurl}
+
+
+\bibitem[Ziegler(2021)]%
+        {ziegler2021recitation}
+\bibfield{author}{\bibinfo{person}{Albert Ziegler}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{{GitHub} {Copilot} Research Recitation}.
+\newblock \bibinfo{howpublished}{GitHub Blog}.
+\newblock
+\urldef\tempurl%
+\url{https://github.blog/ai-and-ml/github-copilot/github-copilot-research-recitation/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Industry blog post, non-peer-reviewed}.
+
+
+\end{thebibliography}

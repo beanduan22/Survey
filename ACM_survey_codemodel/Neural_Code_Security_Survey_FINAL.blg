@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Neural_Code_Security_Survey_FINAL.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated field_info (elt_size=4) to 13507 items from 5000.
+Database file #1: Neural_Code_Security_Survey_FINAL.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty address in carlini2024webpoison
+Warning--page numbers missing in both pages and numpages fields in chu2026scrubitout
+Warning--empty address in debenedetti2024agentdojo
+Warning--page numbers missing in both pages and numpages fields in debenedetti2024agentdojo
+Warning--empty address in greshake2023indirect
+Warning--page numbers missing in both pages and numpages fields in hendrycks2021apps
+Warning--no number and no volume in li2024acw
+Warning--page numbers missing in both pages and numpages fields in privcode2026
+Warning--page numbers missing in both pages and numpages fields in privcodeplus2026
+Warning--page numbers missing in both pages and numpages fields in lu2021codexglue
+Warning--page numbers missing in both pages and numpages fields in puri2021codenet
+Warning--articleno or eid field, but no numpages field, in qu2024robustnesssurvey
+Warning--page numbers missing in both pages and numpages fields in qu2024robustnesssurvey
+Warning--articleno or eid, but no pages or numpages field in qu2024robustnesssurvey
+Warning--page numbers missing in both pages and numpages fields in srikant2021generating
+Warning--no number and no volume in shadowcode2024
+Warning--no number and no volume in ye2025set
+Warning--page numbers missing in both pages and numpages fields in ye2025set
+Warning--page numbers missing in both pages and numpages fields in zhou2019devign
+You've used 181 entries,
+            5981 wiz_defined-function locations,
+            2670 strings with 76090 characters,
+and the built_in function-call counts, 236551 in all, are:
+= -- 27791
+> -- 10726
+< -- 0
++ -- 3785
+- -- 3619
+* -- 19528
+:= -- 24423
+add.period$ -- 936
+call.type$ -- 181
+change.case$ -- 1903
+chr.to.int$ -- 162
+cite$ -- 200
+duplicate$ -- 19291
+empty$ -- 13441
+format.name$ -- 4312
+if$ -- 55409
+int.to.chr$ -- 21
+int.to.str$ -- 1
+missing$ -- 658
+newline$ -- 2063
+num.names$ -- 1248
+pop$ -- 7720
+preamble$ -- 1
+purify$ -- 3306
+quote$ -- 0
+skip$ -- 7283
+stack$ -- 0
+substring$ -- 16495
+swap$ -- 2153
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4687
+warning$ -- 19
+while$ -- 951
+width$ -- 0
+write$ -- 4238
+(There were 19 warnings)

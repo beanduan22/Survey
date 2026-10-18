@@ -1,0 +1,32 @@
+panel,group,code,count,row_denominator,note
+program_preservation,attacks,P0,10,52,applicable rows only; -- excluded
+program_preservation,attacks,P1,0,52,applicable rows only; -- excluded
+program_preservation,attacks,P2,42,52,applicable rows only; -- excluded
+program_preservation,attacks,P3,0,52,applicable rows only; -- excluded
+program_preservation,attacks,P4,0,52,applicable rows only; -- excluded
+program_preservation,defenses,P0,2,20,applicable rows only; -- excluded
+program_preservation,defenses,P1,0,20,applicable rows only; -- excluded
+program_preservation,defenses,P2,18,20,applicable rows only; -- excluded
+program_preservation,defenses,P3,0,20,applicable rows only; -- excluded
+program_preservation,defenses,P4,0,20,applicable rows only; -- excluded
+outcome_evidence,attacks,R,71,76,multi-label occurrence count; do not sum as percentages
+outcome_evidence,attacks,L,2,76,multi-label occurrence count; do not sum as percentages
+outcome_evidence,attacks,C,0,76,multi-label occurrence count; do not sum as percentages
+outcome_evidence,attacks,S,6,76,multi-label occurrence count; do not sum as percentages
+outcome_evidence,attacks,X,5,76,multi-label occurrence count; do not sum as percentages
+outcome_evidence,attacks,E,5,76,multi-label occurrence count; do not sum as percentages
+outcome_evidence,attacks,F,0,76,multi-label occurrence count; do not sum as percentages
+outcome_evidence,risk_studies,R,5,20,multi-label occurrence count; do not sum as percentages
+outcome_evidence,risk_studies,L,11,20,multi-label occurrence count; do not sum as percentages
+outcome_evidence,risk_studies,C,0,20,multi-label occurrence count; do not sum as percentages
+outcome_evidence,risk_studies,S,8,20,multi-label occurrence count; do not sum as percentages
+outcome_evidence,risk_studies,X,1,20,multi-label occurrence count; do not sum as percentages
+outcome_evidence,risk_studies,E,2,20,multi-label occurrence count; do not sum as percentages
+outcome_evidence,risk_studies,F,0,20,multi-label occurrence count; do not sum as percentages
+outcome_evidence,defenses,R,47,49,multi-label occurrence count; do not sum as percentages
+outcome_evidence,defenses,L,2,49,multi-label occurrence count; do not sum as percentages
+outcome_evidence,defenses,C,0,49,multi-label occurrence count; do not sum as percentages
+outcome_evidence,defenses,S,6,49,multi-label occurrence count; do not sum as percentages
+outcome_evidence,defenses,X,9,49,multi-label occurrence count; do not sum as percentages
+outcome_evidence,defenses,E,0,49,multi-label occurrence count; do not sum as percentages
+outcome_evidence,defenses,F,3,49,multi-label occurrence count; do not sum as percentages
