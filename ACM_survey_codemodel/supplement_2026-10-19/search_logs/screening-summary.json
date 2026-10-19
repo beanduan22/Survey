@@ -1,0 +1,15 @@
+{
+  "entries": 107,
+  "decisions": {
+    "nonstudy_landing": 18,
+    "already_in_corpus": 21,
+    "exclude_after_cutoff": 5,
+    "exclude_scope": 40,
+    "include_new": 17,
+    "secondary_background": 5,
+    "deferred_cutoff_unresolved": 1
+  },
+  "search_date": "2026-10-19",
+  "cutoff": "2026-06-30",
+  "note": "Counts describe a logged supplementary public-index search, not the original historical search or database-wide hit counts."
+}

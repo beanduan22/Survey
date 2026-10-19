@@ -1,0 +1,27 @@
+{
+  "id": "S03",
+  "search_date": "2026-10-19",
+  "corpus_cutoff": "2026-06-30",
+  "source": "public web index restricted to DBLP and arXiv",
+  "request": {
+    "system2_search_query": [
+      {
+        "q": "(\"code generation\" OR \"coding\") (\"retrieval poisoning\" OR \"prompt injection\") before:2026-07-01",
+        "domains": [
+          "dblp.org",
+          "arxiv.org"
+        ]
+      }
+    ],
+    "response_length": "long"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Empty search results\nNo results were found for the provided queries"
+      }
+    ],
+    "isError": false
+  }
+}

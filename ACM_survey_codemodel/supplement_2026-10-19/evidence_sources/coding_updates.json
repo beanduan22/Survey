@@ -1,0 +1,794 @@
+{
+  "overrides": {
+    "IA-036": {
+      "preservation_support": "A+T",
+      "preservation_compile_status": "reported",
+      "outcome_evidence": "R+X"
+    },
+    "IA-033": {
+      "preservation_support": "A+T",
+      "outcome_evidence": "R+X"
+    },
+    "TC-028": {
+      "lifecycle_surface": "inference input",
+      "family": "program evasion",
+      "access": "W+B",
+      "preservation_support": "A+F"
+    },
+    "TC-006": {
+      "short_name": "FDI (retrieval)",
+      "outcome_evidence": "R"
+    },
+    "OE-015": {
+      "outcome_evidence": "R+L+X",
+      "outcome_terminal_stage": "command_execution"
+    },
+    "OE-016": {
+      "outcome_evidence": "R+X+E",
+      "outcome_terminal_stage": "demonstrated_system_effect"
+    },
+    "RC-001": {
+      "outcome_evidence": "R+X",
+      "outcome_terminal_stage": "helper_execution"
+    },
+    "DF-039": {
+      "year": "2025",
+      "venue": "arXiv'25",
+      "preservation_support": "A+T"
+    },
+    "IA-004": {
+      "model_interface": "generative"
+    },
+    "IA-005": {
+      "model_interface": "generative"
+    },
+    "IA-006": {
+      "model_interface": "mixed"
+    },
+    "IA-017": {
+      "model_interface": "discriminative"
+    },
+    "IA-019": {
+      "model_interface": "discriminative"
+    },
+    "IA-020": {
+      "model_interface": "mixed"
+    },
+    "OE-013": {
+      "model_interface": "generative"
+    },
+    "TC-015": {
+      "year": "2025",
+      "venue": "arXiv'25"
+    },
+    "TC-001": {
+      "access": "D+M"
+    },
+    "TC-002": {
+      "outcome_evidence": "R+X",
+      "outcome_terminal_stage": "suggestion metric; clean-utility execution",
+      "execution_purpose": "clean utility"
+    },
+    "TC-003": {
+      "outcome_evidence": "R+L+S+X",
+      "outcome_terminal_stage": "payload functionality; clean-utility execution; static screening",
+      "execution_purpose": "payload functionality and clean utility"
+    },
+    "TC-005": {
+      "outcome_evidence": "R+X",
+      "outcome_terminal_stage": "suggestion metric; clean-utility execution",
+      "execution_purpose": "clean utility"
+    },
+    "TC-018": {
+      "outcome_evidence": "R+S+X",
+      "outcome_terminal_stage": "target presence plus successful database execution",
+      "execution_purpose": "attack payload execution and clean utility"
+    },
+    "TC-024": {
+      "outcome_evidence": "R+X",
+      "outcome_terminal_stage": "HDL functional evaluation using VerilogEval",
+      "execution_purpose": "generated HDL functionality"
+    },
+    "TC-025": {
+      "outcome_evidence": "R+X",
+      "outcome_terminal_stage": "payload generation; clean-utility execution",
+      "execution_purpose": "clean utility"
+    },
+    "TC-031": {
+      "model_interface": "generative"
+    },
+    "TC-021": {
+      "access": "C+W+B",
+      "outcome_evidence": "R+X",
+      "outcome_terminal_stage": "resource metrics; generated-code functional utility",
+      "execution_purpose": "generated-code utility"
+    },
+    "OE-004": {
+      "model_interface": "observational"
+    },
+    "DF-006": {
+      "short_name": "ACCENT masked training"
+    },
+    "OE-011": {
+      "outcome_evidence": "R+X+E",
+      "model_interface": "agent",
+      "outcome_terminal_stage": "agent execution and scenario-specific environment effect",
+      "execution_purpose": "agent security effect"
+    },
+    "OE-008": {
+      "model_interface": "observational"
+    },
+    "DF-035": {
+      "outcome_evidence": "R+S"
+    },
+    "TC-019": {
+      "access": "C+W+G+B"
+    },
+    "TC-014": {
+      "year": "2025",
+      "curation_note": "Pre-cutoff arXiv v1 uses 20 poisoned records in 300000 training records (approximately 0.0067%); later 454451 denominator not used."
+    },
+    "DF-009": {
+      "model_interface": "discriminative"
+    },
+    "OE-022": {
+      "preservation_support": "A",
+      "preservation_compile_status": "not_reported_in_inspected_protocol",
+      "curation_note": "Five code-perturbation families create 11 diagnostic variants; construction rules and representative manual checks support a task-relevant functionality claim, not full observable equivalence. Debug prints may change stdout. No paired behavioral execution identified.",
+      "model_type": "code LLMs with a diagnostic membership classifier"
+    },
+    "DF-017": {
+      "preservation_support": "A",
+      "preservation_compile_status": "not_reported_in_inspected_protocol",
+      "model_interface": "mixed",
+      "model_type": "prediction and generation systems",
+      "target_task": "clone detection; vulnerability detection; code summarization",
+      "curation_note": "Identifier replacement is used to restore the task prediction; source construction claims preservation. Summarization is evaluated alongside classification. No paired program execution identified."
+    },
+    "DF-029": {
+      "preservation_support": "A",
+      "preservation_compile_status": "not_reported_in_inspected_protocol",
+      "model_interface": "mixed",
+      "model_type": "prediction and generation systems",
+      "target_task": "defect detection; clone detection; program repair",
+      "curation_note": "Mask-infilling replaces identifiers or statements before victim inference and explicitly aims to retain semantic information. The source acknowledges possible semantic deviations. No paired program execution identified."
+    },
+    "DF-028": {
+      "target_task": "Dead-code detection and localization",
+      "curation_note": "Deletion supports perplexity-based diagnosis and localization; a usable purified program is not the evaluated outcome. Do not infer preservation validation from this diagnostic deletion."
+    },
+    "DF-036": {
+      "utility_tradeoff": "not_checked",
+      "utility_status": "not_checked",
+      "metadata_status": "Official Meta deployment report dated 2024-04-18; separate current method artifact",
+      "curation_note": "Dated first-party report describes filtering potentially insecure suggestions from an internal coding LLM. Screening volume is not exploit validation or held-out detector accuracy."
+    },
+    "BM-001": {
+      "preservation_support": "A",
+      "preservation_compile_status": "unclear",
+      "outcome_evidence": "C+X+E",
+      "coding_note": "Sec. 3.3 separately reports compilation errors (C). Developer tests assess functionality; OSS-Fuzz PoCs cause vulnerability-triggered crashes (X+E). Local-variable mutation is justified by construction; no paired execution of the renamed source is identified.",
+      "preservation_contract": "task-relevant behavior under local-variable renaming; binding and naming assumptions",
+      "preservation_test_coverage": "manual review of generated variable names; no paired mutation execution identified",
+      "outcome_terminal_stage": "compilation-error analysis and vulnerability-triggered project crashes under OSS-Fuzz PoCs",
+      "execution_purpose": "generated-code functional tests and security PoC execution",
+      "model_type": "standalone code LLMs and coding agents"
+    },
+    "DF-025": {
+      "preservation_support": "A",
+      "preservation_compile_status": "not_reported_in_inspected_protocol",
+      "target_task": "Detection by code-sticker variants and particle filtering",
+      "curation_note": "The constructed synonym variants aim to retain the behavior of a malicious code sticker, not the label of the whole overlaid input. The evaluated result is a warning or the original prediction, not purified-source functionality."
+    }
+  },
+  "additions": [
+    {
+      "copy_from": "TC-006",
+      "record_id": "TC-032",
+      "short_name": "FDI (continual training)",
+      "role": "attack",
+      "lifecycle_surface": "training",
+      "family": "poison/backdoor",
+      "access": "D",
+      "outcome_evidence": "R",
+      "program_preservation": "--",
+      "preservation_support": "--",
+      "source_role": "newly separated training contribution",
+      "curation_note": "FDI Sec. 5.2 evaluates feedback poisoning consumed by continual model training."
+    },
+    {
+      "copy_from": "IA-013",
+      "record_id": "DF-050",
+      "short_name": "CoCoFuzzing retraining",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. V-D and Table VII report retraining with original and mutated inputs; one work-role record groups the compared augmentation settings."
+    },
+    {
+      "copy_from": "IA-033",
+      "record_id": "DF-051",
+      "short_name": "CoTR-D",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R+X",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 3.2 and 5.2, Tables 7-8 evaluate distance-based augmentation and adversarial training; source-variant preservation tests are not assumed for every training pair."
+    },
+    {
+      "copy_from": "IA-012",
+      "record_id": "DF-052",
+      "short_name": "FuncFooler adversarial training",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. IV-D and Table III compare original and adversarially trained Asm2Vec."
+    },
+    {
+      "copy_from": "TC-028",
+      "record_id": "DF-053",
+      "short_name": "PELICAN adaptive hardening",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A+F",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 6.6 reports adversarial hardening with injected data; the preservation check remains scoped to synthesized basic blocks."
+    },
+    {
+      "copy_from": "IA-041",
+      "record_id": "DF-054",
+      "short_name": "ITGen adversarial fine-tuning",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. V-B and Table III compare accuracy/BLEU after adversarial fine-tuning."
+    },
+    {
+      "copy_from": "IA-036",
+      "record_id": "DF-055",
+      "short_name": "CodeCrash comment-ignoring prompt",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "--",
+      "program_preservation": "--",
+      "outcome_evidence": "R",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 5.2 and Table 7 evaluate an instruction to ignore comments. It is a prompt control, not a program transformation."
+    },
+    {
+      "copy_from": "RC-001",
+      "record_id": "DF-056",
+      "short_name": "SkillJect mitigation evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "runtime-context defense",
+      "defense_group": "runtime-context defense",
+      "preservation_support": "--",
+      "program_preservation": "--",
+      "outcome_evidence": "R+X",
+      "model_interface": "agent",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. IV-D evaluates prompt hardening and skill scanners; the controls are grouped in one work-role record."
+    },
+    {
+      "copy_from": "TC-006",
+      "record_id": "DF-057",
+      "short_name": "FDI screening evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "--",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 6 and Table 7 compare activation clustering, spectral signatures, and ONION; one work-role record groups the screening baselines."
+    },
+    {
+      "copy_from": "OE-016",
+      "record_id": "DF-058",
+      "short_name": "TIP guard-model evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "runtime-context defense",
+      "defense_group": "runtime-context defense",
+      "preservation_support": "--",
+      "program_preservation": "--",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 7.1 and Table 4 evaluate Llama-Prompt-Guard-2-22M; detection is not automatically coded as a prevented system effect."
+    },
+    {
+      "copy_from": "IA-001",
+      "record_id": "DF-059",
+      "short_name": "DAMP mitigation evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 5 and 6.3; Tables 3-4; Figs. 8-9. Add one grouped defense record for normalization, outlier detection and adversarial training."
+    },
+    {
+      "copy_from": "IA-003",
+      "record_id": "DF-060",
+      "short_name": "Abstention and representation refinement",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 3-5.1; Tables 1-3. Add grouped adversarial training, abstention and representation refinement; label preservation differs from whole-program equivalence."
+    },
+    {
+      "copy_from": "IA-004",
+      "record_id": "DF-061",
+      "short_name": "STRATA robust-checkpoint evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Appendices A and G; Table 9. Table 9 compares original and robustly trained checkpoints under both attack families; index a grouped mitigation evaluation."
+    },
+    {
+      "copy_from": "IA-005",
+      "record_id": "DF-062",
+      "short_name": "Optimized-obfuscation adversarial training",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 3 and 5; Table 2; Appendix E. Add optimized-obfuscation adversarial training; retain task-level preservation scope because print insertions affect observable output."
+    },
+    {
+      "copy_from": "IA-006",
+      "record_id": "DF-063",
+      "short_name": "Mutation-guided augmentation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. III-IV; RQ2; Tables IV-V. Add mutation-guided augmentation evaluation; paper separates attacked-set improvement from original-test utility losses."
+    },
+    {
+      "copy_from": "IA-017",
+      "record_id": "DF-064",
+      "short_name": "DIP adversarial training",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 4.5; Table 3. Add grouped adversarial training using MHM, ALERT, DIP and their combination."
+    },
+    {
+      "copy_from": "IA-019",
+      "record_id": "DF-065",
+      "short_name": "RNNS contrastive adversarial training",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 5; Tables 6-7. Add contrastive adversarial retraining; task outputs are classification decisions."
+    },
+    {
+      "copy_from": "IA-020",
+      "record_id": "DF-066",
+      "short_name": "Structural adversarial training",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 3 and 4.3-4.4; Tables 3-5. Add structural adversarial training; AST traversal reconstructions are input representations and need not be executable programs."
+    },
+    {
+      "copy_from": "IA-025",
+      "record_id": "DF-067",
+      "short_name": "Transfer-attack prompt defenses",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 3; RQ2-RQ4; Tables 2-4. Add grouped few-shot, inverse-transformation and meta-prompt defenses."
+    },
+    {
+      "copy_from": "TC-015",
+      "record_id": "DF-068",
+      "short_name": "SET screening and normalization",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 3, 5.5 and 5.6; Tables 8-12. Add grouped screening and normalization evaluation. Use the pre-cutoff arXiv version rather than later TOSEM evidence."
+    },
+    {
+      "copy_from": "IA-039",
+      "record_id": "DF-069",
+      "short_name": "NatGVD ensemble and retraining",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 5.4; Fig. 2. Add ensemble and adversarial-training evaluations."
+    },
+    {
+      "copy_from": "TC-002",
+      "record_id": "DF-070",
+      "short_name": "TrojanPuzzle fine-pruning",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R+X",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 6.2-6.5 and 7; Fig. 10 and 13. Add fine-pruning evaluation. HumanEval tests measure utility; suggestion-matching remains separate from exploit evidence."
+    },
+    {
+      "copy_from": "TC-003",
+      "record_id": "DF-071",
+      "short_name": "CodeBreaker screening evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R+S",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 5.2-5.3; Fig. 8; Appendix G. Functionality tests and HumanEval are execution evidence. Screening experiments support a grouped defense evaluation."
+    },
+    {
+      "copy_from": "TC-005",
+      "record_id": "DF-072",
+      "short_name": "Generalized-attack mitigation evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R+S+X",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 5.4 and 6.1-6.4. Add static filtering, deduplication, spectral signatures and fine-pruning in one defense record; HumanEval utility contributes X."
+    },
+    {
+      "copy_from": "TC-008",
+      "record_id": "DF-073",
+      "short_name": "BADCODE screening evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "RQ3; Table 5. Add activation-clustering and spectral-signature defense evaluation."
+    },
+    {
+      "copy_from": "TC-009",
+      "record_id": "DF-074",
+      "short_name": "BadCS screening evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. IV-G; Table VI. Add grouped spectral-signature and keyword-identification evaluations."
+    },
+    {
+      "copy_from": "TC-011",
+      "record_id": "DF-075",
+      "short_name": "AFRAIDOOR screening evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Sec. 4.4; defense evaluation RQ1. Add grouped spectral, activation-clustering and token-filtering evaluations."
+    },
+    {
+      "copy_from": "TC-013",
+      "record_id": "DF-076",
+      "short_name": "Multi-target model repair",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 4 and 6.3; Table 4. Add fine-pruning and weight-reinitialization evaluation; includes generation and classification tasks."
+    },
+    {
+      "copy_from": "OE-004",
+      "record_id": "DF-077",
+      "short_name": "Copilot Chat scanner-feedback repair",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "secure-generation defense",
+      "defense_group": "secure-generation defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R+S",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 3.2-3.4 and 4.1-4.3. Corpus measurement scans collected snippets; add separately queried Copilot Chat repair study. Total 43 CWEs includes all tools; 38 refers to Copilot subset."
+    },
+    {
+      "copy_from": "OE-005",
+      "record_id": "DF-078",
+      "short_name": "ChatGPT prompted security repair",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "secure-generation defense",
+      "defense_group": "secure-generation defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "L+S",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. II-III; aggregate paragraph before Sec. IV. Five of 21 programs initially correct; prompting produces corrected versions for seven of 16 insecure programs. Add repair evaluation."
+    },
+    {
+      "copy_from": "TC-018",
+      "record_id": "DF-079",
+      "short_name": "ToxicSQL filtering and augmentation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R+S+X",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 7.1.3 and 8.1-8.3. ASR requires target presence and successful database execution. Add filtering and input-augmentation defense evaluation."
+    },
+    {
+      "copy_from": "TC-031",
+      "record_id": "DF-080",
+      "short_name": "STAB screening evaluation",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. 4.1-4.3; Table 3; Fig. 3. Tasks are method-name prediction and code summarization (generated text); add SS/ONION/KillBadCode evaluation."
+    },
+    {
+      "copy_from": "TC-021",
+      "record_id": "DF-081",
+      "short_name": "DrainCode context screening",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "runtime-context defense",
+      "defense_group": "runtime-context defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. III, V-A, V-D and V-E; Tables VII-VIII. Add SVM/perplexity/CodeBERT context screening. Evaluates white-box optimization and black-box transfer; pass@1 provides utility execution evidence."
+    },
+    {
+      "copy_from": "IA-016",
+      "record_id": "DF-082",
+      "short_name": "DaK adversarial training",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "robustness defense",
+      "defense_group": "robustness defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Abstract and primary bibliographic record. Publisher abstract explicitly reports evaluated attack and adversarial-training methods; add missing defense, with detailed theoretical guarantees unrecoded."
+    },
+    {
+      "copy_from": "TC-019",
+      "record_id": "DF-083",
+      "short_name": "ShadowCode context screening and removal",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "runtime-context defense",
+      "defense_group": "runtime-context defense",
+      "preservation_support": "A",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "mixed",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. III and IV-D. Context entry is external code consumed for completion. Section IV-D contains defense comparisons requiring a separately coded record."
+    },
+    {
+      "copy_from": "TC-014",
+      "record_id": "DF-084",
+      "short_name": "Low-rate backdoor spectral screening",
+      "role": "defense",
+      "lifecycle_surface": "defense",
+      "family": "poison/backdoor defense",
+      "defense_group": "poison/backdoor defense",
+      "preservation_support": "--",
+      "program_preservation": "",
+      "outcome_evidence": "R",
+      "model_interface": "discriminative",
+      "source_role": "newly indexed evaluated mitigation",
+      "curation_note": "Secs. IV and V-A. Add spectral-signature defense evaluation at low poison rates. First version uses 20/300000; do not substitute the later 20/454451 denominator without checking that version."
+    },
+    {
+      "copy_from": "DF-031",
+      "record_id": "IA-042",
+      "short_name": "SVEN vulnerability-steering prefix",
+      "role": "attack",
+      "lifecycle_surface": "inference input",
+      "family": "prompt-based vulnerability induction",
+      "defense_group": "",
+      "access": "W",
+      "budget_unit": "prefix optimization steps",
+      "preservation_support": "--",
+      "program_preservation": "--",
+      "outcome_evidence": "R+S+X",
+      "source_role": "newly indexed evaluated attack",
+      "curation_note": "SVEN-vul prepends a learned continuous prefix to the fixed victim at inference; add current-input attack. Preparation of the attacker prefix does not poison victim training data."
+    },
+    {
+      "copy_from": "BM-001",
+      "record_id": "OE-028",
+      "short_name": "SecRepoBench generation-risk measurement",
+      "role": "risk study",
+      "lifecycle_surface": "output/ecosystem",
+      "family": "insecure generation",
+      "defense_group": "",
+      "access": "B",
+      "program_preservation": "--",
+      "preservation_support": "A",
+      "outcome_evidence": "C+X+E",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated risk study",
+      "curation_note": "Same benchmark protocol as the resource record: unit tests and OSS-Fuzz PoC crashes, not static security analysis. Reports both standalone models and coding agents.",
+      "preservation_compile_status": "unclear",
+      "coding_note": "Sec. 3.3 separately reports compilation errors (C). Developer tests assess functionality; OSS-Fuzz PoCs cause vulnerability-triggered crashes (X+E). Local-variable mutation is justified by construction; no paired execution of the renamed source is identified.",
+      "preservation_contract": "task-relevant behavior under local-variable renaming; binding and naming assumptions",
+      "preservation_test_coverage": "manual review of generated variable names; no paired mutation execution identified",
+      "outcome_terminal_stage": "compilation-error analysis and vulnerability-triggered project crashes under OSS-Fuzz PoCs",
+      "execution_purpose": "generated-code functional tests and security PoC execution",
+      "model_type": "standalone code LLMs and coding agents"
+    },
+    {
+      "copy_from": "DF-035",
+      "record_id": "OE-029",
+      "short_name": "Vanilla-prompt vulnerability measurement",
+      "role": "risk study",
+      "lifecycle_surface": "output/ecosystem",
+      "family": "insecure generation",
+      "defense_group": "",
+      "access": "B",
+      "program_preservation": "--",
+      "preservation_support": "--",
+      "outcome_evidence": "R+S",
+      "model_interface": "generative",
+      "source_role": "newly indexed evaluated risk study",
+      "curation_note": "Secs. 3-5; Table 2 caption and Table 3. Add separately posed RQ1 risk study. CodeQL evaluates own outputs; Table 2 imports model benchmark scores and does not establish dynamic validation of repaired code. Exclude September 2026 v2 evidence."
+    }
+  ],
+  "exclusions": {
+    "TC-026": {
+      "citation_key": "unrepairing2024",
+      "source_url": "https://arxiv.org/html/2403.06675v1",
+      "evidence_locator": "Secs. IV-B, IV-C, V and VI",
+      "reason": "Position paper proposes an attack and evaluation plan, without reported empirical results; exclude from primary corpus."
+    },
+    "OE-009": {
+      "citation_key": "tambon2025bugs",
+      "source_url": "https://arxiv.org/html/2403.08937v2",
+      "evidence_locator": "Research questions, bug taxonomy and evaluation",
+      "reason": "General functional bug-pattern study does not separately evaluate the security property required by the current primary-study criterion; keep as background."
+    }
+  }
+}

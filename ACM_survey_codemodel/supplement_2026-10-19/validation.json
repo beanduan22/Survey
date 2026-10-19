@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-19",
+  "pages": 58,
+  "chapters": 9,
+  "research_questions": 4,
+  "citation_keys": 201,
+  "works": 153,
+  "contributions": 224,
+  "corpus_table_check": "passed",
+  "standalone_package_build": "passed",
+  "undefined_references": 0,
+  "overfull_boxes": 0,
+  "protocol_records": 169,
+  "targeted_records": 14,
+  "limited_records": 41,
+  "adversarial_review": "four confirmed findings integrated; numeric comparisons checked",
+  "bibliography_warnings": 19,
+  "font_fallback": "inconsolata unavailable in local installation",
+  "archive": "repo:manuscript/Survey_Draft_2026-10-19.zip",
+  "package_data_reproduction": "passed",
+  "bibtex_duplicate_keys": 0
+}

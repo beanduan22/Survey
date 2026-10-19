@@ -1,0 +1,7 @@
+citation_key,location,configuration,metric,before,after,unit,source
+zhang2020generating,"Table 4, p.1174",LSTM; 2000 MHM training examples,clean accuracy; attacked rate,92.9;71.3,94.0;46.4,percent,https://ojs.aaai.org/index.php/AAAI/article/download/5469/5325
+zhang2020generating,"Table 4, p.1174",ASTNN; 2000 MHM training examples,clean accuracy; attacked rate,98.2;92.1,98.1;54.7,percent,https://ojs.aaai.org/index.php/AAAI/article/download/5469/5325
+springer2020strata,"Appendix G, Table 9",original / robust checkpoint,clean; gradient attack; STRATA,0.363;0.243;0.212,0.367;0.342;0.240,F1 on 0--1 scale,https://arxiv.org/html/2009.13562
+na2023dip,"Section 4.5, Table 3",CodeBERT clone detection; MHM/ALERT/DIP/all adversarial training,DIP ASR; MHM ASR,32.0;41.5;15.0;8.0,2.5;1.5;9.2;1.0,"percent; fields identify separate attack rows, not temporal before/after",https://aclanthology.org/2023.acl-long.430.pdf
+spracklen2025package,"Section 6, Tables 4--5",DeepSeek-Coder-6.7B baseline / fine-tuning,package hallucination; HumanEval pass@1,16.14;51.4,2.66;25.3,percent; different task denominators,https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf
+ye2025set,Table 10,CodeBERT; P8.2 trigger; 5% poison; P8.3 / P7.2 normalization,ASR,89.09,7.15;88.95,percent; related / unrelated normalization,https://arxiv.org/html/2512.19215v1

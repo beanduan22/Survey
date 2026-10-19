@@ -1,0 +1,15 @@
+citation_key,source,verified_fields
+carlini2024webpoison,Existing IEEE publisher identity; standard publisher address,address
+chu2026scrubitout,https://zhaoyang-chu.github.io/assets/CodeEraser.pdf ; first-page ACM Reference Format and13-page PDF,publisher;address;numpages;doi;url
+debenedetti2024agentdojo,https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf ;26-page official PDF,numpages;address
+greshake2023indirect,Existing ACM publisher identity; standard publisher address,address
+hendrycks2021apps,https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/c24cd76e1ce41366a4bbe8a49b02a028-Paper-round2.pdf ;11-page official PDF,numpages;volume
+jamdade2024pilot,Existing ACM publisher identity/DOI; standard publisher address,address;url
+privcode2026,https://www.ndss-symposium.org/wp-content/uploads/2026-f936-paper.pdf ;20-page official PDF,numpages
+privcodeplus2026,https://proceedings.mlr.press/v306/liu26ao.html ;official proceedings metadata; evidence remains pre-cutoff arXiv v1,pages;volume;series;url;doi;note
+lu2021codexglue,https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/c16a5320fa475530d9583c34fd356ef5-Paper-round1.pdf ;16-page official PDF,numpages;volume
+puri2021codenet,https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/a5bfc9e07964f8dddeb95fc584cd965d-Paper-round2.pdf ;13-page official PDF,numpages;volume
+qu2024robustnesssurvey,https://www.researchgate.net/publication/382998205_A_survey_on_robustness_attacks_for_deep_code_models ;author-uploaded publisher PDF marks40pages,numpages
+quiring2019authorship,https://www.usenix.org/conference/usenixsecurity19/presentation/quiring ;official BibTeX,pages;address;isbn
+srikant2021generating,https://arxiv.org/pdf/2103.11882 ;16-page author PDF explicitly marked publishedICLR2021,numpages
+zhou2019devign,https://proceedings.neurips.cc/paper_files/paper/2019/file/49265d2447bc3bbfe9e76306ce40a31f-Paper.pdf ;11-page official PDF,numpages

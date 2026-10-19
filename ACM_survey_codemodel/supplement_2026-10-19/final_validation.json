@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-19",
+  "pages": 47,
+  "chapters": 9,
+  "research_questions": 4,
+  "citation_keys": 196,
+  "works": 148,
+  "contributions": 219,
+  "corpus_table_check": "passed",
+  "standalone_package_build": "passed",
+  "undefined_references": 0,
+  "overfull_boxes": 0,
+  "protocol_records": 205,
+  "targeted_records": 14,
+  "limited_records": 0,
+  "adversarial_review": "prior integration fixes retained; five-work filter checked deterministically",
+  "author_requested_excluded_works": [
+    "gao2023dak",
+    "zhang2023struck",
+    "bads2026",
+    "li2023advbinsd",
+    "sloda2025"
+  ],
+  "excluded_contribution_records": 7,
+  "bibliography_warnings": 1,
+  "font_fallback": "inconsolata unavailable in local installation",
+  "archive": "Survey_Draft_2026-10-19.zip",
+  "released_data_reproduction": "passed",
+  "standalone_pdf_text_matches_delivery": true,
+  "source_filter_text_bib_csv_pdf_check": "passed",
+  "source_filter_independent_model_review": "passed; GPT-6.1, read-only, no new retrieval",
+  "all_retained_records_have_protocol_or_targeted_check": true,
+  "prose_compression": {
+    "pages_before": 58,
+    "pages_after": 46,
+    "references_start_page": 32,
+    "documentclass_and_font_settings_unchanged": true,
+    "citation_keys_retained": 196,
+    "section_titles_and_labels_retained": true,
+    "core_contribution_table_rows_unchanged": true,
+    "removed": "four duplicate RQ recaps, repeated scope reminders, workflow narration, redundant study descriptions",
+    "affected_claim_and_coherence_check": "completed by the integrating editor against the supplied manuscript; no new independent review or literature search",
+    "corpus_reproduction": "passed",
+    "layout_check": "six representative pages inspected; no text outside page bounds or blank pages",
+    "prose_checker": "contextual candidates inspected; retained technical robustness terms and structured table punctuation"
+  },
+  "author_todos": {
+    "count": 5,
+    "language": "Chinese with English identifiers",
+    "visible": true,
+    "placements": [
+      {
+        "id": 1,
+        "page": 3
+      },
+      {
+        "id": 2,
+        "page": 5
+      },
+      {
+        "id": 3,
+        "page": 6
+      },
+      {
+        "id": 4,
+        "page": 25
+      },
+      {
+        "id": 5,
+        "page": 29
+      }
+    ],
+    "references_start_page": 34,
+    "clean_source_text_unchanged": true,
+    "human_confirmation": "pending; author_review.csv unchanged",
+    "methods_facts": "pending author input",
+    "card_glyph_and_page_bounds_check": "passed",
+    "clean_switch_build": "passed; hidden-note PDF matches prior 46-page PDF text",
+    "standalone_annotated_build": "passed"
+  },
+  "repository_sync": {
+    "target": "https://github.com/beanduan22/Survey",
+    "entry_point": "ACM_survey_codemodel/main.tex",
+    "standalone_package_build": "passed repository main.tex build and data reproduction"
+  }
+}

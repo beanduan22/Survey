@@ -1,0 +1,6 @@
+lead,citation_key,source,decision,reason,url
+SB01,quiring2019authorship,Backward primary-literature follow-up during preservation audit,include_new,Evaluated neural authorship attack with paired contest-output checks.,https://www.usenix.org/system/files/sec19-quiring.pdf
+SB02,xiao2026funpoison,Primary-paper follow-up during owner-protection audit,include_new,Evaluated code-owner protection and paired functionality validation; v1 April 2026.,https://arxiv.org/html/2604.22291v1
+SB03,le2025signature,Primary-paper follow-up during backdoor-defense audit,include_new,"Evaluated spectral screening, filtering and retraining for code models; v1 October 2025.",https://arxiv.org/html/2510.13992v1
+SB04,,Selected lead from the S13/S16 venue/author landing material,deferred_primary_protocol,Codebreaker: Dynamic Inspection Attacks for Extracting Proprietary Source Code from LLMs. Official SP2025 identity confirmed; primary protocol unavailable in the bounded follow-up. No outcome oracle invented.,https://doi.org/10.1109/SP61157.2025.00124
+SB05,,Selected lead during source-transformation audit,unresolved_lead,"Rabin and Alipour robustness study: identity lead retained, primary eligibility/protocol not resolved; excluded from quantitative synthesis pending screening.",https://arxiv.org/abs/2004.07313

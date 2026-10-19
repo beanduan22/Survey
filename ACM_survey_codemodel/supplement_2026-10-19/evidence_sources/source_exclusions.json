@@ -1,0 +1,59 @@
+{
+  "gao2023dak": {
+    "name": "DaK",
+    "record_ids": [
+      "IA-016",
+      "DF-082"
+    ],
+    "date": "2026-10-19",
+    "stage": "final primary-source verification",
+    "reason": "Full primary methods/results could not be inspected after targeted retrieval.",
+    "authorization": "Explicit author request to filter out the five works",
+    "source_url": "https://doi.org/10.1145/3591227 ; https://pldi23.sigplan.org/profile/fengjuangao"
+  },
+  "zhang2023struck": {
+    "name": "STRUCK",
+    "record_ids": [
+      "IA-023",
+      "DF-095"
+    ],
+    "date": "2026-10-19",
+    "stage": "final primary-source verification",
+    "reason": "Full primary methods/results could not be inspected after targeted retrieval.",
+    "authorization": "Explicit author request to filter out the five works",
+    "source_url": "https://eudl.eu/doi/10.1007/978-3-031-54528-3_22 ; https://chenliang.tech/publications/"
+  },
+  "bads2026": {
+    "name": "BADS",
+    "record_ids": [
+      "TC-029"
+    ],
+    "date": "2026-10-19",
+    "stage": "final primary-source verification",
+    "reason": "Full primary methods/results could not be inspected after targeted retrieval.",
+    "authorization": "Explicit author request to filter out the five works",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0950584926000078"
+  },
+  "li2023advbinsd": {
+    "name": "AdvBinSD",
+    "record_ids": [
+      "TC-030"
+    ],
+    "date": "2026-10-19",
+    "stage": "final primary-source verification",
+    "reason": "Full primary methods/results could not be inspected after targeted retrieval.",
+    "authorization": "Explicit author request to filter out the five works",
+    "source_url": "https://liyuqingwhu.github.io/lyq/"
+  },
+  "sloda2025": {
+    "name": "SLODA",
+    "record_ids": [
+      "IA-037"
+    ],
+    "date": "2026-10-19",
+    "stage": "final primary-source verification",
+    "reason": "Complete formal protocol and correspondence of the available artifact to an in-cutoff version could not be verified.",
+    "authorization": "Explicit author request to filter out the five works",
+    "source_url": "https://github.com/CGCL-codes/SLODA ; https://raw.githubusercontent.com/CGCL-codes/SLODA/main/CodeBERT/attack/attack_ptm_sloda.py ; https://raw.githubusercontent.com/CGCL-codes/SLODA/main/CodeBERT/attack/ptm_attacker.py ; https://raw.githubusercontent.com/CGCL-codes/SLODA/main/CodeBERT/attack/attack_utils.py ; https://raw.githubusercontent.com/CGCL-codes/SLODA/main/features/one2zero.jsonl ; https://github.com/CGCL-codes/SLODA/commit/HEAD ; https://github.com/CGCL-codes/SLODA/blob/main/dataset/python_parser/run_parser.py"
+  }
+}

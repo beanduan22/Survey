@@ -1,0 +1,17 @@
+query_id,search_date,cutoff,service,query,domains,raw_result_file
+S01,2026-10-19,2026-06-30,public web index restricted to DBLP and arXiv,"(""code model"" OR ""code models"") (""adversarial"" OR ""robustness"") before:2026-07-01",dblp.org;arxiv.org,S01.json
+S02,2026-10-19,2026-06-30,public web index restricted to DBLP and arXiv,"(""code"" OR ""source code"") (""backdoor"" OR ""poisoning"") before:2026-07-01",dblp.org;arxiv.org,S02.json
+S03,2026-10-19,2026-06-30,public web index restricted to DBLP and arXiv,"(""code generation"" OR ""coding"") (""retrieval poisoning"" OR ""prompt injection"") before:2026-07-01",dblp.org;arxiv.org,S03.json
+S04,2026-10-19,2026-06-30,public web index restricted to DBLP and arXiv,"(""coding agent"" OR ""coding agents"") (""security"" OR ""malicious"") before:2026-07-01",dblp.org;arxiv.org,S04.json
+S05,2026-10-19,2026-06-30,public web index restricted to arXiv; eligibility dates checked on primary records,code model adversarial attacks,arxiv.org,S05.json
+S06,2026-10-19,2026-06-30,public web index restricted to arXiv; eligibility dates checked on primary records,code LLM backdoor poisoning,arxiv.org,S06.json
+S07,2026-10-19,2026-06-30,public web index restricted to arXiv; eligibility dates checked on primary records,coding agent prompt injection,arxiv.org,S07.json
+S08,2026-10-19,2026-06-30,public web index restricted to arXiv; eligibility dates checked on primary records,secure code generation benchmark,arxiv.org,S08.json
+S09,2026-10-19,2026-06-30,public web index restricted to arXiv; eligibility dates checked on primary records,code model membership inference,arxiv.org,S09.json
+S10,2026-10-19,2026-06-30,public web index restricted to arXiv; eligibility dates checked on primary records,code model watermark unlearning,arxiv.org,S10.json
+S11,2026-10-19,2026-06-30,public web index; eligibility dates checked on primary records,code generation differential privacy,arxiv.org,S11.json
+S12,2026-10-19,2026-06-30,public web index; eligibility dates checked on primary records,code model backdoor defense,arxiv.org,S12.json
+S13,2026-10-19,2026-06-30,public web index; eligibility dates checked on primary records,source code adversarial training semantics preserving,arxiv.org,S13.json
+S14,2026-10-19,2026-06-30,public web index; eligibility dates checked on primary records,package hallucination code generation,arxiv.org,S14.json
+S15,2026-10-19,2026-06-30,public web index; eligibility dates checked on primary records,adversarial code models,dblp.org,S15.json
+S16,2026-10-19,2026-06-30,public web index; eligibility dates checked on primary records,code generation security,dblp.org,S16.json

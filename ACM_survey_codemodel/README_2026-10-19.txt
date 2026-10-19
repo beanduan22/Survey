@@ -1,0 +1,65 @@
+Neural Code Security Survey — 2026-10-19
+
+主文件：Neural_Code_Security_Survey_2026-10-19.tex
+参考文献：Neural_Code_Security_Survey_FINAL.bib
+配套编码：survey_coding_table_2026-10-19.csv
+证据与检索材料：supplement_2026-10-19/
+
+本稿采用 ACM acmsmall review 布局；章节组织与问题引导参考
+Hou et al., DOI 10.1145/3695988，内容、分类与证据分析属于本 survey。
+全文九章：Introduction / Approach / RQ1 / RQ2 / RQ3 / RQ4 /
+Threats to Validity / Challenges and Opportunities / Conclusion。
+
+当前带作者待办版本 47 页（含参考文献），148 works / 219 contributions：
+75 attacks / 30 risk studies / 110 defenses / 4 evaluation resources。
+文献截止日期仍为 2026-06-30；有记录的补充检索日期为 2026-10-19。
+补充检索保存16条原始查询、107条去重返回项及逐项筛选决定。
+历史检索未保留的数据未被重建为虚构的 PRISMA 流程。
+
+精简后的无标注正文为46页；当前加入5处中文作者待办，共47页，参考文献从第34页开始。
+待办01（第3页）：补充实际工具、版本、任务和判断流程。
+待办02（第5页）：核实人工编码与复核事实，填写作者确认记录。
+待办03（第6页）：核验关键分类边界与计数口径。
+待办04（第25页）：核验程序保持条件与结果证据。
+待办05（第29页）：核验同篇数字、分母及解释。
+
+待办文字在 author-notes.py 中编辑，运行该脚本可重建 author-notes.pdf。
+正常LaTeX编译直接使用已附PDF，不需要中文LaTeX宏包或ReportLab。
+TeX导言区将 \showauthornotestrue 改为 \showauthornotesfalse 可隐藏待办；
+完成核验后仍需据实更新正文的流程与状态说明。
+删除四处重复的RQ章末总结，合并检索与核查过程旁白，
+压缩逐篇复述、重复定义、指标提醒和图表说明。
+九章结构、148篇主语料、219项贡献、196个引用键及核心表格数据保留。
+字体、字号、页边距与参考文献样式沿用原设置。
+
+已有原文核查修正了攻击入口、遗漏的防御角色、代码保持合同、
+人工/LLM判定与静态分析、功能测试与攻击效果等区别。
+同篇对照包括 MHM / STRATA / DIP / 包幻觉缓解，并保留 SET 示例。
+原始稿及本轮之前的快照保留在项目工作目录，未修改根目录 main.tex。
+
+按作者要求，DaK、STRUCK、BADS、AdvBinSD、SLODA已从主语料、正文、
+参考文献及统计中筛除，合计5篇、7项贡献（5攻击、2防御）。
+筛除理由记录在 source_exclusions.csv；历史资料保留为筛除前审计。
+当前205条protocol checks、14条targeted checks、0条来源受限记录。
+核实范围以各项命名版本、实际来源和定位为准，详见 verification_report.md
+及 protocol_audit.csv。remaining_sources.csv为空表，当前无需补交这五篇全文。
+author_review.csv 的人类确认栏留空；模型检查不代表第二位人类独立编码。
+GPT-6.1 筛除前的对抗复核报告位于 supplement_2026-10-19/review_history；
+本轮最终编译、复算与筛除检查记录在 final_validation.json。
+
+在同一目录编译（需要 TikZ、tabularx、longtable、needspace、placeins 等宏包）：
+
+pdflatex -interaction=nonstopmode -halt-on-error Neural_Code_Security_Survey_2026-10-19.tex
+bibtex Neural_Code_Security_Survey_2026-10-19
+pdflatex -interaction=nonstopmode -halt-on-error Neural_Code_Security_Survey_2026-10-19.tex
+pdflatex -interaction=nonstopmode -halt-on-error Neural_Code_Security_Survey_2026-10-19.tex
+
+压缩包附 acmart.cls、ACM-Reference-Format.bst 和已生成的 bbl。
+在 Overleaf 中将上述带日期 TeX 设为 Main document。
+图形由 TikZ 内嵌生成。统计与表格视图可在 Python 3 中重算验证：
+
+python supplement_2026-10-19/reproduce.py
+
+当前使用 nonacm 隐去尚未分配的出版信息，正式提交时按 ACM 要求设置。
+BibTeX 保留1条非致命的 early-access 卷期提示（ShadowCode）；
+本机缺 inconsolata，使用字体回退。未补写未核实的正式卷期或页码。

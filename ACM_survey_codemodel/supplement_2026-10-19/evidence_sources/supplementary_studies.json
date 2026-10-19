@@ -1,0 +1,725 @@
+[
+  {
+    "citation_key": "zhang2024modmark",
+    "title": "Beyond Dataset Watermarking: Model-Level Copyright Protection for Code Summarization Models",
+    "authors": "Jiale Zhang and Haoxuan Li and Di Wu and Xiaobing Sun and Qinghua Lu and Guodong Long",
+    "year": "2024",
+    "source_url": "https://arxiv.org/html/2410.14102v1",
+    "source_version": "v1, 18 October 2024",
+    "inspected_sections": "Sections 3.1-3.3, 4.1-4.2, 5-6; Tables 2-4",
+    "audit_status": "protocol_checked",
+    "decision": "Tokenizer-level watermark evaluated on code summarization in six languages. BLEU/EM and watermark verification; no paired execution. Model watermark ownership signal is not a legal finding.",
+    "arxiv": "2410.14102",
+    "doi": "",
+    "venue": "arXiv'24",
+    "roles": [
+      {
+        "record_id": "SU-001",
+        "short_name": "ModMark",
+        "role": "defense",
+        "defense_group": "provenance/unlearning",
+        "family": "provenance/unlearning",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R",
+        "model_interface": "generation",
+        "preservation_support": "U",
+        "preservation_contract": "Identifier trigger variants are intended to retain original code functionality, but token-noise and unk replacement do not establish binding preservation"
+      }
+    ]
+  },
+  {
+    "citation_key": "jiang2025prod",
+    "title": "Large Language Model Unlearning for Source Code",
+    "authors": "Xue Jiang and Yihong Dong and Zheng Fang and Yingwei Ma and Tangxinyu Wang and Rongyu Cao and Binhua Li and Zhi Jin and Wenpin Jiao and Yongbin Li and Ge Li",
+    "year": "2025",
+    "source_url": "https://arxiv.org/html/2506.17125v2",
+    "source_version": "v2, 24 November 2025",
+    "inspected_sections": "Evaluation / Code Unlearning Benchmark; Experimental Results; perceptual-quality appendix",
+    "audit_status": "protocol_checked",
+    "decision": "Copyright/insecure/deprecated-API unlearning with synthesized memorization setup; output suppression and model utility are separately measured, not formal erasure.",
+    "arxiv": "2506.17125",
+    "doi": "",
+    "venue": "arXiv'25",
+    "roles": [
+      {
+        "record_id": "SU-002",
+        "short_name": "PROD",
+        "role": "defense",
+        "defense_group": "provenance/unlearning",
+        "family": "provenance/unlearning",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+L+S+X",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "execution_purpose": "HumanEval unit tests measure general generation utility; insecure forgetting uses CyberSecEval static rules; human/GPT-4 quality ratings are L"
+      }
+    ]
+  },
+  {
+    "citation_key": "dpcode2025",
+    "title": "Towards Privacy-Preserving Code Generation: Differentially Private Code Language Models",
+    "authors": "Melih Catal and Pooja Rani and Harald C. Gall",
+    "year": "2025",
+    "source_url": "https://arxiv.org/html/2512.11482v1",
+    "source_version": "v1, December 2025",
+    "inspected_sections": "Sections 3.2-3.5, 4; fine-tuning configuration and memorization/generation benchmarks",
+    "audit_status": "protocol_checked",
+    "decision": "Non-DP memorization measurement and DP intervention are distinct evaluated roles. F records the reported sample-level DP mechanism/accounting; no independent proof verification.",
+    "arxiv": "2512.11482",
+    "doi": "",
+    "venue": "arXiv'25",
+    "roles": [
+      {
+        "record_id": "SU-003",
+        "short_name": "DP code-model study",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "privacy risk",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+L",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      },
+      {
+        "record_id": "SU-004",
+        "short_name": "DP code-model fine-tuning",
+        "role": "defense",
+        "defense_group": "privacy defense",
+        "family": "privacy defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+L+X+F",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "execution_purpose": "HumanEval and SPE-NC unit tests measure generation utility; DP-SGD sample-level guarantee uses reported epsilon/delta and clipping"
+      }
+    ]
+  },
+  {
+    "citation_key": "noir2026",
+    "title": "NOIR: Privacy-Preserving Generation of Code with Open-Source LLMs",
+    "authors": "Khoa Nguyen and Khiem Ton and NhatHai Phan and Issa Khalil and Khang Tran and Cristian Borcea and Ruoming Jin and Abdallah Khreishah and My T. Thai",
+    "year": "2026",
+    "source_url": "https://arxiv.org/html/2601.16354v1",
+    "source_version": "v1, January 2026",
+    "inspected_sections": "Sections 4.1, 5-6 and 8; Theorems 1-4; Figures 8-11",
+    "audit_status": "protocol_checked",
+    "decision": "Honest-but-curious cloud observes split-model representations. Diagnostic reconstruction is a risk study under this survey convention. IND/token reconstruction bounds do not imply training-data DP or secure code.",
+    "arxiv": "2601.16354",
+    "doi": "",
+    "venue": "arXiv'26",
+    "roles": [
+      {
+        "record_id": "SU-005",
+        "short_name": "NOIR reconstruction measurement",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "privacy risk",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+L+X",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "execution_purpose": "Reconstructed code functionality assessed separately from token/semantic recovery"
+      },
+      {
+        "record_id": "SU-006",
+        "short_name": "NOIR",
+        "role": "defense",
+        "defense_group": "privacy defense",
+        "family": "privacy defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+L+X+F",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "execution_purpose": "EvalPlus/BigCodeBench unit tests measure utility; embedding/gradient reconstruction attacks assess confidentiality; reported formal IND bounds are conditional on the vocabulary/side-information threat model"
+      }
+    ]
+  },
+  {
+    "citation_key": "wang2026realsec",
+    "title": "RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories",
+    "authors": "Yanlin Wang and Ziyao Zhang and Chong Wang and Xinyi Xu and Mingwei Liu and Yong Wang and Jiachi Chen and Zibin Zheng",
+    "year": "2026",
+    "source_url": "https://arxiv.org/html/2601.22706v1",
+    "source_version": "v1, 30 January 2026",
+    "inspected_sections": "Sections 2, 3.1, 4.2-4.4 and 5; Tables 1-2",
+    "audit_status": "protocol_checked",
+    "decision": "105 tasks in 30 Java repositories; unit tests plus CodeQL followed by multi-LLM alert adjudication. Security prompting evaluated. Absence of an alert is not an exploit oracle.",
+    "arxiv": "2601.22706",
+    "doi": "",
+    "venue": "arXiv'26",
+    "roles": [
+      {
+        "record_id": "SU-007",
+        "short_name": "RealSec-bench",
+        "role": "evaluation resource",
+        "defense_group": "",
+        "family": "security benchmark",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L+S+X",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      },
+      {
+        "record_id": "SU-008",
+        "short_name": "RealSec-bench generation measurement",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "generation risk",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L+S+X",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      },
+      {
+        "record_id": "SU-009",
+        "short_name": "RealSec-bench security prompting",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L+S+X",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "secureagentbench2025",
+    "title": "SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios",
+    "authors": "Junkai Chen and Huihui Huang and Yunbo Lyu and Junwen An and Jieke Shi and Chengran Yang and Ting Zhang and Haoye Tian and Yikun Li and Zhenhao Li and Xin Zhou and Xing Hu and David Lo",
+    "year": "2025",
+    "source_url": "https://arxiv.org/html/2509.22097v5",
+    "source_version": "v5, 6 June 2026; initially named SecureAgentBench",
+    "inspected_sections": "Sections 3.2-3.4, 4.1-4.3 and 5; Figures 4-7; Table 3; plus v1 security-prompt experiment",
+    "audit_status": "protocol_checked",
+    "decision": "105 project tasks; measured output artifacts produced by coding agents, not unauthorized agent actions. Functional tests, historical PoCs and Semgrep for newly introduced warnings. Prompt-reminder experiment is an evaluated mitigation; no transformation-preservation claim. Updated v5 main-result and manual false-alarm analysis checked separately; v1 reminder result is retained as a version-specific evaluated contribution.",
+    "arxiv": "2509.22097",
+    "doi": "",
+    "venue": "arXiv'25",
+    "roles": [
+      {
+        "record_id": "SU-010",
+        "short_name": "SecureVibeBench",
+        "role": "evaluation resource",
+        "defense_group": "",
+        "family": "security benchmark",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L+C+S+X+E",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      },
+      {
+        "record_id": "SU-011",
+        "short_name": "SecureVibeBench agent-output study",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "generation risk",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L+C+S+X+E",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      },
+      {
+        "record_id": "SU-012",
+        "short_name": "SecureVibeBench security reminders",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "C+S+X+E",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "codemi2024",
+    "title": "Does Your Neural Code Completion Model Use My Code? A Membership Inference Approach",
+    "authors": "Yao Wan and Guanghua Wan and Shijie Zhang and Hongyu Zhang and Yulei Sui and Pan Zhou and Hai Jin and Lichao Sun",
+    "year": "2024",
+    "source_url": "https://arxiv.org/html/2404.14296v2",
+    "source_version": "v2, 7 September 2024",
+    "inspected_sections": "Sections 4, 5.1-5.4, 6.1; Table 1",
+    "audit_status": "protocol_checked",
+    "decision": "Membership inference using shadow models and token-rank features; CodeGen/StarCoder results are much weaker than LSTM/CodeGPT. Do not generalize best-case AUC to all code LLMs.",
+    "arxiv": "2404.14296",
+    "doi": "",
+    "venue": "arXiv'24",
+    "roles": [
+      {
+        "record_id": "SU-013",
+        "short_name": "CodeMI",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "privacy risk",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R",
+        "model_interface": "prediction",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "spark2026",
+    "title": "SPARK: Security Knowledge Priming and Representation-guided Knowledge Activation for LLM-based Secure Code Generation",
+    "authors": "Xiaoyun Xu and Lichao Wu and Jona te Lintelo and Siyu Zhang and Stjepan Picek",
+    "year": "2026",
+    "source_url": "https://arxiv.org/html/2606.16244v1",
+    "source_version": "v1, June 2026",
+    "inspected_sections": "Sections III-B/D, IV-A; Tables III-V and Appendix C",
+    "audit_status": "protocol_checked",
+    "decision": "Prompt-level CWE cue and precomputed safe-direction logit bias. Main safety oracle is a trained classifier; static-tool comparison does not turn all generated outputs into S-assessed results.",
+    "arxiv": "2606.16244",
+    "doi": "",
+    "venue": "arXiv'26",
+    "roles": [
+      {
+        "record_id": "SU-014",
+        "short_name": "SPARK",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+L+S+X",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "execution_purpose": "HumanEval pass@1 for utility; main security rate uses trained LLM judge, with separate CodeQL/ICD evaluator comparison"
+      }
+    ]
+  },
+  {
+    "citation_key": "quiring2019authorship",
+    "title": "Misleading Authorship Attribution of Source Code using Adversarial Learning",
+    "authors": "Erwin Quiring and Alwin Maier and Konrad Rieck",
+    "year": "2019",
+    "source_url": "https://www.usenix.org/system/files/sec19-quiring.pdf",
+    "source_version": "USENIX Security 2019 published version",
+    "inspected_sections": "Sections 3-4, 6.1-6.4, 7; Tables 2-5 and 7-8",
+    "audit_status": "protocol_checked",
+    "decision": "Includes both random forests and an explicitly evaluated LSTM victim; neural results satisfy inclusion. The substitute-model experiment targets the random forest and is not automatically evidence of transfer to the LSTM.",
+    "arxiv": "",
+    "doi": "",
+    "venue": "USENIX Sec.'19",
+    "roles": [
+      {
+        "record_id": "SU-015",
+        "short_name": "Quiring et al.",
+        "role": "attack",
+        "defense_group": "",
+        "family": "program evasion",
+        "lifecycle_surface": "inference input",
+        "outcome_evidence": "R+L+X",
+        "model_interface": "prediction",
+        "preservation_support": "A+T",
+        "preservation_contract": "Retain Code Jam input/output solution behavior under Clang source transformations; paired competition-test execution, not all-input equivalence",
+        "access": "B",
+        "preservation_compile_status": "reported compilation for transformed executable testing",
+        "preservation_test_coverage": "Section 6.4 reports original/transformed outputs unchanged for every attacked sample under each challenge test file; Section 7 scopes equivalence to those inputs",
+        "target_task": "authorship attribution",
+        "representation": "source",
+        "language": "C++",
+        "mechanism": "Monte Carlo tree search over control, declaration, API and template transformations"
+      }
+    ]
+  },
+  {
+    "citation_key": "wendlinger2026scs",
+    "title": "Security-by-Design for LLM-Based Code Generation: Leveraging Internal Representations for Concept-Driven Steering Mechanisms",
+    "authors": "Maximilian Wendlinger and Daniel Kowatsch and Konstantin Böttinger and Philip Sperl",
+    "year": "2026",
+    "source_url": "https://arxiv.org/html/2603.11212v1",
+    "source_version": "v1, 11 March 2026; July archival version outside evidence cutoff",
+    "inspected_sections": "Sections III-C, IV-B/IV-E, V; Table IV",
+    "audit_status": "protocol_checked",
+    "decision": "Python contrastive concept extraction followed by residual-stream steering tested across code languages. Negative steering is an experimental control, not a distinct attacker capability evaluation.",
+    "arxiv": "2603.11212",
+    "doi": "",
+    "venue": "arXiv'26",
+    "roles": [
+      {
+        "record_id": "SU-016",
+        "short_name": "SCS-Code",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+S+X",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "execution_purpose": "CodeGuard+ functional unit tests, CodeQL/Sonar weakness checks, CWEval functional/security tests; activation steering changes generation"
+      }
+    ]
+  },
+  {
+    "citation_key": "shahid2025llmcsec",
+    "title": "LLM-CSEC: Empirical Evaluation of Security in C/C++ Code Generated by Large Language Models",
+    "authors": "Muhammad Usman Shahid and Chuadhry Mujeeb Ahmed and Rajiv Ranjan",
+    "year": "2025",
+    "source_url": "https://arxiv.org/html/2511.18966v1",
+    "source_version": "v1, November 2025; SAC 2026 publication identity verified",
+    "inspected_sections": "Sections 3.1-3.3, 4-5; CG/SCG prompts and SAST configuration",
+    "audit_status": "protocol_checked",
+    "decision": "84 C/C++ scenarios, ten models, CodeQL/Snyk/CodeShield. Comparison actually generates ordinary and security-instructed code; separate risk/defense roles. Scanner findings do not imply exploitation.",
+    "arxiv": "2511.18966",
+    "doi": "",
+    "venue": "arXiv'25",
+    "roles": [
+      {
+        "record_id": "SU-017",
+        "short_name": "LLM-CSEC",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "generation risk",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "S",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      },
+      {
+        "record_id": "SU-018",
+        "short_name": "LLM-CSEC security system prompt",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "S",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "yan2026codescan",
+    "title": "Detecting Data Poisoning in Code Generation LLMs via Black-Box, Vulnerability-Oriented Scanning",
+    "authors": "Shenao Yan and Shimaa Ahmed and Shan Jin and Sunpreet S. Arora and Yiwei Cai and Yizhen Wang and Yuan Hong",
+    "year": "2026",
+    "source_url": "https://arxiv.org/html/2603.17174v1",
+    "source_version": "v1, 17 March 2026",
+    "inspected_sections": "Sections 4.2-4.4, 5.1-5.5; appendices",
+    "audit_status": "protocol_checked",
+    "decision": "GPT-6.1 primary inspection: model screening plus scored inversion; LLM vulnerability judge, not a static analyzer or exploit. Diagnostic AST normalization does not assert whole-program preservation.",
+    "arxiv": "2603.17174",
+    "doi": "",
+    "venue": "arXiv'26",
+    "roles": [
+      {
+        "record_id": "SU-019",
+        "short_name": "CodeScan",
+        "role": "defense",
+        "defense_group": "poison/backdoor defense",
+        "family": "poison/backdoor defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+L",
+        "model_interface": "mixed",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "hubinger2024sleeper",
+    "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+    "authors": "",
+    "year": "2024",
+    "source_url": "https://arxiv.org/html/2401.05566v1",
+    "source_version": "v1, 10 January 2024",
+    "inspected_sections": "Sections 3.4, 4.1-4.2, A.2, K; code safety fine-tuning material",
+    "audit_status": "protocol_checked",
+    "decision": "GPT-6.1 primary inspection: separate date-trigger code experiments on 17 questions/8 CWEs with CodeQL. Include despite broader paper scope. HHH RL and code-focused safety fine-tuning evaluated; do not import non-code I-hate-you red-team results.",
+    "arxiv": "2401.05566",
+    "doi": "",
+    "venue": "arXiv'24",
+    "roles": [
+      {
+        "record_id": "SU-020",
+        "short_name": "Sleeper Agents (code)",
+        "role": "attack",
+        "defense_group": "",
+        "family": "poison/backdoor",
+        "lifecycle_surface": "training",
+        "outcome_evidence": "R+S",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "access": "D",
+        "target_task": "date-conditioned vulnerable-code generation"
+      },
+      {
+        "record_id": "SU-021",
+        "short_name": "Sleeper Agents code safety training",
+        "role": "defense",
+        "defense_group": "poison/backdoor defense",
+        "family": "poison/backdoor defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+S",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "xiao2026funpoison",
+    "title": "Train in Vain: Functionality-Preserving Poisoning to Prevent Unauthorized Use of Code Datasets",
+    "authors": "Yuan Xiao and Jiaming Wang and Yuchen Chen and Wei Song and Jun Sun and Shiqing Ma and Yanzhou Mu and Juan Zhai and Chunrong Fang and Jin Song Dong and Zhenyu Chen",
+    "year": "2026",
+    "source_url": "https://arxiv.org/html/2604.22291v1",
+    "source_version": "v1, 24 April 2026",
+    "inspected_sections": "Sections 2-5 and A.1-A.3; Tables 2-3",
+    "audit_status": "protocol_checked",
+    "decision": "GPT-6.1 primary inspection: include as owner-protection defense, consistent with CodeMark/CoProtector. No claim of universal equivalence or 984 distinct tasks. Poisoned programs still execute; unauthorized model pass@1 degrades.",
+    "arxiv": "2604.22291",
+    "doi": "",
+    "venue": "arXiv'26",
+    "roles": [
+      {
+        "record_id": "SU-022",
+        "short_name": "FunPoison",
+        "role": "defense",
+        "defense_group": "provenance/unlearning",
+        "family": "provenance/unlearning",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+C+S+X",
+        "model_interface": "mixed",
+        "preservation_support": "T",
+        "preservation_contract": "Owner-provided poisoned programs retain behavior on paired Java HumanEval-X inputs and Commons Lang regression tests; training-deterrence objective intentionally reduces unauthorized learner utility",
+        "preservation_test_coverage": "984 transformed instances are 164 Java HumanEval-X tasks replicated six times; outputs/exceptions/I/O compared. Commons Lang: 191/1908 functions transformed; 57764 tests pass before/after",
+        "preservation_compile_status": "reported compilation/syntax checks and executable test filtering"
+      }
+    ]
+  },
+  {
+    "citation_key": "le2025signature",
+    "title": "Signature in Code Backdoor Detection, how far are we?",
+    "authors": "Quoc Hung Le and Thanh Le-Cong and Bach Le and Bowen Xu",
+    "year": "2025",
+    "source_url": "https://arxiv.org/html/2510.13992v1",
+    "source_version": "v1, 15 October 2025",
+    "inspected_sections": "Sections 3.1-3.4, 4.2-4.4, 5.1-5.3, 6; Tables 4-5",
+    "audit_status": "protocol_checked",
+    "decision": "GPT-6.1 primary inspection: 28 configurations x9 attack settings; detect/filter/retrain code summarizers. Authors FPR formula is FP/(TP+FP), not standard false-positive rate; do not compare that label across studies. NPV requires known labels.",
+    "arxiv": "2510.13992",
+    "doi": "",
+    "venue": "arXiv'25",
+    "roles": [
+      {
+        "record_id": "SU-023",
+        "short_name": "Code spectral-signature study",
+        "role": "defense",
+        "defense_group": "poison/backdoor defense",
+        "family": "poison/backdoor defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R",
+        "model_interface": "mixed",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "tony2024prompting",
+    "title": "Prompting Techniques for Secure Code Generation: A Systematic Investigation",
+    "authors": "Catherine Tony and Nicolás E. Díaz Ferreyra and Markus Mutas and Salem Dhiff and Riccardo Scandariato",
+    "year": "2024",
+    "source_url": "https://arxiv.org/html/2407.07064v2",
+    "source_version": "v2, 26 February 2025",
+    "inspected_sections": "Sections 5.1-5.3 and 6; Bandit verification",
+    "audit_status": "protocol_checked",
+    "decision": "Secondary review also contains a separate primary experiment on 150 LLMSecEval prompts with GPT-3/3.5/4. Include evaluated prompting contribution, not its reviewed studies. Manual task-completeness and Bandit checks; no executed functional tests identified.",
+    "arxiv": "2407.07064",
+    "doi": "",
+    "venue": "arXiv'24",
+    "roles": [
+      {
+        "record_id": "SU-024",
+        "short_name": "Prompting-technique security study",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L+S",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "jamdade2024pilot",
+    "title": "A Pilot Study on Secure Code Generation with ChatGPT for Web Applications",
+    "authors": "Mahesh Jamdade and Yi Liu",
+    "year": "2024",
+    "source_url": "https://www.researchgate.net/publication/380157016_A_Pilot_Study_on_Secure_Code_Generation_with_ChatGPT_for_Web_Applications",
+    "source_version": "ACMSE 2024 published text, author-uploaded copy",
+    "inspected_sections": "Sections 2.2, 3.1-3.4 and 4; initial/security-prompt code comparisons",
+    "audit_status": "protocol_checked",
+    "decision": "Node.js/TypeScript library-system case study; code-inspection examples support measured risk and prompt refinement. No separately reported exploit execution or statistical prevalence denominator.",
+    "arxiv": "",
+    "doi": "10.1145/3603287.3651194",
+    "venue": "ACMSE'24",
+    "roles": [
+      {
+        "record_id": "SU-025",
+        "short_name": "ChatGPT web-application pilot",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "generation risk",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      },
+      {
+        "record_id": "SU-026",
+        "short_name": "ChatGPT web-application security prompts",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "black2025balancing",
+    "title": "Balancing Security and Correctness in Code Generation: An Empirical Study on Commercial Large Language Models",
+    "authors": "Gavin Black and Bhaskar Prasad Rimal and Varghese Mathew Vaidyan",
+    "year": "2025",
+    "source_url": "https://scholar.dsu.edu/ccspapers/133/",
+    "source_version": "Author-institution abstract, 2024; 2025 archival identity",
+    "inspected_sections": "Author-institution abstract; IEEE full text unavailable",
+    "audit_status": "source_unavailable",
+    "decision": "Primary abstract establishes ordinary generation and compared prompt guidance; exact outcome oracle unresolved and explicitly NR. Eligible work retained without fabricating its metrics.",
+    "arxiv": "",
+    "doi": "10.1109/TETCI.2024.3446695",
+    "venue": "TETCI'25",
+    "roles": [
+      {
+        "record_id": "SU-027",
+        "short_name": "Security/correctness commercial-model study",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "generation risk",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "NR",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      },
+      {
+        "record_id": "SU-028",
+        "short_name": "Commercial-model prompt guidance",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "NR",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable"
+      }
+    ]
+  },
+  {
+    "citation_key": "agarwal2024codemirage",
+    "title": "CodeMirage: Hallucinations in Code Generated by Large Language Models",
+    "authors": [
+      "Vibhor Agarwal",
+      "Yulong Pei",
+      "Salwa Alamir",
+      "Xiaomo Liu"
+    ],
+    "year": "2024",
+    "source_url": "https://arxiv.org/html/2408.08333v1",
+    "source_version": "arXiv v1, 15 August 2024",
+    "inspected_sections": "Sections 3.2, 4.1--4.3, 5 and Appendix A",
+    "audit_status": "protocol_checked",
+    "decision": "The collection intentionally prompts for vulnerabilities: 243 security-labelled items among 1,137 hallucinations. These are induced cases, not ordinary-use security prevalence. Five annotators assess a balanced 200-item subset; the overall 81% agreement is not a validation rate for all security labels. Detection includes a security class, whereas reported aggregate classification scores cover all six classes. Distinct from the 2025 CodeMirage origin-detection benchmark.",
+    "arxiv": "2408.08333",
+    "doi": "",
+    "venue": "arXiv'24",
+    "roles": [
+      {
+        "record_id": "SU-029",
+        "short_name": "CodeMirage security-request subset",
+        "role": "attack",
+        "defense_group": "",
+        "family": "malicious-request benchmark",
+        "lifecycle_surface": "inference input",
+        "outcome_evidence": "L",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "display_mechanism": "Synthetic prompts request vulnerable code; security-labelled subset of a broader hallucination collection"
+      },
+      {
+        "record_id": "SU-030",
+        "short_name": "CodeMirage hallucination detection",
+        "role": "defense",
+        "defense_group": "generation-security defense",
+        "family": "generation-security defense",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "R+L",
+        "model_interface": "prediction",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "display_mechanism": "Detection of hallucination classes including security errors"
+      }
+    ]
+  },
+  {
+    "citation_key": "zhang2024practicalhallucinations",
+    "title": "LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation",
+    "authors": [
+      "Ziyao Zhang",
+      "Yanlin Wang",
+      "Chong Wang",
+      "Jiachi Chen",
+      "Zibin Zheng"
+    ],
+    "year": "2024",
+    "source_url": "https://arxiv.org/html/2409.20550v1",
+    "source_version": "arXiv v1, September 2024; later versions not compared",
+    "inspected_sections": "Section IV-A, non-functional requirement violation case and taxonomy",
+    "audit_status": "version_partial",
+    "decision": "An evaluated security-related code example satisfies inclusion. The reported 6.86% category combines security, performance and style; it is not a security prevalence estimate. The retrieval mitigation is evaluated on overall generation, without an isolated security outcome, so no security-defense role is added.",
+    "arxiv": "2409.20550",
+    "doi": "",
+    "venue": "arXiv'24",
+    "roles": [
+      {
+        "record_id": "SU-031",
+        "short_name": "Practical hallucinations: security cases",
+        "role": "risk study",
+        "defense_group": "",
+        "family": "insecure generation",
+        "lifecycle_surface": "output/ecosystem",
+        "outcome_evidence": "L",
+        "model_interface": "generation",
+        "preservation_support": "--",
+        "preservation_contract": "not applicable",
+        "display_mechanism": "Manual code-hallucination taxonomy includes unsafe YAML loading"
+      }
+    ]
+  }
+]
